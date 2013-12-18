@@ -12,10 +12,10 @@
         "layer0.inner_margin": 0,
         "layer0.opacity": 1,
         "content_margin": 0,
-        "tab_overlap":0,
-        "tab_width": 180,
-        "tab_min_width": 45,
-        "tab_height": 28,
+        "tab_overlap": 0,
+        "tab_width": 128,
+        "tab_min_width": 48,
+        "tab_height": 24,
         "mouse_wheel_switch": false
     },
     {
@@ -693,14 +693,14 @@
     {
         "class": "quick_panel",
         "row_padding": 8,
-        "layer0.tint": [52,61,70],
+        "layer0.tint": [223,225,232],
         "layer0.opacity": 1,
-        "dark_content": true
+        "dark_content": false
     },
     {
         "class": "quick_panel_row",
         "layer0.texture": "",
-        "layer0.tint": [52,61,70],
+        "layer0.tint": [223,225,232],
         "layer0.inner_margin": 8,
         "layer0.opacity": 1
     },
@@ -708,7 +708,7 @@
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [79,91,103]
+        "layer0.tint": [162,191,138]
     },
     {
         "class": "quick_panel_label",
