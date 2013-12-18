@@ -1,4 +1,3 @@
-Spacegray
-=========
+# Spacegray. A hyperminimal UI theme for Sublime Text.
 
-A hyperminimal UI Theme for Sublime Text.
+Spacegray is all about hype and minimal
