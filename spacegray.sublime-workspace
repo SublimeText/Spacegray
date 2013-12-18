@@ -1,0 +1,1631 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"rg",
+				"rgba"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"fa",
+				"fade(@color, 50%)"
+			],
+			[
+				"v",
+				"viewer"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"magi",
+				"margin-bottom"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"vida",
+				"vidange-minion"
+			],
+			[
+				"futu",
+				"futura-minion"
+			],
+			[
+				"vi",
+				"vidange-minion"
+			],
+			[
+				"play",
+				"playfair-futura"
+			],
+			[
+				"mus",
+				"museo-futura"
+			],
+			[
+				"garam",
+				"garamond-futura"
+			],
+			[
+				"mino",
+				"minion-futura"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"webkit",
+				"-webkit-font-smoothing"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"an",
+				"antialiased"
+			],
+			[
+				"sty",
+				"stylesheet"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"fot",
+				"font-weight"
+			],
+			[
+				"fontSiz",
+				"fontSize8"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"rle",
+				"relative"
+			],
+			[
+				"bacc",
+				"background-color"
+			],
+			[
+				"cla",
+				"classic-4"
+			],
+			[
+				"classic",
+				"classic-1"
+			],
+			[
+				"dar",
+				"darken(@color, 10%)"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"c",
+				"color"
+			],
+			[
+				"bl",
+				"block_3"
+			],
+			[
+				"blco",
+				"block_1"
+			],
+			[
+				"exa",
+				"exampleImage1"
+			],
+			[
+				"ima",
+				"images1"
+			],
+			[
+				"ma",
+				"magicPulse2"
+			],
+			[
+				"magic",
+				"magicPulse1"
+			],
+			[
+				"fite",
+				"filter"
+			],
+			[
+				"cu",
+				"curve"
+			],
+			[
+				"secon",
+				"secondExample"
+			],
+			[
+				"first",
+				"firstExample"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"tex",
+				"textSwap2"
+			],
+			[
+				"swa",
+				"textSwap1"
+			],
+			[
+				"s",
+				"swap1"
+			],
+			[
+				"origi",
+				"originalFrame"
+			],
+			[
+				"pro",
+				"properties"
+			],
+			[
+				"animate",
+				"animateDefault"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"ta",
+				"table"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/kkga/Library/Application Support/Sublime Text 3/Packages/Theme - SpaceGray/SpaceGray.sublime-theme",
+			"settings":
+			{
+				"buffer_size": 24950,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/kkga/Git/stampsy-alpha/src/index.html.template",
+			"settings":
+			{
+				"buffer_size": 18147,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/kkga/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 792,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/kkga/Git/stampsy-alpha/src/styles/editor/cover.less",
+			"settings":
+			{
+				"buffer_size": 1510,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
+				"git che",
+				"Git: Checkout"
+			],
+			[
+				"gitp ",
+				"Git: Pull"
+			],
+			[
+				"git chek",
+				"Git: Checkout New Branch"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"git branch",
+				"Legit: Branches"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"git checko",
+				"Git: Checkout"
+			],
+			[
+				"git ck",
+				"Git: Checkout"
+			],
+			[
+				"log",
+				"Git: Quick Log"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"git lo",
+				"Git: Log"
+			],
+			[
+				"diff",
+				"Git: Diff"
+			],
+			[
+				"git diff",
+				"Git: Diff"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"git ",
+				"Git: Tag"
+			],
+			[
+				"git bla",
+				"Git: Blame"
+			],
+			[
+				"git sche",
+				"Git: Switch Repo"
+			],
+			[
+				"sta",
+				"Git: Status"
+			],
+			[
+				"git pu",
+				"Git: Pull"
+			],
+			[
+				"git sta",
+				"Git: Status"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"git pul",
+				"Git: Pull"
+			],
+			[
+				"lo",
+				"Git: Log"
+			],
+			[
+				"git log",
+				"Git: Log"
+			],
+			[
+				"statu",
+				"Git: Status"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"c",
+				"Set Syntax: CSS"
+			],
+			[
+				"git",
+				"Gitk"
+			],
+			[
+				"gitpull",
+				"Git: Pull"
+			],
+			[
+				"git stta",
+				"Git: Status"
+			],
+			[
+				"git c",
+				"Git: Checkout"
+			],
+			[
+				"gi p",
+				"Git: Push"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"git bran",
+				"Git: Checkout New Branch"
+			],
+			[
+				"isnta",
+				"Package Control: Install Package"
+			],
+			[
+				"tasks",
+				"Tasks: New document"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"tog",
+				"View: Toggle Status Bar"
+			],
+			[
+				"to",
+				"View: Toggle Status Bar"
+			],
+			[
+				"toggle",
+				"View: Toggle Status Bar"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"git statu",
+				"Git: Status"
+			],
+			[
+				"git stt",
+				"Git: Status"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Get Elements"
+			],
+			[
+				"gist",
+				"Gist: Insert Gist"
+			],
+			[
+				"git psuh",
+				"Git: Push"
+			],
+			[
+				"git qu",
+				"Git: Quick Status"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git di",
+				"Git: Diff"
+			],
+			[
+				"gitstat",
+				"Git: Status"
+			],
+			[
+				"git dif",
+				"Git: Diff All"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"eva",
+				"Evaluate: Evaluate Selections"
+			],
+			[
+				"git co",
+				"Git: Commit history"
+			],
+			[
+				"git ad",
+				"Git: Add Current File"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			]
+		],
+		"width": 529.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/kkga/Library/Application Support/Sublime Text 3/Packages/Theme - Spacegray/README.md",
+		"/Users/kkga/Git/stampsy-alpha/.bowerrc",
+		"/Users/kkga/Git/stampsy-alpha/.gitignore",
+		"/Users/kkga/Git/stampsy-alpha/.gitmodules",
+		"/Users/kkga/Git/stampsy-alpha/src/styles/viewer/cover.less",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt-contrib-less/node_modules/less/test/less/errors/color-operation-error.less",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt-contrib-cssmin/docs/cssmin-overview.md",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt-contrib-cssmin/docs/cssmin-options.md",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt-contrib-copy/docs/copy-overview.md",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt-contrib-less/node_modules/less/test/less/errors/color-operation-error.txt",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt/CONTRIBUTING.md",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt-contrib-clean/CONTRIBUTING.md",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt-contrib-concat/CONTRIBUTING.md",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt-contrib-connect/CONTRIBUTING.md",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt-contrib-copy/CONTRIBUTING.md",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt-contrib-cssmin/CONTRIBUTING.md",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt-contrib-htmlmin/CONTRIBUTING.md",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt-contrib-jshint/CONTRIBUTING.md",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt-contrib-jst/CONTRIBUTING.md",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt-contrib-less/CONTRIBUTING.md",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt-contrib-livereload/CONTRIBUTING.md",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt-contrib-watch/CONTRIBUTING.md",
+		"/Users/kkga/Git/stampsy-alpha/.jshintrc",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt-contrib-clean/docs/clean-options.md",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt/CHANGELOG",
+		"/Users/kkga/Library/Application Support/Sublime Text 3/Packages/Theme - SpaceGray/SpaceGray.sublime-theme",
+		"/Users/kkga/Git/stampsy-alpha/Gruntfile.js",
+		"/Users/kkga/Git/stampsy-alpha/src/styles/editor/cover.less",
+		"/Users/kkga/Library/Application Support/Sublime Text 3/Packages/User/Made of Code.tmTheme",
+		"/Users/kkga/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/kkga/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/kkga/Git/stampsy-alpha/src/templates/editor/items/cover_section.html",
+		"/Users/kkga/Git/stampsy-alpha/bower.json",
+		"/Users/kkga/Git/stampsy-alpha/src/styles/editor/add_section.less",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt-contrib-jshint/node_modules/jshint/data/ascii-identifier-data.js",
+		"/Users/kkga/Git/stampsy-alpha/src/styles/social/auth.less",
+		"/Users/kkga/Git/stampsy-alpha/src/templates/editor/items/add_section.html",
+		"/Users/kkga/Git/stampsy-alpha/.tmp/styles/main.css",
+		"/Users/kkga/Git/stampsy-alpha/src/scripts/editor/views/items/add_section_view.js",
+		"/Users/kkga/Git/stampsy-alpha/src/templates/editor/editor_wrapper.html",
+		"/Users/kkga/Git/stampsy-alpha/src/styles/editor/canvas.less",
+		"/Users/kkga/Git/stampsy-alpha/src/templates/editor/canvas.html",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt-contrib-connect/node_modules/connect/node_modules/formidable/test/standalone/test-connection-aborted.js",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt-contrib-less/test/fixtures/include/variables.less",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt-contrib-less/node_modules/less/test/browser/runner-global-vars-options.js",
+		"/Users/kkga/Git/stampsy-alpha/src/scripts/common/helpers/misc.js",
+		"/Users/kkga/Git/stampsy-alpha/src/styles/common/trip.less",
+		"/Users/kkga/Git/stampsy-alpha/src/templates/editor/items/filter_options.html",
+		"/Users/kkga/Git/stampsy-alpha/src/templates/editor/grabbox.html",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt-contrib-jshint/test/fixtures/missingsemicolon.js",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt-preprocess/.idea/misc.xml",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt-open/.idea/misc.xml",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt-env/.idea/misc.xml",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt-contrib-less/node_modules/less/test/css/mixins-important.css",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt/test/fixtures/expand/deep/deep.txt",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt-env/.idea/encodings.xml",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/request/tests/test-redirect.js",
+		"/Users/kkga/Git/stampsy-alpha/src/styles/editor/text.less",
+		"/Users/kkga/Git/stampsy-alpha/src/scripts/editor/views/items/cover_section_view.js",
+		"/Users/kkga/Git/stampsy-alpha/src/styles/editor/grabbox.less",
+		"/Users/kkga/Git/stampsy-alpha/src/scripts/editor/views/collections/filter_options_collection_view.js",
+		"/Users/kkga/Git/stampsy-alpha/src/styles/editor/preview_filters.less",
+		"/Users/kkga/Git/stampsy-alpha/src/scripts/viewer/views/filters/filter_view.js",
+		"/Users/kkga/Git/stampsy-alpha/src/scripts/editor/views/items/filter_options_view.js",
+		"/Users/kkga/Git/stampsy-alpha/src/styles/common/spinner.less",
+		"/Users/kkga/Git/stampsy-alpha/src/templates/editor/preview.html",
+		"/Users/kkga/Desktop/Untitled.html",
+		"/Users/kkga/Library/Application Support/Sublime Text 3/Packages/User/Distraction Free.sublime-settings",
+		"/Users/kkga/Downloads/flatland-master/Flatland Dark/Widget - Flatland Dark.sublime-settings",
+		"/Users/kkga/Git/stampsy-alpha/src/styles/editor/grabbox_media.less",
+		"/Users/kkga/Git/stampsy-alpha/src/styles/common/btn.less",
+		"/Users/kkga/Git/stampsy-alpha/src/styles/common/fonts.less",
+		"/Users/kkga/Git/stampsy-alpha/src/templates/editor/items/gallery_section.html",
+		"/Users/kkga/Git/stampsy-alpha/src/templates/editor/items/text_section.html",
+		"/Users/kkga/Git/stampsy-alpha/src/styles/common/dialog.less",
+		"/Users/kkga/Git/stampsy-alpha/src/styles/common/feedback.less",
+		"/Users/kkga/Git/stampsy-alpha/src/templates/common/feedback_dialog.html",
+		"/Users/kkga/Git/stampsy-alpha/src/styles/common/forms.less",
+		"/Users/kkga/Git/stampsy-alpha/src/styles/common/base.less",
+		"/Users/kkga/Git/stampsy-alpha/src/styles/viewer/random_gallery.less",
+		"/Users/kkga/Git/stampsy-alpha/src/styles/viewer/horizontal_gallery.less",
+		"/Users/kkga/Git/stampsy-alpha/src/styles/viewer/poster.less",
+		"/Users/kkga/Git/stampsy-alpha/src/styles/viewer/image_caption.less",
+		"/Users/kkga/Git/stampsy-alpha/src/index.html.template",
+		"/Users/kkga/Git/stampsy-alpha/src/scripts/common/filters/css_compiler.js",
+		"/Users/kkga/Git/stampsy-alpha/src/templates/viewer/items/random_gallery_image.html",
+		"/Users/kkga/Git/stampsy-alpha/src/templates/viewer/items/horizontal_gallery_image.html",
+		"/Users/kkga/Downloads/FramerRadialFill/RadialFill/app.js",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/email/inline/-featured-stamp.html",
+		"/Users/kkga/Git/stampsy-alpha/src/scripts/vendor/webfont.min.js",
+		"/Users/kkga/Git/stampsy-alpha/node_modules/grunt/node_modules/coffee-script/README",
+		"/Users/kkga/Git/stampsy-alpha/package.json",
+		"/Users/kkga/Library/Application Support/Sublime Text 3/Packages/Theme - Default/test2.sublime-theme",
+		"/Users/kkga/Git/stampsy-alpha/src/templates/social/social_wrapper.html",
+		"/Users/kkga/Git/stampsy-alpha/src/scripts/viewer/views/items/horizontal_gallery_view.js",
+		"/Users/kkga/Git/stampsy-alpha/src/templates/viewer/items/cover_section.html",
+		"/Users/kkga/Git/stampsy-alpha/src/styles/viewer/stamp.less",
+		"/Users/kkga/Git/stampsy-alpha/src/scripts/common/filters/swatches/font_swatches.js",
+		"/Users/kkga/Git/stampsy-alpha/src/scripts/common/filters/filter_definitions.js",
+		"/Users/kkga/Git/stampsy-alpha/src/scripts/common/filters/swatches/border_swatches.js",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/Landing/Landing/signin-error.html",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/Landing/Landing/styles/s.less",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/Landing/Landing/signin.html",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/Landing/Landing/index-success.html",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/Landing/Landing/styles/main.less",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/Landing/Landing/styles/common/base.less",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/Landing/Landing/styles/common/btn.less",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/Landing/Landing/styles/common/fonts.less",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/email/pre-inline/-we-miss-you.html",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/email/pre-inline/-subscribe.html",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/email/pre-inline/-new-subscriber.html",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/email/pre-inline/-new-stamp-from-someone.html",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/email/pre-inline/-make-new-stamp.html",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/email/pre-inline/-featured-stamp.html",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/email/s/s.css",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/email/pre-inline/we-miss-you.html",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/email/pre-inline/subscribe.html",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/email/pre-inline/new-subscriber.html",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/email/pre-inline/new-stamp-from-someone.html",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/email/pre-inline/make-new-stamp.html",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/email/pre-inline/featured-stamp.html",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/Landing/Landing/index.html",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/Landing/Landing/css/s.less",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/email/make-new-stamp.html",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/email/new-stamp-from-someone.html",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/email/new-subscriber.html",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/email/subscribe.html",
+		"/Users/kkga/Dropbox/Stampsy/Alpha/email/we-miss-you.html"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 100.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"210",
+			"open files",
+			"side bar",
+			"sidebar",
+			"buttons",
+			"fade_fold_buttons",
+			"fade_bold",
+			".editor-AddSection .editor-AddSection-gallery",
+			"data-single",
+			"data-section=\"gallery\"",
+			"data-section=\"text\"",
+			"data-tip-show",
+			"To add cover",
+			"add text section",
+			"if you want one",
+			"rgb(240, 240, 240)",
+			"-webkit-linear-gradient(top, transparent, rgb(240, 240, 240))",
+			"And a Subtitle",
+			"data-ac",
+			"data-load",
+			"i",
+			"Btn--uppercase",
+			".Btn--uppercase",
+			"Feedback",
+			"255",
+			"Dialog-message",
+			"dialog-message",
+			"20",
+			"10",
+			"icons",
+			"styles",
+			"05",
+			"styles",
+			"login-wrapper",
+			"login-buttons",
+			"HorizontalGallery",
+			"open files",
+			"files",
+			"sidebar",
+			"viewer-imageCaption",
+			"imageCaption",
+			"1",
+			";\n",
+			"draw_active",
+			"no-animate",
+			".viewer-Stamp-controls",
+			"64",
+			"font-weight",
+			"font-style",
+			"futura-pt",
+			"garamond-premier-pro-caption",
+			"styles",
+			"fonts",
+			"links",
+			"npsp",
+			"85%",
+			"                    <td class=\"wrapper\">\n\n                      <table class=\"eight columns\">\n                        <tr>\n                          <td class=\"panel-unsubscribe\">\n                            You are subscribed to John Mahon\n                          </td>\n                          <td class=\"expander\"></td>\n                        </tr>\n                      </table>\n\n                    </td>",
+			"41",
+			"41px",
+			"h2",
+			"95%",
+			"h1",
+			"content",
+			"<td align=\"center\">\n                            <center>\n                              <p style=\"text-align:center;\"><a href=\"#\">Facebook</a> | <a href=\"#\">Twitter</a> | <a href=\"#\">Feedback</a></p>\n                            </center>\n                          </td>",
+			"hello",
+			"lead",
+			"580px",
+			"580",
+			"is_nex",
+			"cover",
+			"font",
+			"color",
+			"tone",
+			"border",
+			"bind",
+			"option",
+			"data-bind",
+			"data-option",
+			"border",
+			"js-subscribe-button-link",
+			"editor-Popover",
+			"Delete section",
+			"data-tooltip-title=\"Delete section\"",
+			"0",
+			"25",
+			"tooltip",
+			"popart",
+			"fruit",
+			"popart",
+			"base",
+			"classic",
+			"tab",
+			"sidebar",
+			"text are",
+			"buttt",
+			"viewer-Stamp-controls",
+			"viewer-Cover-body",
+			"cover-body",
+			"editor-Preview-topBar",
+			"cover",
+			".editor-GrabboxMedia-plusIcon",
+			"\n	",
+			"cubic-bezier",
+			"swatch-10\n  h1-color: #c25a7d\n  h2-color: #ffffff\n  text-color: #2e2f33\n  frames-color: #c25a7d\n  stamp-bg-color: #f2f2f2\n  text-bg-color: #fafafa\n\n",
+			"editor-Cover",
+			"editor-Cover background-image",
+			"editor-Cover",
+			"button",
+			"span",
+			"image",
+			"graphics",
+			"type1",
+			"type",
+			"color2",
+			"example",
+			"typeBox",
+			"types",
+			"type2",
+			"type1",
+			"first",
+			"theme",
+			"28/16",
+			"smoke"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/kkga/Library/Application Support/Sublime Text 3/Packages/Theme - SpaceGray/SpaceGray.sublime-theme",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24950,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12558,
+								12558
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close"
+							],
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 11840.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/kkga/Git/stampsy-alpha/src/index.html.template",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 18147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/kkga/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 792,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								68,
+								68
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close"
+							],
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/kkga/Git/stampsy-alpha/src/styles/editor/cover.less",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1510,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								164,
+								164
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close"
+							],
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 114.0
+	},
+	"output.git-checkout":
+	{
+		"height": 126.0
+	},
+	"output.git-commit":
+	{
+		"height": 237.0
+	},
+	"output.git-pull":
+	{
+		"height": 414.0
+	},
+	"output.git-push":
+	{
+		"height": 321.0
+	},
+	"project": "spacegray.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"cover",
+				"src/styles/editor/cover.less"
+			],
+			[
+				"",
+				"~/Library/Application Support/Sublime Text 3/Packages/Theme - SpaceGray/SpaceGray.sublime-theme"
+			],
+			[
+				"add",
+				"src/styles/editor/add_section.less"
+			],
+			[
+				"can",
+				"src/styles/editor/canvas.less"
+			],
+			[
+				"cove",
+				"src/styles/viewer/cover.less"
+			],
+			[
+				"mis",
+				"src/scripts/common/helpers/misc.js"
+			],
+			[
+				"tri",
+				"src/styles/common/trip.less"
+			],
+			[
+				"preview",
+				"src/styles/editor/preview_filters.less"
+			],
+			[
+				"filter_collv",
+				"src/scripts/editor/views/collections/filter_options_collection_view.js"
+			],
+			[
+				"filter_ov",
+				"src/scripts/editor/views/items/filter_options_view.js"
+			],
+			[
+				"filter_v",
+				"src/scripts/viewer/views/filters/filter_view.js"
+			],
+			[
+				"filters",
+				"src/styles/editor/preview_filters.less"
+			],
+			[
+				"spin",
+				"src/styles/common/spinner.less"
+			],
+			[
+				"grab",
+				"src/styles/editor/grabbox_media.less"
+			],
+			[
+				"fonts",
+				"src/styles/common/fonts.less"
+			],
+			[
+				"btn",
+				"src/styles/common/btn.less"
+			],
+			[
+				"dia",
+				"src/styles/common/dialog.less"
+			],
+			[
+				"fee",
+				"src/styles/common/feedback.less"
+			],
+			[
+				"form",
+				"src/styles/common/forms.less"
+			],
+			[
+				"base",
+				"src/styles/common/base.less"
+			],
+			[
+				"auth",
+				"src/styles/social/auth.less"
+			],
+			[
+				"hori",
+				"src/styles/viewer/horizontal_gallery.less"
+			],
+			[
+				"ran",
+				"src/styles/viewer/random_gallery.less"
+			],
+			[
+				"po",
+				"src/styles/viewer/poster.less"
+			],
+			[
+				"image",
+				"src/styles/viewer/image_caption.less"
+			],
+			[
+				"post",
+				"src/styles/viewer/poster.less"
+			],
+			[
+				"auth.e",
+				"src/styles/social/auth.less"
+			],
+			[
+				"index.",
+				"src/index.html.template"
+			],
+			[
+				"fonte",
+				"src/styles/common/fonts.less"
+			],
+			[
+				"css",
+				"src/scripts/common/filters/css_compiler.js"
+			],
+			[
+				"viewer",
+				"src/styles/viewer/cover.less"
+			],
+			[
+				"horizontal_gallery_view.js",
+				"src/scripts/viewer/views/items/horizontal_gallery_view.js"
+			],
+			[
+				"filter",
+				"src/scripts/common/filters/filter_definitions.js"
+			],
+			[
+				"su",
+				"examples/subscriber.html"
+			],
+			[
+				"info",
+				"src/styles/viewer/info_panel.less"
+			],
+			[
+				"base.",
+				"src/styles/common/base.less"
+			],
+			[
+				"coverl",
+				"src/styles/viewer/cover.less"
+			],
+			[
+				"covee",
+				"src/templates/viewer/items/cover_section.html"
+			],
+			[
+				"templa",
+				"src/scripts/templates.js"
+			],
+			[
+				"cover.html",
+				"src/templates/viewer/items/cover_section.html"
+			],
+			[
+				"mecha",
+				"src/scripts/viewer/helpers/card_stack_mechanics.js"
+			],
+			[
+				"btn.",
+				"src/styles/common/btn.less"
+			],
+			[
+				"gitstat",
+				"node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/cli/node_modules/glob/test/stat.js"
+			],
+			[
+				"notifi",
+				"src/styles/common/notification.less"
+			],
+			[
+				"lodaer",
+				"node_modules/grunt/node_modules/js-yaml/lib/js-yaml/loader.js"
+			],
+			[
+				"galler",
+				"src/styles/editor/gallery.less"
+			],
+			[
+				"color",
+				"src/scripts/common/filters/swatches/color_swatches.js"
+			],
+			[
+				"base_me",
+				"src/scripts/viewer/helpers/base_mechanics.js"
+			],
+			[
+				"colo_",
+				"src/scripts/common/filters/swatches/color_swatches.js"
+			],
+			[
+				"text.",
+				"src/styles/editor/text.less"
+			],
+			[
+				"gra",
+				"src/styles/editor/grabbox.less"
+			],
+			[
+				"color_",
+				"src/scripts/common/filters/swatches/color_swatches.js"
+			],
+			[
+				"bord",
+				"src/scripts/common/filters/swatches/border_swatches.js"
+			],
+			[
+				"css_c",
+				"src/scripts/common/filters/css_compiler.js"
+			],
+			[
+				"cover.ht",
+				"src/templates/viewer/items/cover_section.html"
+			],
+			[
+				"tetx",
+				"src/styles/editor/text.less"
+			],
+			[
+				"base.les",
+				"src/styles/common/base.less"
+			],
+			[
+				"mechanics",
+				"src/scripts/viewer/helpers/base_mechanics.js"
+			],
+			[
+				"mechani",
+				"src/scripts/viewer/helpers/base_mechanics.js"
+			],
+			[
+				"base.le",
+				"src/styles/common/base.less"
+			],
+			[
+				"mechanic",
+				"src/scripts/viewer/helpers/base_mechanics.js"
+			],
+			[
+				"stamp.js",
+				"src/scripts/common/models/stamp.js"
+			],
+			[
+				"side",
+				"src/styles/social/sidebar.less"
+			],
+			[
+				"sidebar",
+				"src/styles/social/sidebar.less"
+			],
+			[
+				"ja",
+				"node_modules/request/node_modules/cookie-jar/jar.js"
+			],
+			[
+				"sideb",
+				"src/styles/social/sidebar_nav.less"
+			],
+			[
+				"sideba",
+				"src/styles/social/sidebar.less"
+			],
+			[
+				"stamp_vi",
+				"src/scripts/viewer/views/stamp_view.js"
+			],
+			[
+				"stamp",
+				"src/styles/viewer/stamp.less"
+			],
+			[
+				"stamp.",
+				"src/templates/viewer/stamp.html"
+			],
+			[
+				"inde",
+				"src/index.html.template"
+			],
+			[
+				"index",
+				"src/index.html"
+			],
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				"pre",
+				"git-hooks/pre-commit"
+			],
+			[
+				"pre-c",
+				"git-hooks/pre-commit"
+			],
+			[
+				"text",
+				"src/styles/viewer/text.less"
+			],
+			[
+				"var",
+				"node_modules/grunt-contrib-less/test/fixtures/include/variables.less"
+			],
+			[
+				"vair",
+				"src/styles/viewer/variables.less"
+			],
+			[
+				"varia",
+				"node_modules/grunt-contrib-less/test/fixtures/include/variables.less"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+		],
+		"width": 687.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 196.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

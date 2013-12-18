@@ -424,8 +424,8 @@
     {
         "class": "sidebar_tree",
         "row_padding": [8,4],
-        "indent":16,
-        "indent_offset": 16,
+        "indent": 12,
+        "indent_offset": 14,
         "indent_top_level": false,
         "dark_content": true
     },
@@ -433,7 +433,7 @@
     {
         "class": "tree_row",
         "layer0.texture": "",
-        "layer0.tint": [79,91,103],
+        "layer0.tint": [52,61,70],
         "layer0.opacity": 0,
         "layer0.inner_margin": [1,1]
     },
@@ -446,8 +446,8 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [210,210,210],
-        "font.bold": true,
+        "color": [101,115,127],
+        "font.bold": false,
         "shadow_color": [0,0,0],
         "shadow_offset": [0,0]
     },
@@ -460,7 +460,7 @@
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [101,115,126],
+        "color": [101,115,127],
         "shadow_color": [0,0,0],
         "shadow_offset": [0,0]
     },
@@ -468,7 +468,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-        "color": [167,173,186]
+        "color": [101,115,127]
     },
     {
         "class": "sidebar_label",
@@ -507,13 +507,13 @@
         "class": "close_button",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
         "layer0.opacity": 1,
-        "layer0.texture": "Theme - Centurion/Centurion/cross.png"
+        "layer0.texture": "Theme - Spacegray/assets/close.png"
     },
     // Sidebar file dirty
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "Theme - Centurion/Centurion/circle.png",
+        "layer0.texture": "Theme - Spacegray/assets/circle.png",
         "layer0.opacity": 1,
         "layer0.tint": [81,166,203]
     },
@@ -521,25 +521,25 @@
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - Centurion/Centurion/cross.png"
+        "layer0.texture": "Theme - Spacegray/assets/circle.png"
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.texture": "Theme - Centurion/Centurion/cross.png",
+        "layer0.texture": "Theme - Spacegray/assets/circle.png",
         "layer0.opacity": 1
     },
     // Sidebar file close hover
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Centurion/Centurion/cross.png"
+        "layer0.texture": "Theme - Spacegray/assets/cross.png"
     },
     {
         "class": "close_button",
         "parents": [{"class": "tree_row","attributes": ["hover","selected"]}],
-        "layer0.texture": "Theme - Centurion/Centurion/cross.png",
+        "layer0.texture": "Theme - Spacegray/assets/cross.png",
         "layer0.opacity": 1
     },
 
@@ -551,7 +551,7 @@
     {
         "class": "disclosure_button_control",
         "content_margin": [8,8],
-        "layer0.texture": "Theme - Centurion/Centurion/folder-closed.png",
+        "layer0.texture": "Theme - Spacegray/assets/folder-closed.png",
         "layer0.tint": [101,115,126],
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
@@ -569,7 +569,7 @@
     {
         "class": "disclosure_button_control",
         "settings": ["soda_folder_icons"],
-        "layer0.texture": "Theme - Centurion/Centurion/folder-closed.png"
+        "layer0.texture": "Theme - Spacegray/assets/folder-closed.png"
     },
     {
         "class": "disclosure_button_control",
@@ -580,13 +580,13 @@
         "class": "disclosure_button_control",
         "settings": ["soda_folder_icons"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - Centurion/Centurion/folder-closed.png"
+        "layer0.texture": "Theme - Spacegray/assets/folder-closed.png"
     },
     // Sidebar group open
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Centurion/Centurion/folder-open.png"
+        "layer0.texture": "Theme - Spacegray/assets/folder-open.png"
     },
     {
         "class": "disclosure_button_control",
@@ -597,28 +597,28 @@
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - Centurion/Centurion/folder-open.png"
+        "layer0.texture": "Theme - Spacegray/assets/folder-open.png"
     },
     // Sidebar folder open
     {
         "class": "disclosure_button_control",
         "settings": ["soda_folder_icons"],
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Centurion/Centurion/folder-open.png"
+        "layer0.texture": "Theme - Spacegray/assets/folder-open.png"
     },
     {
         "class": "disclosure_button_control",
         "settings": ["soda_folder_icons"],
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.texture": "Theme - Centurion/Centurion/folder-open.png"
+        "layer0.texture": "Theme - Spacegray/assets/folder-open.png"
     },
     {
         "class": "disclosure_button_control",
         "settings": ["soda_folder_icons"],
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - Centurion/Centurion/folder-open.png"
+        "layer0.texture": "Theme - Spacegray/assets/folder-open.png"
     },
 
 //
