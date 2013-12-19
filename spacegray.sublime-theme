@@ -676,7 +676,7 @@
         "layer0.inner_margin": [0,0],
         "layer0.opacity": 1,
         "layer0.tint": [35,40,48],
-        "content_margin": 4
+        "content_margin": 0
     },
     // Quick panel background
     {
