@@ -848,10 +848,10 @@
     // Regex search button
     {
         "class": "icon_regex",
-        "layer0.texture": "Theme - Centurion/Centurion/asterisk.png",
+        "layer0.texture": "Theme - Spacegray/assets/regex.png",
         "layer0.tint": [101,115,126],
         "layer0.opacity": 1,
-        "content_margin": 9
+        "content_margin": 8
 
     },
     {
@@ -862,10 +862,10 @@
     // Case sensitive search button
     {
         "class": "icon_case",
-        "layer0.texture": "Theme - Centurion/Centurion/capital.png",
+        "layer0.texture": "Theme - Spacegray/assets/casesens.png",
         "layer0.tint": [101,115,126],
         "layer0.opacity": 1,
-        "content_margin": 9
+        "content_margin": 8
     },
     {
         "class": "icon_case",
@@ -875,10 +875,10 @@
     // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "Theme - Centurion/Centurion/quotes.png",
+        "layer0.texture": "Theme - Spacegray/assets/wholeword.png",
         "layer0.tint": [101,115,126],
         "layer0.opacity": 1,
-        "content_margin": 9
+        "content_margin": 8
     },
     {
         "class": "icon_whole_word",
@@ -934,26 +934,28 @@
     // Search wrap button
     {
         "class": "icon_wrap",
-        "layer0.texture": "Theme - Centurion/Centurion/wrap.png",
-        "layer0.opacity": 0.3,
-        "content_margin": 9
+        "layer0.texture": "Theme - Spacegray/assets/wrap.png",
+        "layer0.tint": [101,115,126],
+        "layer0.opacity": 1,
+        "content_margin": 8
     },
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.opacity": 1
+        "layer0.tint": [255,255,255]
     },
     // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "Theme - Centurion/Centurion/selection.png",
-        "layer0.opacity": 0.3,
-        "content_margin": 9
+        "layer0.texture": "Theme - Spacegray/assets/selection.png",
+        "layer0.tint": [101,115,126],
+        "layer0.opacity": 1,
+        "content_margin": 8
     },
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.opacity": 1
+        "layer0.tint": [255,255,255]
     },
 
 //
@@ -980,14 +982,15 @@
     // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "Theme - Centurion/Centurion/highlight.png",
-        "layer0.opacity": 0.3,
-        "content_margin": 9
+        "layer0.texture": "Theme - Spacegray/assets/highlight.png",
+        "layer0.tint": [101,115,126],
+        "layer0.opacity": 1,
+        "content_margin": 8
     },
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.opacity": 1
+        "layer0.tint": [255,255,255]
     }
 
 ]
