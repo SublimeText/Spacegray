@@ -201,7 +201,7 @@
         "layer0.tint":[52,61,70],
         "layer0.opacity": 1,
         "layer0.inner_margin": [0,0],
-        "blur": false
+        "blur": true
     },
     // Standard horizontal scroll bar
     {
@@ -210,7 +210,7 @@
         "layer0.texture": "",
         "layer0.tint":[52,61,70],
         "layer0.inner_margin": [0,0],
-        "blur": false
+        "blur": true
     },
     // Standard scroll bar corner
     {
@@ -497,17 +497,21 @@
     // Sidebar file close
     {
         "class": "close_button",
-        "layer0.texture": "",
+        "layer0.texture": "Theme - Spacegray/assets/close.png",
         "layer0.opacity": 0,
         "layer0.inner_margin": 0,
-        "layer0.tint": [255,80,80],
+        "layer0.tint": [191,97,106],
         "content_margin": [8,8]
     },
     {
         "class": "close_button",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
         "layer0.opacity": 1,
-        "layer0.texture": "Theme - Spacegray/assets/close.png"
+    },
+    {
+        "class": "close_button",
+        "parents": [{"class": "tree_row","attributes": ["hover","selected"]}],
+        "layer0.opacity": 1,
     },
     // Sidebar file dirty
     {
@@ -515,13 +519,13 @@
         "attributes": ["dirty"],
         "layer0.texture": "Theme - Spacegray/assets/circle.png",
         "layer0.opacity": 1,
-        "layer0.tint": [81,166,203]
+        "layer0.tint": [235,203,139]
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - Spacegray/assets/circle.png"
+        "layer0.opacity": 1
     },
     {
         "class": "close_button",
@@ -659,7 +663,7 @@
         "layer0.texture": "",
         "layer0.tint": [239,241,245],
         "layer0.opacity": 1,
-        "content_margin": [4,2,4,2]
+        "content_margin": [1,1,-3,1]
     },
 
 //
@@ -673,7 +677,7 @@
         "layer0.inner_margin": [0,0],
         "layer0.opacity": 1,
         "layer0.tint": [35,40,48],
-        "content_margin": 4
+        "content_margin": 0
     },
     // Quick panel background
     {
@@ -693,9 +697,9 @@
     {
         "class": "quick_panel",
         "row_padding": 8,
-        "layer0.tint": [0,225,232],
+        "layer0.tint": [0,225,0],
         "layer0.opacity": 1,
-        "dark_content": false
+        "dark_content": true
     },
     {
         "class": "quick_panel_row",
