@@ -15,7 +15,7 @@
         "tab_overlap": 0,
         "tab_width": 128,
         "tab_min_width": 48,
-        "tab_height": 24,
+        "tab_height": 28,
         "mouse_wheel_switch": false
     },
     {
@@ -70,7 +70,7 @@
         "class": "tab_close_button",
         "layer0.texture": "Theme - Spacegray/assets/close.png",
         "layer0.opacity": 0,
-        "layer0.tint": [101,115,126]
+        "layer0.tint": [79,91,102]
     },
     {
         "class": "tab_close_button",
@@ -346,7 +346,7 @@
     // General labels
     {
         "class": "label_control",
-        "color": [101,115,126]
+        "color": [79,91,102]
     },
     // Text field labels
     {
@@ -390,7 +390,7 @@
     {
         "class": "status_bar",
         "layer0.texture": "",
-        "layer0.tint": [35,40,48],
+        "layer0.tint": [28,31,38],
         "layer0.opacity": 1,
         "content_margin": 4
     },
@@ -417,8 +417,8 @@
         "layer0.texture": "",
         "layer0.opacity": 1,
         "layer0.tint": [28,31,38],
-        "layer0.inner_margin": [1,5,2,1],
-        "content_margin": [0,4,0,0],
+        "layer0.inner_margin": [0,0,0,0],
+        "content_margin": [0,0,1,0],
     },
     // Sidebar tree
     {
@@ -427,6 +427,8 @@
         "indent": 12,
         "indent_offset": 14,
         "indent_top_level": false,
+        "layer0.tint": [35,40,48],
+        "layer0.opacity": 1.0,
         "dark_content": true
     },
     // Sidebar rows
@@ -446,7 +448,7 @@
     // Sidebar heading
     {
         "class": "sidebar_heading",
-        "color": [101,115,127],
+        "color": [79,91,102],
         "font.bold": false,
         "shadow_color": [0,0,0],
         "shadow_offset": [0,0]
@@ -556,7 +558,7 @@
         "class": "disclosure_button_control",
         "content_margin": [8,8],
         "layer0.texture": "Theme - Spacegray/assets/folder-closed.png",
-        "layer0.tint": [101,115,126],
+        "layer0.tint": [79,91,102],
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
     },
@@ -675,7 +677,7 @@
         "layer0.texture": "",
         "layer0.inner_margin": [0,0],
         "layer0.opacity": 1,
-        "layer0.tint": [35,40,48],
+        "layer0.tint": [28,31,38],
         "content_margin": 0
     },
     // Quick panel background
@@ -793,8 +795,8 @@
         "class": "icon_button_control",
         "layer1.texture": "",
         "layer1.opacity": 0,
-        "layer1.tint":[52,61,70],
-        "content_margin": 6
+        "layer1.tint":[35,40,48],
+        "content_margin": 7
     },
     {
         "class": "icon_button_control",
@@ -849,7 +851,7 @@
     {
         "class": "icon_regex",
         "layer0.texture": "Theme - Spacegray/assets/regex.png",
-        "layer0.tint": [101,115,126],
+        "layer0.tint": [79,91,102],
         "layer0.opacity": 1,
         "content_margin": 8
 
@@ -863,7 +865,7 @@
     {
         "class": "icon_case",
         "layer0.texture": "Theme - Spacegray/assets/casesens.png",
-        "layer0.tint": [101,115,126],
+        "layer0.tint": [79,91,102],
         "layer0.opacity": 1,
         "content_margin": 8
     },
@@ -876,7 +878,7 @@
     {
         "class": "icon_whole_word",
         "layer0.texture": "Theme - Spacegray/assets/wholeword.png",
-        "layer0.tint": [101,115,126],
+        "layer0.tint": [79,91,102],
         "layer0.opacity": 1,
         "content_margin": 8
     },
@@ -894,7 +896,7 @@
     {
         "class": "icon_context",
         "layer0.texture": "Theme - Spacegray/assets/context.png",
-        "layer0.tint": [101,115,126],
+        "layer0.tint": [79,91,102],
         "layer0.opacity": 1,
         "content_margin": 8
     },
@@ -907,7 +909,7 @@
     {
         "class": "icon_use_buffer",
         "layer0.texture": "Theme - Spacegray/assets/buffer.png",
-        "layer0.tint": [101,115,126],
+        "layer0.tint": [79,91,102],
         "layer0.opacity": 1,
         "content_margin": 8
     },
@@ -920,7 +922,6 @@
 //
 // BOTTOM PANEL ICONS - GROUP 2
 //
-
     // Reverse search direction button (ST2 only)
     {
         "class": "icon_reverse",
@@ -937,7 +938,7 @@
     {
         "class": "icon_wrap",
         "layer0.texture": "Theme - Spacegray/assets/wrap.png",
-        "layer0.tint": [101,115,126],
+        "layer0.tint": [79,91,102],
         "layer0.opacity": 1,
         "content_margin": 8
     },
@@ -950,7 +951,7 @@
     {
         "class": "icon_in_selection",
         "layer0.texture": "Theme - Spacegray/assets/selection.png",
-        "layer0.tint": [101,115,126],
+        "layer0.tint": [79,91,102],
         "layer0.opacity": 1,
         "content_margin": 8
     },
@@ -985,7 +986,7 @@
     {
         "class": "icon_highlight",
         "layer0.texture": "Theme - Spacegray/assets/highlight.png",
-        "layer0.tint": [101,115,126],
+        "layer0.tint": [79,91,102],
         "layer0.opacity": 1,
         "content_margin": 8
     },
