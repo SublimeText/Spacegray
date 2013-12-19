@@ -713,26 +713,26 @@
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [101,115,126]
+        "layer0.tint": [163,190,140]
     },
     {
         "class": "quick_panel_label",
         "fg": [101,115,126,255],
         "match_fg": [79,91,102,255],
-        "selected_fg": [223,225,232,255],
-        "selected_match_fg": [255,255,255,255]
+        "selected_fg": [79,91,102,255],
+        "selected_match_fg": [43,48,59,255]
     },
     {
         "class": "quick_panel_path_label",
         "fg": [167,173,186,255],
         "match_fg": [167,173,186,255],
-        "selected_fg": [167,173,186,255],
-        "selected_match_fg": [192,197,206,255]
+        "selected_fg": [101,115,126,255],
+        "selected_match_fg": [79,91,102,255]
     },
     {
         "class": "quick_panel_score_label",
         "fg": [167,173,186,255],
-        "selected_fg": [255,255,255,255]
+        "selected_fg": [223,225,232,255]
     },
 
 //
@@ -742,14 +742,14 @@
     {
         "class": "mini_quick_panel_row",
         "layer0.texture": "",
-        "layer0.tint": [52,61,70],
+        "layer0.tint": [223,225,232],
         "layer0.opacity": 1
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [191,97,106]
+        "layer0.tint": [163,190,140]
     },
 
 //
