@@ -14,15 +14,15 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#232830</string>
+				<string>#65737E</string>
 				<key>caret</key>
-				<string>#FFFFFF</string>
+				<string>#A3BE8C</string>
 				<key>foreground</key>
-				<string>#ffffff</string>
+				<string>#FFFFFF</string>
 				<key>invisibles</key>
-				<string>#3B3B3B</string>
+				<string>#00ffff</string>
 				<key>selection</key>
-				<string>#3d8EF3</string>
+				<string>#A3BE8C</string>
 			</dict>
 		</dict>
 	</array>
