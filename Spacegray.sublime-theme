@@ -417,18 +417,16 @@
         "layer0.texture": "",
         "layer0.opacity": 1,
         "layer0.tint": [28,31,38],
-        "layer0.inner_margin": [0,0,0,0],
-        "content_margin": [0,0,1,0],
+        "layer0.inner_margin": [1,5,2,1],
+        "content_margin": [0,4,0,0]
     },
     // Sidebar tree
     {
         "class": "sidebar_tree",
         "row_padding": [8,4],
-        "indent": 12,
+        "indent":12,
         "indent_offset": 14,
         "indent_top_level": false,
-        "layer0.tint": [35,40,48],
-        "layer0.opacity": 1.0,
         "dark_content": true
     },
     // Sidebar rows
@@ -449,7 +447,7 @@
     {
         "class": "sidebar_heading",
         "color": [79,91,102],
-        "font.bold": false,
+        "font.bold": true,
         "shadow_color": [0,0,0],
         "shadow_offset": [0,0]
     },
@@ -499,7 +497,7 @@
     // Sidebar file close
     {
         "class": "close_button",
-        "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
+        "layer0.texture": "",
         "layer0.opacity": 0,
         "layer0.inner_margin": 0,
         "layer0.tint": [191,97,106],
@@ -509,11 +507,7 @@
         "class": "close_button",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
         "layer0.opacity": 1,
-    },
-    {
-        "class": "close_button",
-        "parents": [{"class": "tree_row","attributes": ["hover","selected"]}],
-        "layer0.opacity": 1,
+        "layer0.texture": "Theme - Spacegray/Spacegray/close.png"
     },
     // Sidebar file dirty
     {
@@ -527,25 +521,25 @@
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.opacity": 1
+        "layer0.texture": "Theme - Spacegray/Spacegray/close.png"
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.texture": "Theme - Spacegray/Spacegray/circle.png",
+        "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
         "layer0.opacity": 1
     },
     // Sidebar file close hover
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Spacegray/Spacegray/cross.png"
+        "layer0.texture": "Theme - Spacegray/Spacegray/close.png"
     },
     {
         "class": "close_button",
         "parents": [{"class": "tree_row","attributes": ["hover","selected"]}],
-        "layer0.texture": "Theme - Spacegray/Spacegray/cross.png",
+        "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
         "layer0.opacity": 1
     },
 
@@ -645,7 +639,8 @@
     {
         "class": "button_control",
         "attributes": ["hover"],
-        "layer0.opacity": 1
+        "layer0.texture": "",
+        "layer0.tint": [35,40,48]
     },
     // Pressed button state
     {
@@ -688,7 +683,7 @@
         "layer1.tint": [28,31,38],
         "layer1.inner_margin": [0,0,0,0],
         "layer1.opacity": 1,
-        "content_margin": 4
+        "content_margin": 0
     },
 
 //
@@ -698,7 +693,7 @@
     {
         "class": "quick_panel",
         "row_padding": 8,
-        "layer0.tint": [0,225,0],
+        "layer0.tint": [0,0,0],
         "layer0.opacity": 1,
         "dark_content": true
     },
@@ -706,7 +701,7 @@
         "class": "quick_panel_row",
         "layer0.texture": "",
         "layer0.tint": [223,225,232],
-        "layer0.inner_margin": 0,
+        "layer0.inner_margin": 8,
         "layer0.opacity": 1
     },
     {
@@ -760,7 +755,7 @@
         "class": "popup_control",
         "content_margin": [0,0],
         "layer0.tint": [52,61,70],
-        "layer0.opacity": 1,
+        "layer0.opacity": 1
     },
     {
         "class": "auto_complete",
@@ -925,7 +920,7 @@
     // Reverse search direction button (ST2 only)
     {
         "class": "icon_reverse",
-        "layer0.texture": "Theme - Centurion/Centurion/reverse.png",
+        "layer0.texture": "Theme - Spacegray/Spacegray/reverse.png",
         "layer0.opacity": 0.3,
         "content_margin": 9
     },
@@ -968,7 +963,7 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Theme - Centurion/Centurion/capital.png",
+        "layer0.texture": "Theme - Spacegray/Spacegray/capital.png",
         "layer0.opacity": 0.3,
         "content_margin": 9
     },
