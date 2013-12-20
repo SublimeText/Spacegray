@@ -6,13 +6,7 @@ Spacegray is all about hype and minimal.
 
 ## Install
 
-### Git Clone
-
-
-
-### Manual
-
-You can install it manually following these steps:
+Installation via Sublime Package Control is not available yet. You can install it manually by following these steps:
 
 1. [Download the .zip](https://github.com/kkga/spacegray/archive/master.zip)
 2. Unzip and rename the folder to `Theme - Spacegray`
