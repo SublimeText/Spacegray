@@ -15,7 +15,7 @@ Spacegray is all about hype and minimal.
 
 ### UI Theme
 
-* Open your User Settings Preferences file `Sublime Text 2 -> Preferences -> Settings - User`
+* Open your User Settings Preferences file `Preferences -> Settings - User`
 * Add (or update) your theme entry to be `"theme": "Spacegray.sublime-theme"`
 * Restart Sublime Text
 
