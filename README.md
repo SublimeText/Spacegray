@@ -13,6 +13,14 @@ Spacegray is all about hype and minimal.
 
 ## Setup
 
+### UI Theme
+
 * Open your User Settings Preferences file `Sublime Text 2 -> Preferences -> Settings - User`
 * Add (or update) your theme entry to be `"theme": "Spacegray.sublime-theme"`
 * Restart Sublime Text
+
+### Color scheme
+
+Spacegray works best and comes with [Base16 Ocean](http://chriskempson.github.io/base16/#ocean) color scheme by Chris Kempson. But you can use it with any other.
+
+Bese16 Ocean is already included in the zip. To use it update your color scheme entry to be `"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme"`
