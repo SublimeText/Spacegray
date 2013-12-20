@@ -2,6 +2,8 @@
 
 Spacegray is all about hype and minimal.
 
+![Screenshot](Spacegray.png)
+
 ## Install
 
 ### Manual
