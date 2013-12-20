@@ -20,21 +20,14 @@ You can install it manually following these steps:
 
 ## Setup
 
+Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Preferences -> Settings - User` in Sublime Text or by clicking `cmd + ,` on a Mac.
+
+Spacegray works best and comes with [Base16 Ocean](http://chriskempson.github.io/base16/#ocean) color scheme by Chris Kempson.
+
+### Example settings
 ```
 {
   "theme": "Spacegray.sublime-theme",
   "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme"
 }
 ```
-
-### UI Theme
-
-Activate the theme by modifying your user preferences.
-
-1. Open your User Settings Preferences file `Preferences -> Settings - User`
-2. Add (or update) your theme entry to be `"theme": "Spacegray.sublime-theme"`
-3. Restart Sublime Text
-
-### Color scheme
-
-Spacegray works best and comes with [Base16 Ocean](http://chriskempson.github.io/base16/#ocean) color scheme by Chris Kempson. To use it update your color scheme entry to be `"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme"`
