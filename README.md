@@ -6,7 +6,11 @@ Spacegray is all about hype and minimal.
 
 ## Install
 
-Installation via Sublime Package Control is not available yet. You can install it manually by following these steps:
+### Via Package Control
+
+Theme is listed as `Theme - Spacegray` in Will Bond's [Sublime Package Control](https://sublime.wbond.net).
+
+### Manual
 
 1. [Download the .zip](https://github.com/kkga/spacegray/archive/master.zip)
 2. Unzip and rename the folder to `Theme - Spacegray`
