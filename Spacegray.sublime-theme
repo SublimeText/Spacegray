@@ -963,7 +963,7 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Theme - Spacegray/Spacegray/capital.png",
+        "layer0.texture": "Theme - Spacegray/Spacegray/casesens.png",
         "layer0.opacity": 0.3,
         "content_margin": 9
     },
