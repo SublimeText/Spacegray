@@ -29,3 +29,7 @@ Spacegray works best and comes with [Base16 Ocean](http://chriskempson.github.io
   "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme"
 }
 ```
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/kkga/spacegray/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
