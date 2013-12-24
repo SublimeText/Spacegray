@@ -657,7 +657,7 @@
     {
         "class": "text_line_control",
         "layer0.texture": "",
-        "layer0.tint": [43,48,59],
+        "layer0.tint": [34, 40, 48],
         "layer0.opacity": 1,
         "content_margin": [4,3,0,3]
     },
@@ -683,7 +683,7 @@
         "layer1.tint": [28,31,38],
         "layer1.inner_margin": [0,0,0,0],
         "layer1.opacity": 1,
-        "content_margin": 4
+        "content_margin": 0
     },
 
 //
@@ -700,7 +700,7 @@
     {
         "class": "quick_panel_row",
         "layer0.texture": "",
-        "layer0.tint": [223,225,232],
+        "layer0.tint": [51, 61, 70],
         "layer0.inner_margin": 8,
         "layer0.opacity": 1
     },
@@ -708,26 +708,26 @@
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [79,91,102]
+        "layer0.tint": [223, 225, 232]
     },
     {
         "class": "quick_panel_label",
-        "fg": [101,115,126,255],
-        "match_fg": [79,91,102,255],
-        "selected_fg": [192,197,206,255],
-        "selected_match_fg": [239,241,245,255]
+        "fg": [167,173,186,255],
+        "match_fg": [192, 197, 206,255],
+        "selected_fg": [79,91,103,255],
+        "selected_match_fg": [28,31,38,255]
     },
     {
         "class": "quick_panel_path_label",
-        "fg": [167,173,186,255],
-        "match_fg": [167,173,186,255],
-        "selected_fg": [167,173,186,255],
-        "selected_match_fg": [192,197,206,255]
+        "fg": [101,115,126,255],
+        "match_fg": [137, 145, 155,255],
+        "selected_fg": [101,115,126,255],
+        "selected_match_fg": [79,91,102,255]
     },
     {
         "class": "quick_panel_score_label",
-        "fg": [167,173,186,255],
-        "selected_fg": [192,197,206,255]
+        "fg": [101,115,126,255],
+        "selected_fg": [101,115,126,255]
     },
 
 //
@@ -737,14 +737,14 @@
     {
         "class": "mini_quick_panel_row",
         "layer0.texture": "",
-        "layer0.tint": [223,225,232],
+        "layer0.tint": [51, 61, 70],
         "layer0.opacity": 1
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [79,91,102]
+        "layer0.tint": [223, 225, 232]
     },
 
 //
