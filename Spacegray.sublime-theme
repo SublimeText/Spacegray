@@ -397,7 +397,7 @@
     // Status bar button
     {
         "class": "status_button",
-        "min_size": [40,0]
+        "min_size": [100, 0]
     },
     // Status bar label
     {
