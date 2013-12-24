@@ -965,13 +965,14 @@
     {
         "class": "icon_preserve_case",
         "layer0.texture": "Theme - Spacegray/Spacegray/casesens.png",
-        "layer0.opacity": 0.3,
-        "content_margin": 9
+        "layer0.tint": [79,91,102],
+        "layer0.opacity": 1,
+        "content_margin": 8
     },
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-        "layer0.opacity": 1
+        "layer0.tint": [255,255,255]
     },
 
 //
