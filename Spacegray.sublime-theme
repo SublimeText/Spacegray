@@ -9,7 +9,7 @@
         "class": "tabset_control",
         "layer0.texture": "",
         "layer0.tint": [28,31,38],
-        "layer0.inner_margin": 0,
+        "layer0.inner_margin": 0,// Overlay light puck (for dark content)
         "layer0.opacity": 1,
         "content_margin": 0,
         "tab_overlap": 0,
@@ -298,7 +298,7 @@
         "settings": ["overlay_scroll_bars"],
         "attributes": ["dark"],
         "layer0.texture": "",
-        "layer0.tint": [52,61,70]
+        "layer0.tint": [28,31,38]
 
     },
     // Overlay light horizontal puck (for dark content)
@@ -307,7 +307,7 @@
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal","dark"],
         "layer0.texture": "",
-        "layer0.tint": [52,61,70]
+        "layer0.tint": [28,31,38]
     },
 
 //
