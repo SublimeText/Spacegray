@@ -279,7 +279,7 @@
         "settings": ["overlay_scroll_bars"],
         "layer0.texture": "",
         "layer0.inner_margin": [0,5],
-        "content_margin": [5,20],
+        "content_margin": [2,32],
         "blur": true
     },
     // Overlay horizontal puck
@@ -289,7 +289,7 @@
         "attributes": ["horizontal"],
         "layer0.texture": "",
         "layer0.inner_margin": [5,0],
-        "content_margin": [20,5],
+        "content_margin": [16,2],
         "blur": true
     },
     // Overlay light puck (for dark content)
@@ -683,7 +683,7 @@
         "layer1.tint": [28,31,38],
         "layer1.inner_margin": [0,0,0,0],
         "layer1.opacity": 1,
-        "content_margin": 0
+        "content_margin": 4
     },
 
 //
@@ -708,26 +708,26 @@
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [163,190,140]
+        "layer0.tint": [79,91,102]
     },
     {
         "class": "quick_panel_label",
         "fg": [101,115,126,255],
         "match_fg": [79,91,102,255],
-        "selected_fg": [79,91,102,255],
-        "selected_match_fg": [43,48,59,255]
+        "selected_fg": [192,197,206,255],
+        "selected_match_fg": [239,241,245,255]
     },
     {
         "class": "quick_panel_path_label",
         "fg": [167,173,186,255],
         "match_fg": [167,173,186,255],
-        "selected_fg": [101,115,126,255],
-        "selected_match_fg": [79,91,102,255]
+        "selected_fg": [167,173,186,255],
+        "selected_match_fg": [192,197,206,255]
     },
     {
         "class": "quick_panel_score_label",
         "fg": [167,173,186,255],
-        "selected_fg": [223,225,232,255]
+        "selected_fg": [192,197,206,255]
     },
 
 //
@@ -744,7 +744,7 @@
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [163,190,140]
+        "layer0.tint": [79,91,102]
     },
 
 //
