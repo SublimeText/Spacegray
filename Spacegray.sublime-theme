@@ -326,8 +326,8 @@
 
     {
         "class": "grid_layout_control",
-        "border_size": 0,
-        "border_color": [40,40,40]
+        "border_size": 1,
+        "border_color": [28,31,38]
     },
 
 //
