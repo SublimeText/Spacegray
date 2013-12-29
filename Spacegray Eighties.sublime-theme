@@ -747,7 +747,7 @@
     },
     {
         "class": "auto_complete",
-        "row_padding": [4,2]
+        "row_padding": [4,4]
     },
     {
         "class": "auto_complete_label",

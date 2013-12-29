@@ -748,24 +748,24 @@
     {
         "class": "popup_control",
         "content_margin": [0,0],
-        "layer0.tint": [51, 61, 70], // 01
+        "layer0.tint": [239, 241, 245], // 06
         "layer0.opacity": 1
     },
     {
         "class": "auto_complete",
-        "row_padding": [4,2]
+        "row_padding": [4,4]
     },
     {
         "class": "auto_complete_label",
-        "fg": [101, 115, 126, 255], // 03
-        "match_fg": [192, 197, 206, 255], // 05
-        "selected_fg": [167, 173, 186, 255], // 03
-        "selected_match_fg": [192, 197, 206, 255] // 05
+        "fg": [169, 175, 187, 255], // 04
+        "match_fg": [79, 91, 102, 255], // 02
+        "selected_fg": [101, 115, 126, 255], // 03
+        "selected_match_fg": [51, 61, 69, 255] // 01
     },
     {
         "class": "table_row",
         "layer0.texture": "",
-        "layer0.tint":[79, 91, 103], // 02
+        "layer0.tint": [192, 197, 206], // 05
         "layer0.opacity": 0,
         "layer0.inner_margin": [3,1]
     },
