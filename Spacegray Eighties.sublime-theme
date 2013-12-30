@@ -15,7 +15,7 @@
         "tab_overlap": 0,
         "tab_width": 128,
         "tab_min_width": 48,
-        "tab_height": 32,
+        "tab_height": 28,
         "mouse_wheel_switch": false
     },
     {
@@ -645,9 +645,9 @@
     {
         "class": "text_line_control",
         "layer0.texture": "",
-        "layer0.tint": [38, 38, 38], // -01
+        "layer0.tint": [30, 30, 30], // -01
         "layer0.opacity": 1,
-        "content_margin": [4,3,0,3]
+        "content_margin": [4,4,4,4]
     },
 
 //
@@ -778,7 +778,6 @@
         "class": "icon_button_control",
         "layer1.texture": "",
         "layer1.opacity": 0,
-        "layer1.tint": [38, 38, 38], // -01
         "content_margin": 7
     },
     {
@@ -952,7 +951,7 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Theme - Spacegray/Spacegray/casesens.png",
+        "layer0.texture": "Theme - Spacegray/Spacegray/lock.png",
         "layer0.tint": [81, 81, 81], // 02
         "layer0.opacity": 1,
         "content_margin": 8

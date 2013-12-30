@@ -785,7 +785,7 @@
         "class": "icon_button_control",
         "layer1.texture": "",
         "layer1.opacity": 0,
-        "content_margin": 8
+        "content_margin": 7
     },
     {
         "class": "icon_button_control",
