@@ -228,7 +228,7 @@
     {
         "class": "puck_control",
         "layer0.texture": "",
-        "layer0.tint": [60, 60, 60],
+        "layer0.tint": [192, 197, 206], // 05
         "layer0.opacity": 1,
         "layer0.inner_margin": [0,0],
         "content_margin": [6,0],
@@ -265,7 +265,7 @@
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
         "layer0.texture": "",
-        "layer0.tint": [101, 115, 126], // 03
+        "layer0.tint": [192, 197, 206], // 05
         "layer0.inner_margin": [0,5],
         "layer0.opacity": 0,
         "blur": false
@@ -304,7 +304,7 @@
         "settings": ["overlay_scroll_bars"],
         "attributes": ["dark"],
         "layer0.texture": "",
-        "layer0.tint": [101, 115, 126] // 03
+        "layer0.tint": [192, 197, 206] // 05
 
     },
     // Overlay light horizontal puck (for dark content)
@@ -313,7 +313,7 @@
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal","dark"],
         "layer0.texture": "",
-        "layer0.tint": [101, 115, 126] // 03
+        "layer0.tint": [192, 197, 206] // 05
     },
 
 //
