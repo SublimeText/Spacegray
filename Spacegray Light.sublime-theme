@@ -322,7 +322,7 @@
 
     {
         "class": "sheet_container_control",
-        "layer0.tint": [43,48,59],
+        "layer0.tint": [223, 225, 232], // 05
         "layer0.opacity": 1
     },
 
@@ -394,7 +394,7 @@
         "layer0.texture": "",
         "layer0.tint": [223, 225, 232], // 06
         "layer0.opacity": 1,
-        "content_margin": 6
+        "content_margin": 4
     },
     // Status bar button
     {
@@ -425,7 +425,7 @@
     {
         "class": "sidebar_tree",
         "row_padding": [8,4],
-        "indent":12,
+        "indent": 12,
         "indent_offset": 14,
         "indent_top_level": false,
         "dark_content": true
@@ -654,7 +654,7 @@
         "layer0.texture": "",
         "layer0.tint": [223, 225, 232], // 06
         "layer0.opacity": 1,
-        "content_margin": [4,3,0,3]
+        "content_margin": [4,4,4,4]
     },
 
 //
@@ -785,7 +785,7 @@
         "class": "icon_button_control",
         "layer1.texture": "",
         "layer1.opacity": 0,
-        "content_margin": 6
+        "content_margin": 8
     },
     {
         "class": "icon_button_control",

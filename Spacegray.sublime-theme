@@ -15,7 +15,7 @@
         "tab_overlap": 0,
         "tab_width": 128,
         "tab_min_width": 48,
-        "tab_height": 32,
+        "tab_height": 28,
         "mouse_wheel_switch": false
     },
     {
@@ -174,14 +174,15 @@
     {
         "class": "fold_button_control",
         "layer0.texture": "Theme - Spacegray/Spacegray/folder-closed.png",
-        "layer0.opacity": 0.3,
+        "layer0.tint": [167, 173, 186], // 04
+        "layer0.opacity": 0.5,
         "layer0.inner_margin": 0,
         "content_margin": [8,8]
     },
     {
         "class": "fold_button_control",
         "attributes": ["hover"],
-        "layer0.opacity": 0.7
+        "layer0.opacity": 1
     },
     {
         "class": "fold_button_control",
@@ -321,7 +322,7 @@
 
     {
         "class": "sheet_container_control",
-        "layer0.tint": [43,48,59],
+        "layer0.tint": [43, 48, 59],
         "layer0.opacity": 1
     },
 
@@ -424,7 +425,7 @@
     {
         "class": "sidebar_tree",
         "row_padding": [8,4],
-        "indent":12,
+        "indent": 12,
         "indent_offset": 14,
         "indent_top_level": false,
         "dark_content": true
@@ -651,9 +652,9 @@
     {
         "class": "text_line_control",
         "layer0.texture": "",
-        "layer0.tint": [34, 40, 48], // -01
+        "layer0.tint": [28, 31, 38], // -01
         "layer0.opacity": 1,
-        "content_margin": [4,3,0,3]
+        "content_margin": [4,4,4,4]
     },
 
 //
@@ -784,8 +785,7 @@
         "class": "icon_button_control",
         "layer1.texture": "",
         "layer1.opacity": 0,
-        "layer1.tint":[35, 40, 48], // -01
-        "content_margin": 7
+        "content_margin": 8
     },
     {
         "class": "icon_button_control",
@@ -958,7 +958,7 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Theme - Spacegray/Spacegray/casesens.png",
+        "layer0.texture": "Theme - Spacegray/Spacegray/lock.png",
         "layer0.tint": [79, 91, 102], // 02
         "layer0.opacity": 1,
         "content_margin": 8
