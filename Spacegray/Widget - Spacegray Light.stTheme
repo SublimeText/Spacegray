@@ -7,7 +7,7 @@
 	<key>comment</key>
 	<string>Spacegray</string>
 	<key>name</key>
-	<string>Spacegray</string>
+	<string>Spacegray Light</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -16,9 +16,9 @@
 				<key>background</key>
 				<string>#dfe1e8</string>
 				<key>caret</key>
-				<string>#ECCC87</string>
+				<string>#4f5b66</string>
 				<key>foreground</key>
-				<string>#2b303b</string>
+				<string>#4f5b66</string>
 				<key>invisibles</key>
 				<string>#c0c5ce</string>
 				<key>selection</key>
