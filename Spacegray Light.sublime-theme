@@ -627,7 +627,7 @@
         "min_size": [64,0],
         "layer0.texture": "",
         "layer0.opacity": 1,
-        "layer0.tint": [230, 233, 240], // 06-07
+        "layer0.tint": [239, 241, 245], // 07
         "layer0.inner_margin": [8,8]
     },
     // Hover button state
@@ -635,7 +635,7 @@
         "class": "button_control",
         "attributes": ["hover"],
         "layer0.texture": "",
-        "layer0.tint": [239, 241, 245] // 07
+        "layer0.tint": [230, 233, 240] // 06-07
     },
     // Pressed button state
     {
