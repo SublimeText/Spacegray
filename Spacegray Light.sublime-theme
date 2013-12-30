@@ -459,13 +459,13 @@
     // Sidebar entry
     {
         "class": "sidebar_label",
-        "color": [101, 115, 127] // 03
+        "color": [140, 145, 156] // 03-04
     },
     // Sidebar folder entry
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-        "color": [101, 115, 127] // 03
+        "color": [140, 145, 156] // 03-04
     },
     {
         "class": "sidebar_label",
@@ -482,7 +482,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "color": [43, 48, 58] // 00
+        "color": [255, 255, 255] // white
     },
 
 //
@@ -623,7 +623,7 @@
     // Default button state
     {
         "class": "button_control",
-        "content_margin": [4,6,4,6],
+        "content_margin": [4,8,4,8],
         "min_size": [64,0],
         "layer0.texture": "",
         "layer0.opacity": 1,
@@ -668,7 +668,7 @@
         "layer0.inner_margin": [0,0],
         "layer0.opacity": 1,
         "layer0.tint": [223, 225, 232], // 06
-        "content_margin": 2
+        "content_margin": 0
     },
     // Quick panel background
     {
@@ -703,26 +703,26 @@
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [34, 40, 48] // -01
+        "layer0.tint": [192, 197, 206, 255] // 05
     },
     {
         "class": "quick_panel_label",
-        "fg": [167, 173, 186, 255], // 04
-        "match_fg": [192, 197, 206, 255], // 05
-        "selected_fg": [192, 197, 206, 255], // 05
-        "selected_match_fg": [239, 241, 245, 255] // 07
+        "fg": [101, 115, 126, 255], // 03
+        "match_fg": [79, 91, 102, 255], // 02
+        "selected_fg": [79, 91, 102, 255], // 02
+        "selected_match_fg": [43, 48, 58, 255] // 00
     },
     {
         "class": "quick_panel_path_label",
-        "fg": [101, 115, 126, 255], // 03
-        "match_fg": [167, 173, 186, 255], // 04
-        "selected_fg": [101, 115, 126, 255], // 03
-        "selected_match_fg": [167, 173, 186, 255] // 04
+        "fg": [167, 173, 186, 255], // 04
+        "match_fg": [140, 145, 156], // 03-04
+        "selected_fg": [140, 145, 156], // 03-04
+        "selected_match_fg": [101, 115, 126, 255] // 03
     },
     {
         "class": "quick_panel_score_label",
-        "fg": [101, 115, 126, 255], // 03
-        "selected_fg": [101, 115, 126, 255] // 03
+        "fg": [167, 173, 186, 255], // 04
+        "selected_fg": [140, 145, 156] // 03-04
     },
 
 //
@@ -732,14 +732,14 @@
     {
         "class": "mini_quick_panel_row",
         "layer0.texture": "",
-        "layer0.tint": [51, 61, 70], // 01
+        "layer0.tint": [223, 225, 232], // 06
         "layer0.opacity": 1
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         "layer0.texture": "",
-        "layer0.tint": [34, 40, 48] // -01
+        "layer0.tint": [192, 197, 206] // 05
     },
 
 //
