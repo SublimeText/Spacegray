@@ -6,7 +6,7 @@ Spacegray is a set of custom UI themes for Sublime Text 2/3. It's all about hype
 
 ***
 
-### Install
+### How to Install
 
 #### Via Package Control
 
@@ -26,7 +26,7 @@ You can also install the theme manually:
 
 ***
 
-### Activate
+### How to Activate
 
 Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` (⌘, on Mac).
 
