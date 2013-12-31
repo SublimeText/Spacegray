@@ -546,7 +546,7 @@
         "class": "disclosure_button_control",
         "content_margin": [8,8],
         "layer0.texture": "Theme - Spacegray/Spacegray/folder-closed.png",
-        "color": [116, 115, 105], // 03
+        "layer0.tint": [116, 115, 105], // 03
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
     },
@@ -563,7 +563,8 @@
     {
         "class": "disclosure_button_control",
         "settings": ["soda_folder_icons"],
-        "layer0.texture": "Theme - Spacegray/Spacegray/folder-closed.png"
+        "layer0.texture": "Theme - Spacegray/Spacegray/folder-closed.png",
+        "color": [116, 115, 105] // 03
     },
     {
         "class": "disclosure_button_control",
@@ -653,7 +654,7 @@
         "layer0.texture": "",
         "layer0.tint": [211, 208, 200], // -01
         "layer0.opacity": 1,
-        "content_margin": [4,4,4,4]
+        "content_margin": 6
     },
 
 //
