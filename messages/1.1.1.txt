@@ -1,0 +1,5 @@
+Fixes:
+
+* fix the issue when Spacegray doesn't work on ST2
+
+Note: other color variations still not working on ST2, the update with fixes will be released in a few minutes
