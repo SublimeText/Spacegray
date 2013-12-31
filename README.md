@@ -30,48 +30,59 @@ You can also install the theme manually:
 
 Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` (⌘, on Mac).
 
-Spacegray comes in two flavors: one based on Base 16 Ocean Dark color scheme, and another one based on Tomorrow Night color scheme.
+Spacegray comes in different flavors, based on Base16 color schemes.
 
 You can choose whichever flavor you like, but don't forget to change *both* color scheme and UI theme so they match.
 
+***Note: Don't forget to restart Sublime Text after activating the theme.***
+
 #### Spacegray
 
-This is the default Spacegray flavor based on Base16 Ocean Dark color scheme.
+Default flavor based on Base16 Ocean Dark color scheme.
 
-![image](Screenshots/spacegray.png)
+![image](Screenshots/spacegray-.png)
 
 ##### Example settings
 
 ```
 {
   "theme": "Spacegray.sublime-theme",
-  "color_scheme": "Packages/Theme - Spacegray/Color Schemes/base16-ocean.dark.tmTheme"
+  "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme"
 }
 ```
 
-#### Spacegray Tomorrow
+#### Spacegray Light
 
-This is a variation based on Tomorrow Night color scheme.
+Light variation based on Base16 Ocean Light color scheme.
 
-![image](Screenshots/spacegray-tomorrow.png)
+![image](Screenshots/spacegray-light-.png)
 
 ##### Example settings
 
 ```
 {
-  "theme": "Spacegray Tomorrow.sublime-theme",
-  "color_scheme": "Packages/Theme - Spacegray/Color Schemes/Tomorrow-Night-Eighties.tmTheme"
+  "theme": "Spacegray Light.sublime-theme",
+  "color_scheme": "Packages/Theme - Spacegray/base16-ocean.light.tmTheme"
+}
+```
+
+#### Spacegray Eighties
+
+A variation based on Base16 Eighties Dark color scheme.
+
+![image](Screenshots/spacegray-eighties-.png)
+
+##### Example settings
+
+```
+{
+  "theme": "Spacegray Eighties.sublime-theme",
+  "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme"
 }
 ```
 
 ***
 
-### Contribution
-
-If you're willing to contribute and make a variation of Spacegray for *Solarized* or *Monokai* color schemes, it would be awesome.
-
-***
-
 ### Thanks
 
-The Spacegray Tomorrow variation is contributed by [Yoshua Wuyts](https://github.com/yoshuawuyts).
+The Spacegray Eighties variation is contributed by [Yoshua Wuyts](https://github.com/yoshuawuyts).
