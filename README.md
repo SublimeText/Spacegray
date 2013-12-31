@@ -1,22 +1,22 @@
 # Spacegray
 
-### About
+## About
 
 Spacegray is a set of custom UI themes for Sublime Text 2/3. It's all about hype and minimal.
 
 ***
 
-### How to Install
+## How to Install
 
-#### Via Package Control
+### Via Package Control
 
 The easiest way to install is using [Sublime Package Control](https://sublime.wbond.net), where Spacegray is listed as `Theme - Spacegray`.
 
-1. Open Command Palette using menu item `Tools -> Command Palette...` (⇧⌘P or Shift+Ctrl+P)
+1. Open Command Palette using menu item `Tools -> Command Palette...` (⇧+⌘+P on Mac)
 2. Choose `Package Control: Install Package`
 3. Find `Theme - Spacegray` and hit Enter
 
-#### Manual
+### Manual
 
 You can also install the theme manually:
 
@@ -26,9 +26,9 @@ You can also install the theme manually:
 
 ***
 
-### How to Activate
+## How to Activate
 
-Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` (⌘, on Mac).
+Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` (⌘+, on Mac).
 
 Spacegray comes in different flavors, based on [Base16](https://github.com/chriskempson/base16) color schemes.
 
@@ -36,13 +36,13 @@ You can choose whichever flavor you like, but don't forget to change *both* colo
 
 ***Note: Don't forget to restart Sublime Text after activating the theme.***
 
-#### Spacegray
+### Spacegray
 
 Default flavor based on Base16 Ocean Dark color scheme.
 
 ![image](Screenshots/spacegray.png)
 
-##### Example settings
+#### Example settings for Spacegray
 
 ```
 {
@@ -51,13 +51,13 @@ Default flavor based on Base16 Ocean Dark color scheme.
 }
 ```
 
-#### Spacegray Light
+### Spacegray Light
 
 Light variation based on Base16 Ocean Light color scheme.
 
 ![image](Screenshots/spacegray-light.png)
 
-##### Example settings
+#### Example settings for Spacegray Light
 
 ```
 {
@@ -66,13 +66,13 @@ Light variation based on Base16 Ocean Light color scheme.
 }
 ```
 
-#### Spacegray Eighties
+### Spacegray Eighties
 
 A variation based on Base16 Eighties Dark color scheme.
 
 ![image](Screenshots/spacegray-eighties.png)
 
-##### Example settings
+#### Example settings for Spacegray Eighties
 
 ```
 {
@@ -83,6 +83,6 @@ A variation based on Base16 Eighties Dark color scheme.
 
 ***
 
-### Thanks
+## Thanks
 
 The Spacegray Eighties variation is contributed by [Yoshua Wuyts](https://github.com/yoshuawuyts).
