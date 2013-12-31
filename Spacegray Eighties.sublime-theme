@@ -69,13 +69,19 @@
     {
         "class": "tab_close_button",
         "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
-        "layer0.opacity": 1,
+        "layer0.opacity": 0,
         "layer0.tint": [116, 115, 105] // 03
     },
     {
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
         "content_margin": [8,8]
+    },
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control","attributes": ["hover"]}],
+        "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
+        "layer0.opacity": 1,
     },
     {
         "class": "tab_close_button",
@@ -446,8 +452,7 @@
     // Sidebar heading selected
     {
         "class": "sidebar_heading",
-        "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "shadow_offset": [0,0]
+        "parents": [{"class": "tree_row","attributes": ["selected"]}]
     },
     // Sidebar entry
     {
@@ -462,7 +467,7 @@
     },
     {
         "class": "sidebar_label",
-        "parents": [{"class": "tree_row","attributes": ["expandable","hover"]}],
+        "parents": [{"class": "tree_row","attributes": ["hover"]}],
         "color": [211, 208, 200] // 05
     },
     {
@@ -485,17 +490,21 @@
     // Sidebar file close
     {
         "class": "close_button",
-        "layer0.texture": "",
+        "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
         "layer0.opacity": 0,
         "layer0.inner_margin": 0,
-        "layer0.tint": [242, 119, 122], // 08
+        "layer0.tint": [81, 81, 81], // 02
         "content_margin": [8,8]
+    },
+    {
+        "class": "close_button",
+        "parents": [{"class": "tree_row","attributes": ["selected"]}],
+        "layer0.opacity": 1
     },
     {
         "class": "close_button",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
         "layer0.opacity": 1,
-        "layer0.texture": "Theme - Spacegray/Spacegray/close.png"
     },
     // Sidebar file dirty
     {
@@ -509,26 +518,20 @@
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - Spacegray/Spacegray/close.png"
-    },
-    {
-        "class": "close_button",
-        "attributes": ["dirty"],
-        "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
-        "layer0.opacity": 1
+        "layer0.texture": "Theme - Spacegray/Spacegray/circle.png"
     },
     // Sidebar file close hover
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Spacegray/Spacegray/close.png"
+        "layer0.tint": [242, 119, 122] // 08
     },
     {
         "class": "close_button",
-        "parents": [{"class": "tree_row","attributes": ["hover","selected"]}],
+        "attributes": ["dirty", "hover"],
+        "parents": [{"class": "tree_row","attributes": ["hover"]}],
         "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
-        "layer0.opacity": 1
+        "layer0.tint": [242, 119, 122] // 08
     },
 
 //
