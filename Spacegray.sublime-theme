@@ -363,6 +363,7 @@
     {
         "class": "label_control",
         "parents": [{"class": "button_control"}],
+        "font.bold": true,
         "color": [150, 181, 180] // 0C
     },
 
