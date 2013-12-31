@@ -659,7 +659,7 @@
         "layer0.texture": "",
         "layer0.tint": [34, 40, 48],
         "layer0.opacity": 1,
-        "content_margin": [4,3,0,3]
+        "content_margin": 6
     },
 
 //
