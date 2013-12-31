@@ -43,8 +43,7 @@
     // Tab hover state
     {
         "class": "tab_control",
-        "attributes": ["hover"],
-        "layer0.texture": ""
+        "attributes": ["hover"]
     },
     // Tab active state
     {
@@ -81,7 +80,7 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["hover"]}],
         "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
-        "layer0.opacity": 1,
+        "layer0.opacity": 1
     },
     {
         "class": "tab_close_button",
@@ -174,7 +173,8 @@
     {
         "class": "fold_button_control",
         "layer0.texture": "Theme - Spacegray/Spacegray/folder-closed.png",
-        "layer0.opacity": 0.3,
+        "layer0.tint": [160, 159, 147], // 04
+        "layer0.opacity": 0.5,
         "layer0.inner_margin": 0,
         "content_margin": [8,8]
     },
@@ -237,7 +237,7 @@
     {
         "class": "puck_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "",
+        // "layer0.texture": "",
         "layer0.tint": [160, 159, 147], // 04
         "layer0.inner_margin": [0,0],
         "content_margin": [12,6],
@@ -263,7 +263,7 @@
     {
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
-        "layer0.texture": "",
+        // "layer0.texture": "",
         "layer0.tint": [160, 159, 147], // 04
         "layer0.inner_margin": [0,5],
         "layer0.opacity": 0,
@@ -302,7 +302,7 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["dark"],
-        "layer0.texture": "",
+        // "layer0.texture": "",
         "layer0.tint": [160, 159, 147] // 04
 
     },
@@ -311,7 +311,7 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal","dark"],
-        "layer0.texture": "",
+        // "layer0.texture": "",
         "layer0.tint": [160, 159, 147] // 04
     },
 
@@ -332,7 +332,7 @@
     {
         "class": "grid_layout_control",
         "border_size": 1,
-        "border_color": [242, 240, 236], // 07
+        "border_color": [242, 240, 236] // 07
     },
 
 //
@@ -373,7 +373,7 @@
     // Tooltip container
     {
         "class": "tool_tip_control",
-        "layer0.texture": "",
+        // "layer0.texture": "",
         "layer0.tint": [211, 208, 200], // 05
         "layer0.inner_margin": [1,1],
         "layer0.opacity": 1,
@@ -434,7 +434,7 @@
     // Sidebar rows
     {
         "class": "tree_row",
-        "layer0.texture": "",
+        // "layer0.texture": "",
         "layer0.tint": [160, 159, 147], // 04
         "layer0.opacity": 0,
         "layer0.inner_margin": [1,1]
@@ -454,7 +454,8 @@
     // Sidebar heading selected
     {
         "class": "sidebar_heading",
-        "parents": [{"class": "tree_row","attributes": ["selected"]}]
+        "parents": [{"class": "tree_row","attributes": ["selected"]}],
+        "shadow_offset": [0,0]
     },
     // Sidebar entry
     {
@@ -506,7 +507,7 @@
     {
         "class": "close_button",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.opacity": 1,
+        "layer0.opacity": 1
     },
     // Sidebar file dirty
     {
@@ -665,7 +666,7 @@
         "layer0.texture": "",
         "layer0.inner_margin": [0,0],
         "layer0.opacity": 1,
-        "layer0.tint": [211, 208, 200], // -00
+        "layer0.tint": [211, 208, 200], // 06
         "content_margin": 0
     },
     // Quick panel background
@@ -673,7 +674,7 @@
         "class": "overlay_control",
         "layer0.opacity": 1,
         "layer1.texture": "",
-        "layer0.tint": [211, 208, 200], // -00
+        "layer0.tint": [211, 208, 200], // 06
         "layer1.inner_margin": [0,0,0,0],
         "layer1.opacity": 1,
         "content_margin": 0
@@ -781,7 +782,7 @@
     // Button group middle
     {
         "class": "icon_button_control",
-        "layer1.texture": "",
+        // "layer1.texture": "",
         "layer1.opacity": 0,
         "content_margin": 7
     },
@@ -793,14 +794,14 @@
     // Button group left
     {
         "class": "icon_button_control",
-        "attributes": ["left"],
-        "layer0.texture": ""
+        "attributes": ["left"]
+        // "layer0.texture": ""
     },
     // Button group left
     {
         "class": "icon_button_control",
-        "attributes": ["left"],
-        "layer0.texture": ""
+        "attributes": ["left"]
+        // "layer0.texture": ""
     },
     {
         "class": "icon_button_control",
@@ -810,24 +811,24 @@
     // Button group right
     {
         "class": "icon_button_control",
-        "attributes": ["right"],
-        "layer0.texture": ""
+        "attributes": ["right"]
+        // "layer0.texture": ""
     },
     {
         "class": "icon_button_control",
-        "attributes": ["right","selected"],
-        "layer0.texture": ""
+        "attributes": ["right","selected"]
+        // "layer0.texture": ""
     },
     // Button single
     {
         "class": "icon_button_control",
-        "attributes": ["left","right"],
-        "layer0.texture": ""
+        "attributes": ["left","right"]
+        // "layer0.texture": ""
     },
     {
         "class": "icon_button_control",
-        "attributes": ["left","right","selected"],
-        "layer0.texture": ""
+        "attributes": ["left","right","selected"]
+        // "layer0.texture": ""
     },
 
 //
