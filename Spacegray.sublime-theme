@@ -43,8 +43,7 @@
     // Tab hover state
     {
         "class": "tab_control",
-        "attributes": ["hover"],
-        "layer0.texture": ""
+        "attributes": ["hover"]
     },
     // Tab active state
     {
@@ -81,7 +80,7 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["hover"]}],
         "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
-        "layer0.opacity": 1,
+        "layer0.opacity": 1
     },
     {
         "class": "tab_close_button",
@@ -238,7 +237,7 @@
     {
         "class": "puck_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "",
+        // "layer0.texture": "",
         "layer0.tint": [52, 61, 70], // 01
         "layer0.inner_margin": [0,0],
         "content_margin": [12,6],
@@ -264,7 +263,7 @@
     {
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
-        "layer0.texture": "",
+        // "layer0.texture": "",
         "layer0.tint": [43, 48, 59], // 00
         "layer0.inner_margin": [0,5],
         "layer0.opacity": 0,
@@ -303,7 +302,7 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["dark"],
-        "layer0.texture": "",
+        // "layer0.texture": "",
         "layer0.tint": [79, 91, 102] // 02
 
     },
@@ -312,7 +311,7 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal","dark"],
-        "layer0.texture": "",
+        // "layer0.texture": "",
         "layer0.tint": [79, 91, 102] // 02
     },
 
@@ -374,7 +373,7 @@
     // Tooltip container
     {
         "class": "tool_tip_control",
-        "layer0.texture": "",
+        // "layer0.texture": "",
         "layer0.tint": [79, 91, 102], // 02
         "layer0.inner_margin": [1,1],
         "layer0.opacity": 1,
@@ -417,7 +416,7 @@
     // Sidebar container
     {
         "class": "sidebar_container",
-        "layer0.texture": "",
+        // "layer0.texture": "",
         "layer0.opacity": 1,
         "layer0.tint": [35, 40, 48], // -01
         "layer0.inner_margin": [1,5,2,1],
@@ -435,7 +434,7 @@
     // Sidebar rows
     {
         "class": "tree_row",
-        "layer0.texture": "",
+        // "layer0.texture": "",
         "layer0.tint": [52, 61, 70], // 01
         "layer0.opacity": 0,
         "layer0.inner_margin": [1,1]
@@ -508,7 +507,7 @@
     {
         "class": "close_button",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.opacity": 1,
+        "layer0.opacity": 1
     },
     // Sidebar file dirty
     {
@@ -625,7 +624,7 @@
         "class": "button_control",
         "content_margin": [4,8,4,8],
         "min_size": [64,0],
-        "layer0.texture": "",
+        // "layer0.texture": "",
         "layer0.opacity": 1,
         "layer0.tint": [28, 31, 38], // -00
         "layer0.inner_margin": [8,8]
@@ -634,14 +633,14 @@
     {
         "class": "button_control",
         "attributes": ["hover"],
-        "layer0.texture": "",
+        // "layer0.texture": "",
         "layer0.tint": [35, 40, 48] // -01
     },
     // Pressed button state
     {
         "class": "button_control",
         "attributes": ["pressed"],
-        "layer0.texture": "",
+        // "layer0.texture": "",
         "layer0.tint": [28, 31, 38] // -00
     },
 //
@@ -651,7 +650,7 @@
     // Text input field item
     {
         "class": "text_line_control",
-        "layer0.texture": "",
+        // "layer0.texture": "",
         "layer0.tint": [28, 31, 38], // -01
         "layer0.opacity": 1,
         "content_margin": [4,4,4,4]
@@ -664,7 +663,7 @@
     // Bottom panel background
     {
         "class": "panel_control",
-        "layer0.texture": "",
+        // "layer0.texture": "",
         "layer0.inner_margin": [0,0],
         "layer0.opacity": 1,
         "layer0.tint": [28, 31, 38], // -00
@@ -674,7 +673,7 @@
     {
         "class": "overlay_control",
         "layer0.opacity": 1,
-        "layer1.texture": "",
+        // "layer1.texture": "",
         "layer1.tint": [51, 61, 70], // 01
         "layer1.inner_margin": [0,0,0,0],
         "layer1.opacity": 1,
@@ -694,7 +693,7 @@
     },
     {
         "class": "quick_panel_row",
-        "layer0.texture": "",
+        // "layer0.texture": "",
         "layer0.tint": [51, 61, 70], // 01
         "layer0.inner_margin": 8,
         "layer0.opacity": 1
@@ -702,7 +701,7 @@
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
-        "layer0.texture": "",
+        // "layer0.texture": "",
         "layer0.tint": [34, 40, 48] // -01
     },
     {
@@ -731,14 +730,14 @@
 
     {
         "class": "mini_quick_panel_row",
-        "layer0.texture": "",
+        // "layer0.texture": "",
         "layer0.tint": [51, 61, 70], // 01
         "layer0.opacity": 1
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
-        "layer0.texture": "",
+        // "layer0.texture": "",
         "layer0.tint": [34, 40, 48] // -01
     },
 
@@ -765,8 +764,8 @@
     },
     {
         "class": "table_row",
-        "layer0.texture": "",
-        "layer0.tint":[79, 91, 103], // 02
+        // "layer0.texture": "",
+        "layer0.tint": [79, 91, 103], // 02
         "layer0.opacity": 0,
         "layer0.inner_margin": [3,1]
     },
@@ -783,7 +782,7 @@
     // Button group middle
     {
         "class": "icon_button_control",
-        "layer1.texture": "",
+        // "layer1.texture": "",
         "layer1.opacity": 0,
         "content_margin": 7
     },
@@ -795,41 +794,41 @@
     // Button group left
     {
         "class": "icon_button_control",
-        "attributes": ["left"],
-        "layer0.texture": ""
+        "attributes": ["left"]
+        // "layer0.texture": ""
     },
     // Button group left
     {
         "class": "icon_button_control",
-        "attributes": ["left"],
-        "layer0.texture": ""
+        "attributes": ["left"]
+        // "layer0.texture": ""
     },
     {
         "class": "icon_button_control",
-        "attributes": ["left","selected"],
-        "layer0.texture": ""
+        "attributes": ["left","selected"]
+        // "layer0.texture": ""
     },
     // Button group right
     {
         "class": "icon_button_control",
-        "attributes": ["right"],
-        "layer0.texture": ""
+        "attributes": ["right"]
+        // "layer0.texture": ""
     },
     {
         "class": "icon_button_control",
-        "attributes": ["right","selected"],
-        "layer0.texture": ""
+        "attributes": ["right","selected"]
+        // "layer0.texture": ""
     },
     // Button single
     {
         "class": "icon_button_control",
-        "attributes": ["left","right"],
-        "layer0.texture": ""
+        "attributes": ["left","right"]
+        // "layer0.texture": ""
     },
     {
         "class": "icon_button_control",
-        "attributes": ["left","right","selected"],
-        "layer0.texture": ""
+        "attributes": ["left","right","selected"]
+        // "layer0.texture": ""
     },
 
 //
