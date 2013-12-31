@@ -9,7 +9,8 @@ body {
   font-family: 'Source Code Pro', sans-serif;
   background-color: #eff1f5;
   color: #2b303b;
-  line-height: 1.5; }
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased; }
 
 header {
   width: 100%;
