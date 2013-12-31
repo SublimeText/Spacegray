@@ -30,7 +30,7 @@ You can also install the theme manually:
 
 Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` (⌘, on Mac).
 
-Spacegray comes in different flavors, based on Base16 color schemes.
+Spacegray comes in different flavors, based on [Base16](https://github.com/chriskempson/base16) color schemes.
 
 You can choose whichever flavor you like, but don't forget to change *both* color scheme and UI theme so they match.
 
