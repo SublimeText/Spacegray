@@ -23,7 +23,7 @@ hgroup {
     font-weight: 200; }
   hgroup p {
     font-size: 1rem;
-    font-weight: 200; }
+    font-weight: 400; }
 
 section {
   padding: 1.5rem; }
@@ -59,7 +59,7 @@ footer {
   background-color: #eff1f5;
   color: #4f5b66;
   font-size: 0.875rem;
-  font-weight: 200; }
+  font-weight: 400; }
   footer a {
     text-decoration: none;
     color: #4f5b66;
@@ -80,11 +80,9 @@ footer {
   hgroup {
     margin-bottom: 2rem; }
     hgroup h1 {
-      font-size: 3rem;
-      font-weight: 200; }
+      font-size: 3rem; }
     hgroup p {
-      font-size: 1rem;
-      font-weight: 200; } }
+      font-size: 1rem; } }
 @media (min-width: 1024px) {
   header,
   section,
@@ -94,8 +92,6 @@ footer {
   hgroup {
     margin-bottom: 4rem; }
     hgroup h1 {
-      font-size: 5rem;
-      font-weight: 200; }
+      font-size: 5rem; }
     hgroup p {
-      font-size: 1.250rem;
-      font-weight: 200; } }
+      font-size: 1.250rem; } }
