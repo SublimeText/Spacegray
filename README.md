@@ -40,7 +40,7 @@ You can choose whichever flavor you like, but don't forget to change *both* colo
 
 Default flavor based on Base16 Ocean Dark color scheme.
 
-![image](Screenshots/spacegray-.png)
+![image](Screenshots/spacegray.png)
 
 ##### Example settings
 
@@ -55,7 +55,7 @@ Default flavor based on Base16 Ocean Dark color scheme.
 
 Light variation based on Base16 Ocean Light color scheme.
 
-![image](Screenshots/spacegray-light-.png)
+![image](Screenshots/spacegray-light.png)
 
 ##### Example settings
 
@@ -70,7 +70,7 @@ Light variation based on Base16 Ocean Light color scheme.
 
 A variation based on Base16 Eighties Dark color scheme.
 
-![image](Screenshots/spacegray-eighties-.png)
+![image](Screenshots/spacegray-eighties.png)
 
 ##### Example settings
 
