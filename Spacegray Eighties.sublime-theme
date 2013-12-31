@@ -351,7 +351,7 @@
     // General labels
     {
         "class": "label_control",
-        "color": [81, 81, 81] // 02
+        "color": [116, 115, 105] // 03
     },
     // Text field labels
     {
@@ -361,7 +361,8 @@
     // Button labels
     {
         "class": "label_control",
-        "parents": [{"class": "button_control"}]
+        "parents": [{"class": "button_control"}],
+        "color": [102, 204, 204] // 0C
     },
 
 //
@@ -623,7 +624,7 @@
         "min_size": [64,0],
         "layer0.texture": "",
         "layer0.opacity": 1,
-        "layer0.tint": [38, 38, 38], // -01
+        "layer0.tint": [30, 30, 30], // -00
         "layer0.inner_margin": [8,8]
     },
     // Hover button state

@@ -362,7 +362,9 @@
     // Button labels
     {
         "class": "label_control",
-        "parents": [{"class": "button_control"}]
+        "parents": [{"class": "button_control"}],
+        "color": [180, 142, 173] // 0E
+
     },
 
 //
@@ -625,7 +627,7 @@
         "min_size": [64,0],
         "layer0.texture": "",
         "layer0.opacity": 1,
-        "layer0.tint": [239, 241, 245], // 07
+        "layer0.tint": [223, 225, 232], // 06
         "layer0.inner_margin": [8,8]
     },
     // Hover button state
