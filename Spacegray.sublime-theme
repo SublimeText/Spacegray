@@ -333,7 +333,7 @@
     {
         "class": "grid_layout_control",
         "border_size": 1,
-        "border_color": [28, 31, 38], // -00
+        "border_color": [28, 31, 38] // -00
     },
 
 //
