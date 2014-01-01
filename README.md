@@ -1,26 +1,24 @@
 # Spacegray
 
-## About
+A set of custom UI themes for Sublime Text 2/3. It's all about hype and minimal and comes in different flavors with accompanying [Base16](https://github.com/chriskempson/base16) color schemes.
 
-Spacegray is a set of custom UI themes for Sublime Text 2/3. It's all about hype and minimal.
+***
 
-Spacegray comes in different flavors with accompanying [Base16](https://github.com/chriskempson/base16) color schemes.
+### Themes
 
-## Themes
-
-### Spacegray
+#### Spacegray
 
 Default flavor based on Base16 Ocean Dark color scheme.
 
 ![image](Screenshots/spacegray.png)
 
-### Spacegray Light
+#### Spacegray Light
 
 Light variation based on Base16 Ocean Light color scheme.
 
 ![image](Screenshots/spacegray-light.png)
 
-### Spacegray Eighties
+#### Spacegray Eighties
 
 A variation based on Base16 Eighties Dark color scheme.
 
@@ -28,9 +26,9 @@ A variation based on Base16 Eighties Dark color scheme.
 
 ***
 
-## How to Install
+### How to Install
 
-### Via Package Control
+#### Via Package Control
 
 The easiest way to install is using [Sublime Package Control](https://sublime.wbond.net), where Spacegray is listed as `Theme - Spacegray`.
 
@@ -38,7 +36,7 @@ The easiest way to install is using [Sublime Package Control](https://sublime.wb
 2. Choose `Package Control: Install Package`
 3. Find `Theme - Spacegray` and hit Enter
 
-### Manual
+#### Manual
 
 You can also install the theme manually:
 
@@ -48,7 +46,7 @@ You can also install the theme manually:
 
 ***
 
-## How to Activate
+### How to Activate
 
 Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` (⌘+, on Mac).
 
@@ -85,6 +83,6 @@ You can choose whichever flavor you like, but don't forget to change *both* colo
 
 ***
 
-## Thanks
+### Thanks
 
 The Spacegray Eighties variation is contributed by [Yoshua Wuyts](https://github.com/yoshuawuyts).
