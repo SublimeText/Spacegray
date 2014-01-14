@@ -202,7 +202,7 @@
     {
         "class": "scroll_bar_control",
         "layer0.texture": "",
-        "layer0.tint": [192, 197, 206], // 05
+        "layer0.tint": [230, 233, 240], // 06
         "layer0.opacity": 1,
         "layer0.inner_margin": [0,0],
         "blur": true
@@ -212,7 +212,7 @@
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
         "layer0.texture": "",
-        "layer0.tint": [192, 197, 206], // 05
+        "layer0.tint": [230, 233, 240], // 06
         "layer0.inner_margin": [0,0],
         "blur": true
     },
@@ -220,7 +220,7 @@
     {
         "class": "scroll_corner_control",
         "layer0.texture": "",
-        "layer0.tint": [192, 197, 206], // 05
+        "layer0.tint": [230, 233, 240], // 06
         "layer0.inner_margin": [0,0],
         "layer0.opacity": 1
     },
