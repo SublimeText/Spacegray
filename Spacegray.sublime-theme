@@ -622,12 +622,12 @@
     // Default button state
     {
         "class": "button_control",
-        "content_margin": [4,8,4,8],
-        "min_size": [64,0],
+        "content_margin": [6, 5, 6, 6],
+        "min_size": [75,0],
         // "layer0.texture": "",
         "layer0.opacity": 1,
         "layer0.tint": [28, 31, 38], // -00
-        "layer0.inner_margin": [8,8]
+        "layer0.inner_margin": [6, 6]
     },
     // Hover button state
     {
@@ -653,8 +653,9 @@
         // "layer0.texture": "",
         "layer0.tint": [28, 31, 38], // -01
         "layer0.opacity": 1,
-        "content_margin": 6
-    },
+        "layer0.inner_margin": [4, 5, 4, 3],
+        "content_margin": [3, 3, 6, 3]
+    }, 
 
 //
 // PANEL BACKGROUNDS
