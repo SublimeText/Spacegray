@@ -687,8 +687,8 @@
     {
         "class": "quick_panel",
         "row_padding": 8,
-        "layer0.tint": [0,0,0],
-        "layer0.opacity": 0,
+        "layer0.tint": [57, 57, 57],
+        "layer0.opacity": 1,
         "dark_content": true
     },
     {
