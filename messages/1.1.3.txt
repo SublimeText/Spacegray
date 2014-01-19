@@ -1,5 +1,4 @@
-Fixes in Spacegray 1.1.3
-========================
+Fixes in Spacegray 1.1.3:
 
 * Background color in "Switch Project" panel is now approriate in every theme variation
 * Non-overlay scrollbars are now fixed and more visible
