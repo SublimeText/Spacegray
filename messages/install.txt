@@ -1,18 +1,18 @@
-**Thanks for installing Spacegray!**
+Thanks for installing Spacegray!
 
 
-# How to activate
+How to activate
+===============
 
 Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` (⌘+, on Mac).
 
-Spacegray comes in different flavors, based on Base16 color schemes.
-
-You can choose whichever flavor you like, but don't forget to change *both* color scheme and UI theme so they match.
+Spacegray comes in different flavors, based on Base16 color schemes. You can choose whichever flavor you like, but don't forget to change *both* color scheme and UI theme so they match.
 
 *Note: Don't forget to restart Sublime Text after activating the theme.*
 
 
-## Spacegray
+Spacegray
+---------
 
 Default flavor based on Base16 Ocean Dark color scheme.
 
@@ -24,7 +24,8 @@ Default flavor based on Base16 Ocean Dark color scheme.
     }
 
 
-## Spacegray Light
+Spacegray Light
+---------------
 
 Light variation based on Base16 Ocean Light color scheme.
 
@@ -36,7 +37,8 @@ Light variation based on Base16 Ocean Light color scheme.
     }
 
 
-## Spacegray Eighties
+Spacegray Eighties
+------------------
 
 A variation based on Base16 Eighties Dark color scheme.
 
