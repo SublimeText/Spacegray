@@ -514,6 +514,16 @@
         "class": "sidebar_label",
         "color": [116, 115, 105] // 03
     },
+    {
+        "class": "sidebar_label",
+        "settings": ["spacegray_sidebar_font_large"],
+        "font.size": 12.0
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["spacegray_sidebar_font_xlarge"],
+        "font.size": 14.0
+    },
     // Sidebar folder entry
     {
         "class": "sidebar_label",
