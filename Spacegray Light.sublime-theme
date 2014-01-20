@@ -480,6 +480,31 @@
         "color": [167, 173, 186], // 04
         "font.bold": true
     },
+    {
+        "class": "sidebar_tree",
+        "settings": ["spacegray_sidebar_tree_xsmall"],
+        "row_padding": [8, 0]
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["spacegray_sidebar_tree_small"],
+        "row_padding": [8, 2]
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["spacegray_sidebar_tree_medium"],
+        "row_padding": [8, 3]
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["spacegray_sidebar_tree_large"],
+        "row_padding": [8, 6]
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["spacegray_sidebar_tree_xlarge"],
+        "row_padding": [8, 8]
+    },
     // Sidebar heading selected
     {
         "class": "sidebar_heading",
