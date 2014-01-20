@@ -166,6 +166,11 @@
         "parents": [{"class": "tab_control","attributes": ["selected"]}],
         "fg": [51, 61, 69] // 01
     },
+    {
+        "class": "tab_label",
+        "attributes": ["transient"],
+        "font.italic": true
+    },
 
 //
 // FOLD BUTTONS
