@@ -1046,6 +1046,17 @@
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [242, 240, 236] // 07
+    },
+
+//
+// TABS SIZING
+//
+
+    // Tab set
+    {
+        "class": "tabset_control",
+        "settings": ["spacegray_tabs_auto_width"],
+        "tab_width": 0
     }
 
 ]
