@@ -1059,6 +1059,31 @@
         "class": "tabset_control",
         "settings": ["spacegray_tabs_auto_width"],
         "tab_width": 0
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["spacegray_tabs_small"],
+        "tab_height": 20
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["spacegray_tabs_medium"],
+        "tab_height": 24
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["spacegray_tabs_normal"],
+        "tab_height": 28
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["spacegray_tabs_large"],
+        "tab_height": 45
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["spacegray_tabs_xlarge"],
+        "tab_height": 60
     }
 
 ]
