@@ -492,8 +492,8 @@
     },
     {
         "class": "sidebar_tree",
-        "settings": ["spacegray_sidebar_tree_medium"],
-        "row_padding": [8, 3]
+        "settings": ["spacegray_sidebar_tree_normal"],
+        "row_padding": [8, 4]
     },
     {
         "class": "sidebar_tree",
