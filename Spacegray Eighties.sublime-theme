@@ -171,6 +171,28 @@
         "font.italic": true
     },
 
+    // Tab Labels font size
+    {
+        "class": "tab_label",
+        "settings": ["spacegray_tabs_font_small"],
+        "font.size": 10.0
+    },
+    {
+        "class": "tab_label",
+        "settings": ["spacegray_tabs_font_normal"],
+        "font.size": 11.0
+    },
+    {
+        "class": "tab_label",
+        "settings": ["spacegray_tabs_font_large"],
+        "font.size": 12.0
+    },
+    {
+        "class": "tab_label",
+        "settings": ["spacegray_tabs_font_xlarge"],
+        "font.size": 14.0
+    },
+
 //
 // FOLD BUTTONS
 //
@@ -456,6 +478,31 @@
         "color": [81, 81, 81], // 02
         "font.bold": true
     },
+    {
+        "class": "sidebar_tree",
+        "settings": ["spacegray_sidebar_tree_xsmall"],
+        "row_padding": [8, 0]
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["spacegray_sidebar_tree_small"],
+        "row_padding": [8, 2]
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["spacegray_sidebar_tree_normal"],
+        "row_padding": [8, 4]
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["spacegray_sidebar_tree_large"],
+        "row_padding": [8, 6]
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["spacegray_sidebar_tree_xlarge"],
+        "row_padding": [8, 8]
+    },
     // Sidebar heading selected
     {
         "class": "sidebar_heading",
@@ -466,6 +513,26 @@
     {
         "class": "sidebar_label",
         "color": [116, 115, 105] // 03
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["spacegray_sidebar_font_small"],
+        "font.size": 10.0
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["spacegray_sidebar_font_normal"],
+        "font.size": 11.0
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["spacegray_sidebar_font_large"],
+        "font.size": 12.0
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["spacegray_sidebar_font_xlarge"],
+        "font.size": 14.0
     },
     // Sidebar folder entry
     {
@@ -564,23 +631,6 @@
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row","attributes": ["selected"]}]
     },
-    // Sidebar folder closed
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "layer0.texture": "Theme - Spacegray/Spacegray/folder-closed.png"
-    },
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "parents": [{"class": "tree_row","attributes": ["hover"]}]
-    },
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - Spacegray/Spacegray/folder-closed.png"
-    },
     // Sidebar group open
     {
         "class": "disclosure_button_control",
@@ -594,27 +644,6 @@
     },
     {
         "class": "disclosure_button_control",
-        "attributes": ["expanded"],
-        "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - Spacegray/Spacegray/folder-open.png"
-    },
-    // Sidebar folder open
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "attributes": ["expanded"],
-        "layer0.texture": "Theme - Spacegray/Spacegray/folder-open.png"
-    },
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "attributes": ["expanded"],
-        "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.texture": "Theme - Spacegray/Spacegray/folder-open.png"
-    },
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
         "layer0.texture": "Theme - Spacegray/Spacegray/folder-open.png"
@@ -989,6 +1018,46 @@
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control","attributes": ["selected"]}],
         "layer0.tint": [242, 240, 236] // 07
-    }
+    },
 
+//
+// SIDEBAR FOLDER COLORING
+//
+    {
+        "class": "disclosure_button_control",
+        "settings": ["spacegray_color_expanded_folder"],
+        "attributes": ["expanded"],
+        "layer0.tint": [254, 204, 102] // 0A
+    },
+
+//
+// TABS SIZING
+//
+
+    // Tab set
+    {
+        "class": "tabset_control",
+        "settings": ["spacegray_tabs_auto_width"],
+        "tab_width": 0
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["spacegray_tabs_small"],
+        "tab_height": 22
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["spacegray_tabs_normal"],
+        "tab_height": 28
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["spacegray_tabs_large"],
+        "tab_height": 34
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["spacegray_tabs_xlarge"],
+        "tab_height": 40
+    }
 ]
