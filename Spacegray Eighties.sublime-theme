@@ -1061,12 +1061,7 @@
     {
         "class": "tabset_control",
         "settings": ["spacegray_tabs_small"],
-        "tab_height": 20
-    },
-    {
-        "class": "tabset_control",
-        "settings": ["spacegray_tabs_medium"],
-        "tab_height": 24
+        "tab_height": 22
     },
     {
         "class": "tabset_control",
@@ -1076,12 +1071,11 @@
     {
         "class": "tabset_control",
         "settings": ["spacegray_tabs_large"],
-        "tab_height": 45
+        "tab_height": 34
     },
     {
         "class": "tabset_control",
         "settings": ["spacegray_tabs_xlarge"],
-        "tab_height": 60
+        "tab_height": 40
     }
-
 ]
