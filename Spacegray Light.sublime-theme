@@ -623,23 +623,6 @@
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row","attributes": ["selected"]}]
     },
-    // Sidebar folder closed
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "layer0.texture": "Theme - Spacegray/Spacegray/folder-closed.png"
-    },
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "parents": [{"class": "tree_row","attributes": ["hover"]}]
-    },
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - Spacegray/Spacegray/folder-closed.png"
-    },
     // Sidebar group open
     {
         "class": "disclosure_button_control",
@@ -653,27 +636,6 @@
     },
     {
         "class": "disclosure_button_control",
-        "attributes": ["expanded"],
-        "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - Spacegray/Spacegray/folder-open.png"
-    },
-    // Sidebar folder open
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "attributes": ["expanded"],
-        "layer0.texture": "Theme - Spacegray/Spacegray/folder-open.png"
-    },
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
-        "attributes": ["expanded"],
-        "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.texture": "Theme - Spacegray/Spacegray/folder-open.png"
-    },
-    {
-        "class": "disclosure_button_control",
-        "settings": ["soda_folder_icons"],
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
         "layer0.texture": "Theme - Spacegray/Spacegray/folder-open.png"
