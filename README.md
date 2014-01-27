@@ -61,7 +61,7 @@ You can choose whichever flavor you like, but don't forget to change *both* colo
 ```
 {
   "theme": "Spacegray.sublime-theme",
-  "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme"
+  "color_scheme": "Packages/User/Theme - Spacegray/base16-ocean.dark.tmTheme"
 }
 ```
 
@@ -70,7 +70,7 @@ You can choose whichever flavor you like, but don't forget to change *both* colo
 ```
 {
   "theme": "Spacegray Light.sublime-theme",
-  "color_scheme": "Packages/Theme - Spacegray/base16-ocean.light.tmTheme"
+  "color_scheme": "Packages/User/Theme - Spacegray/base16-ocean.light.tmTheme"
 }
 ```
 
@@ -79,7 +79,7 @@ You can choose whichever flavor you like, but don't forget to change *both* colo
 ```
 {
   "theme": "Spacegray Eighties.sublime-theme",
-  "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme"
+  "color_scheme": "Packages/User/Theme - Spacegray/base16-eighties.dark.tmTheme"
 }
 ```
 
