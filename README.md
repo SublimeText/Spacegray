@@ -24,7 +24,7 @@ A variation based on Base16 Eighties Dark color scheme.
 
 ![image](Screenshots/spacegray-eighties.png)
 
-*The font used in the screenshots is __Source Code Pro__.*
+*The font used in the screenshots is [__Source Code Pro__](https://github.com/adobe/Source-Code-Pro).*
 
 ***
 
