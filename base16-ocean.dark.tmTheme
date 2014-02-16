@@ -525,6 +525,17 @@
 				<string>#2b303b</string>
 			</dict>
 		</dict>
+		<dict>
+      <key>name</key>
+      <string>CSS Properties</string>
+      <key>scope</key>
+      <string>support.type</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#96b5b4</string>
+      </dict>
+    </dict>
 	</array>
 	<key>uuid</key>
 	<string>59c1e2f2-7b41-46f9-91f2-1b4c6f5866f7</string>
