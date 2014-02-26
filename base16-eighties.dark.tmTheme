@@ -527,7 +527,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS Properties</string>
+			<string>Type</string>
 			<key>scope</key>
 			<string>support.type</string>
 			<key>settings</key>
