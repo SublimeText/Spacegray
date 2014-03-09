@@ -34,9 +34,9 @@ A variation based on Base16 Eighties Dark color scheme.
 
 The easiest way to install is using [Sublime Package Control](https://sublime.wbond.net), where Spacegray is listed as `Theme - Spacegray`.
 
-1. Open Command Palette using menu item `Tools -> Command Palette...` (⇧+⌘+P on Mac)
+1. Open Command Palette using menu item `Tools -> Command Palette...` (<kbd>⇧</kbd><kbd>⌘</kbd><kbd>P</kbd> on Mac)
 2. Choose `Package Control: Install Package`
-3. Find `Theme - Spacegray` and hit Enter
+3. Find `Theme - Spacegray` and hit <kbd>Enter</kbd>
 
 #### Manual
 
@@ -50,7 +50,7 @@ You can also install the theme manually:
 
 ### How to Activate
 
-Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` (⌘+, on Mac).
+Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` (<kbd>⌘</kbd><kbd>,</kbd> on Mac).
 
 You can choose whichever flavor you like, but don't forget to change *both* color scheme and UI theme so they match.
 
@@ -58,7 +58,7 @@ You can choose whichever flavor you like, but don't forget to change *both* colo
 
 #### Settings for Spacegray
 
-```
+```json
 {
   "theme": "Spacegray.sublime-theme",
   "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme"
@@ -67,7 +67,7 @@ You can choose whichever flavor you like, but don't forget to change *both* colo
 
 #### Settings for Spacegray Light
 
-```
+```json
 {
   "theme": "Spacegray Light.sublime-theme",
   "color_scheme": "Packages/Theme - Spacegray/base16-ocean.light.tmTheme"
@@ -76,7 +76,7 @@ You can choose whichever flavor you like, but don't forget to change *both* colo
 
 #### Settings for Spacegray Eighties
 
-```
+```json
 {
   "theme": "Spacegray Eighties.sublime-theme",
   "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme"
