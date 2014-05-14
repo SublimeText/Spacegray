@@ -1069,15 +1069,19 @@
 
     {
         "class": "icon_file_type",
-        "content_margin": [0,0]
+        "content_margin": [0,0],
+        "layer0.opacity": 0.0
     },
     {
         "class": "icon_folder",
+        "layer0.texture": "",
+        "layer0.opacity": 0.0,
         "content_margin": [0,0]
     },
     {
         "class": "icon_folder_loading",
-        "content_margin": [0,0]
-    }
+        "content_margin": [0,0],
+        "layer0.opacity": 0.0
+    },
 
 ]
