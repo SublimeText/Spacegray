@@ -85,6 +85,83 @@ You can choose whichever flavor you like, but don't forget to change *both* colo
 
 ***
 
+### Settings
+
+#### Tab labels font size
+
+Copy and paste one of four options in your user preferences file:
+
+```json
+  "spacegray_tabs_font_small": true
+```
+```json
+  "spacegray_tabs_font_normal": true
+```
+```json
+  "spacegray_tabs_font_large": true
+```
+```json
+  "spacegray_tabs_font_xlarge": true
+```
+
+#### Tabs size
+
+Tabs height:
+
+```json
+  "spacegray_tabs_small": true
+```
+```json
+  "spacegray_tabs_normal": true
+```
+```json
+  "spacegray_tabs_large": true
+```
+```json
+  "spacegray_tabs_xlarge": true
+```
+
+Tabs width: 
+
+```json
+  "spacegray_tabs_auto_width": true
+```
+
+#### Sidebar labels font size
+
+```json
+  "spacegray_sidebar_font_small": true
+```
+```json
+  "spacegray_sidebar_font_normal": true
+```
+```json
+  "spacegray_sidebar_font_large": true
+```
+```json
+  "spacegray_sidebar_font_xlarge": true
+```
+
+#### Sidebar tree rows height
+
+```json
+  "spacegray_sidebar_tree_xsmall": true
+```
+```json
+  "spacegray_sidebar_tree_small": true
+```
+```json
+  "spacegray_sidebar_tree_normal": true
+```
+```json
+  "spacegray_sidebar_tree_large": true
+```
+```json
+  "spacegray_sidebar_tree_xlarge": true
+```
+
+***
+
 ### Thanks
 
 The Spacegray Eighties variation is contributed by [Yoshua Wuyts](https://github.com/yoshuawuyts).
