@@ -1,0 +1,11 @@
+New in Spacegray 1.2:
+
+- Support for transient tabs (italicized title)
+- Settings for sidebar tree height and font size
+- Settings for tabs height and font size
+
+
+Fixes:
+
+- Hide file and folder spinner icons
+- Other minor fixes
