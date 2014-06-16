@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>author</key>
+	<string>Gadzhi Kharkharov</string>
+	<key>comment</key>
+	<string>Spacegray</string>
+	<key>name</key>
+	<string>Spacegray Mocha</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#2C2114</string>
+				<key>caret</key>
+				<string>#D0C8C6</string>
+				<key>foreground</key>
+				<string>#D0C8C6</string>
+				<key>invisibles</key>
+				<string>#7E705A</string>
+				<key>selection</key>
+				<string>#F4BC87</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -87,7 +87,7 @@
         "parents": [{"class": "tab_control"}],
         "attributes": ["hover"],
         "layer0.opacity": 1,
-        "layer0.tint": [191, 97, 106] // 08
+        "layer0.tint": [172, 65, 66]   // 08
     },
     {
         "class": "tab_close_button",
@@ -99,7 +99,7 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control","attributes": ["dirty"]}],
         "layer0.texture": "Theme - Spacegray/Spacegray/circle.png",
-        "layer0.tint": [235, 203, 139], // 0A
+        "layer0.tint": [244, 188, 135],   // 0A
         "layer0.opacity": 1
     },
     {
@@ -115,7 +115,7 @@
         "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
         "attributes": ["hover"],
         "layer0.opacity": 1,
-        "layer0.tint": [191, 97, 106] // 08
+        "layer0.tint": [172, 65, 66]   // 08
     },
     {
         "class": "tab_close_button",
@@ -390,7 +390,7 @@
         "class": "label_control",
         "parents": [{"class": "button_control"}],
         "font.bold": true,
-        "color": [150, 181, 180] // 0C
+        "color": [123, 189, 164]   // 0C
     },
 
 //
@@ -409,7 +409,7 @@
     // Tooltip content
     {
         "class": "tool_tip_label_control",
-        "color": [245, 238, 235],   // 07
+        "color": [245, 238, 235]   // 07
     },
 
 //
@@ -587,7 +587,7 @@
         "attributes": ["dirty"],
         "layer0.texture": "Theme - Spacegray/Spacegray/circle.png",
         "layer0.opacity": 1,
-        "layer0.tint": [235, 203, 139] // 0A
+        "layer0.tint": [244, 188, 135]   // 0A
     },
     {
         "class": "close_button",
@@ -599,14 +599,14 @@
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.tint": [191, 97, 106] // 08
+        "layer0.tint": [172, 65, 66]   // 08
     },
     {
         "class": "close_button",
         "attributes": ["dirty", "hover"],
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
         "layer0.texture": "Theme - Spacegray/Spacegray/close.png",
-        "layer0.tint": [191, 97, 106] // 08
+        "layer0.tint": [172, 65, 66]   // 08
     },
 
 //
@@ -1027,7 +1027,7 @@
         "class": "disclosure_button_control",
         "settings": ["spacegray_color_expanded_folder"],
         "attributes": ["expanded"],
-        "layer0.tint": [254, 204, 102] // 0A
+        "layer0.tint": [244, 188, 82]    // -0A
     },
 
 //
