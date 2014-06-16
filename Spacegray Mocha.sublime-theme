@@ -158,7 +158,7 @@
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control","attributes": ["hover"]}],
-        "fg": [208, 200, 198],   // 05
+        "fg": [208, 200, 198]   // 05
     },
     {
         "class": "tab_label",
@@ -409,7 +409,7 @@
     // Tooltip content
     {
         "class": "tool_tip_label_control",
-        "color": [239,241,245] // 07
+        "color": [245, 238, 235],   // 07
     },
 
 //
