@@ -23,6 +23,9 @@
 				<string>#747369</string>
 				<key>selection</key>
 				<string>#515151</string>
+				<key>selectionBorder</key>
+				<string>#51515100</string>
+			</dict>
 			</dict>
 		</dict>
 	</array>
