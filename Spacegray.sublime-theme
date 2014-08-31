@@ -652,7 +652,7 @@
             // Sidebar folder closed
             {
                 "class": "icon_folder",
-                "layer0.texture": "Theme - Spacegray/Spacegray/folder2_closed.png",
+                "layer0.texture": "Theme - Spacegray/icons/folder_closed.png",
                 "layer0.opacity": 1.0,
                   "layer0.tint": [79, 91, 102], // 02
                 "content_margin": [8, 8]
@@ -670,7 +670,7 @@
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
-        "layer0.texture": "Theme - Spacegray/Spacegray/folder2_open.png"
+        "layer0.texture": "Theme - Spacegray/icons/folder_open.png"
         },
         {
             "class": "icon_folder",
@@ -679,7 +679,7 @@
             {
                 "class": "icon_folder",
                 "parents": [{"class": "tree_row", "attributes": ["expanded", "selected"]}],
-                "layer0.texture": "Theme - Spacegray/Spacegray/folder2_open.png"
+                "layer0.texture": "Theme - Spacegray/icons/folder_open.png"
                 },
     // Sidebar folder loading
     {
