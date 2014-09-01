@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>scope</key>
-    <string>text.xml.svg,source.svg,source.psd,source.ai</string>
+    <string>text.xml.svg,source.svg,source.webp</string>
     <key>settings</key>
     <dict>
         <key>icon</key>

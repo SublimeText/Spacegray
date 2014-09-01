@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
     <key>scope</key>
-    <string>source.ttf, source.otf, source.woff, source.eot</string>
+    <string>source.ttf, source.otf, source.woff, source.eot, source.woff2</string>
     <key>settings</key>
     <dict>
         <key>icon</key>
