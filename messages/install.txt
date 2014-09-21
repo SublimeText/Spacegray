@@ -49,5 +49,16 @@ A variation based on Base16 Eighties Dark color scheme.
       "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme"
     }
 
+Spacegray Monokai
+------------------
+
+A variation based on Base16 Monokai Dark color scheme.
+
+*Example settings*
+
+    {
+      "theme": "Spacegray Monokai.sublime-theme",
+      "color_scheme": "Packages/Theme - Spacegray/base16-Monokai.dark.tmTheme"
+    }
 
 *Note: Don't forget to restart Sublime Text after activating the theme.*
