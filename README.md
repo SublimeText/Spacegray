@@ -24,6 +24,12 @@ A variation based on Base16 Eighties Dark color scheme.
 
 ![image](Screenshots/spacegray-eighties.png)
 
+#### Spacegray Monokai
+
+A variation based on Base16 Monokai Dark color scheme.
+
+![image](Screenshots/spacegray-monokai-dark.png)
+
 *The font used in the screenshots is [__Source Code Pro__](https://github.com/adobe/Source-Code-Pro).*
 
 ***
@@ -80,6 +86,15 @@ You can choose whichever flavor you like, but don't forget to change *both* colo
 {
   "theme": "Spacegray Eighties.sublime-theme",
   "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme"
+}
+```
+
+#### Settings for Spacegray Monokai
+
+```json
+{
+  "theme": "Spacegray Monokai.sublime-theme",
+  "color_scheme": "Packages/Theme - Spacegray/base16-monokai.dark.tmTheme"
 }
 ```
 
@@ -165,3 +180,4 @@ Tabs width:
 ### Thanks
 
 The Spacegray Eighties variation is contributed by [Yoshua Wuyts](https://github.com/yoshuawuyts).
+The Spacegray Monokai variation is contributed by [Michael Springer](https://github.com/sprngr).

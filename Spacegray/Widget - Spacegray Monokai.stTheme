@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>author</key>
+	<string>Michael Springer</string>
+	<key>comment</key>
+	<string>Spacegray</string>
+	<key>name</key>
+	<string>Spacegray Monokai</string>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#181913</string>	<!-- -00 -->
+				<key>caret</key>
+				<string>#f8f8f2</string>	<!--  05 -->
+				<key>foreground</key>
+				<string>#f8f8f2</string>	<!--  05 -->
+				<key>invisibles</key>
+				<string>#75715e</string>	<!--  03 -->
+				<key>selection</key>
+				<string>#49483e</string>	<!--  02 -->
+				<key>selectionBorder</key>
+				<string>#49483e00</string>	<!--  02 -->
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
