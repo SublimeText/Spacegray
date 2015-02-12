@@ -1,0 +1,19 @@
+## 2.0.1 👌
+
+Thanks for everyone's feedback on the theme, some minor updates:
+
+💃 Fixed HTML icon in the sidebar
+😍 Changed the colour of JavaScript functions so they don't match variables
+😄 Change the colour of CSS properties so they don't blend in with the values
+
+📖 📖 📖 
+PS — Want to become amazing with Sublime Text? I wrote a book + video series!
+https://SublimeTextBook.com
+💵 Use the coupon code COBALT2 for $15 off 💰
+📖 📖 📖
+ 
+Tweets at twitter.com/@wesbos  😗 😗 😗
+
+
+
+

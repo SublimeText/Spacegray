@@ -1,0 +1,22 @@
+Welcome to Cobalt2! 💁
+
+This theme has undergone many tweaks over the past few months and I'm excited to finally have an update for you all. 👌
+
+You can see all the refinements at <https://github.com/wesbos/cobalt2> as well as suggest any tweaks you may have.
+
+Many new things have been added, including:
+
+- Sidebar Icons
+- Current file highlighting in sidebar
+- highlighted tab
+- new dirty state tab circle
+- small tab refinements
+- autocomplete, goto anything and command palette refinements
+
+📖 📖 📖 
+
+PS I wrote a book + video series on Sublime Text! Check it out - https://SublimeTextBook.com - Use the coupon code COBALT2 for $15 off 💰 💵
+
+📖 📖 📖
+ 
+@wesbos 
