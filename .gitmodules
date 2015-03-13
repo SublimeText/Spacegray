@@ -1,0 +1,3 @@
+[submodule "oceanic-next-theme"]
+	path = oceanic-next-theme
+	url = git@github.com:voronianski/oceanic-next-theme.git
