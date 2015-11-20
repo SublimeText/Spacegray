@@ -747,10 +747,10 @@
     // Text input field item
     {
         "class": "text_line_control",
-        "layer0.texture": "Theme - Spacegray/Spacegray/text-field.png",
-        "layer0.opacity": 1.0,
-        "content_margin": [6, 6, 6, 6],
-        "layer0.inner_margin": [4, 5, 4, 3],
+        // "layer0.texture": "",
+        "layer0.tint": [28, 31, 38], // -01
+        "layer0.opacity": 1,
+        "content_margin": 3
     },
 
 //
