@@ -119,21 +119,18 @@
     }, 
     {
         "class": "tab_close_button",
-        "parents": [{"class": "tab_control","attributes": ["dirty", "selected"]
-        }]
+        "parents": [{"class": "tab_control","attributes": ["dirty", "selected"]}]
     },
     // Tab highlight button
     {
         "class": "tab_close_button",
         "settings": ["highlight_modified_tabs"],
-        "parents": [{"class": "tab_control","attributes": ["dirty"]
-        }]
+        "parents": [{"class": "tab_control","attributes": ["dirty"]}]
     }, 
     {
         "class": "tab_close_button",
         "settings": ["highlight_modified_tabs"],
-        "parents": [{"class": "tab_control","attributes": ["dirty", "selected"]
-        }]
+        "parents": [{"class": "tab_control","attributes": ["dirty", "selected"]}]
     },
     // Tab close button hover
     {
@@ -633,8 +630,7 @@
     }, 
     {
         "class": "disclosure_button_control",
-        "parents": [{"class": "tree_row","attributes": ["selected"]
-        }]
+        "parents": [{"class": "tree_row","attributes": ["selected"]}]
     },
     // Sidebar group open
     {
@@ -645,8 +641,7 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "parents": [{"class": "tree_row","attributes": ["hover"]
-        }]
+        "parents": [{"class": "tree_row","attributes": ["hover"]}]
     }, 
     {
         "class": "disclosure_button_control",
@@ -670,8 +665,7 @@
     }, 
     {
         "class": "icon_folder",
-        "parents": [{"class": "tree_row","attributes": ["selected"]
-        }]
+        "parents": [{"class": "tree_row","attributes": ["selected"]}]
     },
     // Sidebar folder open
     {
@@ -681,8 +675,7 @@
     }, 
     {
         "class": "icon_folder",
-        "parents": [{"class": "tree_row","attributes": ["expanded", "hover"]
-        }]
+        "parents": [{"class": "tree_row","attributes": ["expanded", "hover"]}]
     }, 
     {
         "class": "icon_folder",
