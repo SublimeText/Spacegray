@@ -625,7 +625,7 @@
     {
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.tint":[167, 173, 186] // 04
+        "layer0.tint": [167, 173, 186] // 04
     },
     {
         "class": "disclosure_button_control",
@@ -648,7 +648,7 @@
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
         "layer0.texture": "Theme - Spacegray/Spacegray/folder-open.png"
     },
-    
+
     // Sidebar folder closed
     {
         "class": "icon_folder",
@@ -661,7 +661,7 @@
         "class": "icon_folder",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
         "layer0.tint": [167, 173, 186] // 04
-    }, 
+    },
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row","attributes": ["selected"]}]
@@ -684,8 +684,10 @@
     // Sidebar folder loading
     {
         "class": "icon_folder_loading",
-        "layer0.texture": {
-            "keyframes": [
+        "layer0.texture": 
+        {
+            "keyframes":
+            [
                 "Theme - Spacegray/icons/spinner7.png",
                 "Theme - Spacegray/icons/spinner6.png",
                 "Theme - Spacegray/icons/spinner5.png",
@@ -1120,27 +1122,6 @@
         "class": "tabset_control",
         "settings": ["spacegray_tabs_xlarge"],
         "tab_height": 40
-    },
-
-//
-// FIX ICON BUG BY REMOVING THEM
-//
-
-    {
-        "class": "icon_file_type",
-        "content_margin": [0,0],
-        "layer0.opacity": 0.0
-    },
-    {
-        "class": "icon_folder",
-        "layer0.texture": "",
-        "layer0.opacity": 0.0,
-        "content_margin": [0,0]
-    },
-    {
-        "class": "icon_folder_loading",
-        "content_margin": [0,0],
-        "layer0.opacity": 0.0
     }
 
 ]
