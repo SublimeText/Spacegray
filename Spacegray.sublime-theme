@@ -383,8 +383,7 @@
     // Text field labels
     {
         "class": "label_control",
-        "parents": [{"class": "panel_control"
-        }]
+        "parents": [{"class": "panel_control"}]
     },
     // Button labels
     {
