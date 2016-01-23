@@ -703,17 +703,11 @@
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
-    // Hides Folder Chevron
-    // {
-    //     "class": "disclosure_button_control",
-    //     "content_margin": [0, 0],
-    //     "layer0.opacity": 0
-    // },
     // Sidebar file icons
     {
         "class": "icon_file_type",
         // layer0.texture is filled in by code with the relevant icon name
-        "layer0.opacity": 0.8,
+        "layer0.opacity": 0.6,
         "content_margin": [8, 8]
     },
     {
