@@ -12,10 +12,10 @@
 	"buffers":
 	[
 		{
-			"file": ".gitignore",
+			"file": "/C/Users/Marco/AppData/Roaming/Sublime Text 3/Packages/Theme - Spacegray/Spacegray.sublime-theme",
 			"settings":
 			{
-				"buffer_size": 60,
+				"buffer_size": 29382,
 				"line_ending": "Unix"
 			}
 		}
@@ -85,10 +85,18 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Marco/Desktop/spacegray"
+		"/C/Users/Marco/Desktop/spacegray",
+		"/C/Users/Marco/Desktop/spacegray/Screenshots"
 	],
 	"file_history":
 	[
+		"/C/Users/Marco/Desktop/icons/cyanide-theme-master/Cyanide.tmTheme",
+		"/C/Users/Marco/Desktop/icons/cyanide-theme-master/Cyanide.sublime-theme",
+		"/C/Users/Marco/Desktop/icons/cyanide-theme-master/Twilightcyanide - Black.tmTheme",
+		"/C/Users/Marco/Desktop/icons/cyanide-theme-master/Twilightcyanide.tmTheme",
+		"/C/Users/Marco/Desktop/icons/cyanide-theme-master/Monocyanide.tmTheme",
+		"/C/Users/Marco/Desktop/icons/cyanide-theme-master/Cyanide - Purple - Black.tmTheme",
+		"/C/Users/Marco/Desktop/icons/cyanide-theme-master/Monocyanide - Contrasted.tmTheme",
 		"/C/Users/Marco/AppData/Roaming/Sublime Text 3/Packages/Theme - Spacegray/icons/prefs/icon_angular.tmPreferences",
 		"/C/Users/Marco/AppData/Roaming/Sublime Text 3/Packages/Theme - Spacegray/icons/prefs/icon_npm.tmPreferences",
 		"/C/Users/Marco/Desktop/icons/cobalt2-master/prefs/icon_php.tmPreferences",
@@ -198,7 +206,7 @@
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -213,6 +221,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"centurion_folder_icons",
 			"helpers",
 			" = {",
 			"};",
@@ -292,27 +301,29 @@
 			[
 				{
 					"buffer": 0,
-					"file": ".gitignore",
-					"semi_transient": true,
+					"file": "/C/Users/Marco/AppData/Roaming/Sublime Text 3/Packages/Theme - Spacegray/Spacegray.sublime-theme",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 60,
+						"buffer_size": 29382,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								60,
-								60
+								17198,
+								17198
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Material Theme/langs/Git.tmLanguage"
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 13141.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
