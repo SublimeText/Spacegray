@@ -453,8 +453,8 @@
     {
         "class": "sidebar_tree",
         "row_padding": [8,4],
-        "indent": 12,
-        "indent_offset": 14,
+        "indent": 14,
+        "indent_offset": 0,
         "indent_top_level": false,
         "dark_content": true
     },
@@ -619,7 +619,7 @@
         "content_margin": [8,8],
         "layer0.texture": "Theme - Spacegray/Spacegray/folder-closed.png",
         "layer0.tint": [79, 91, 102], // 02
-        "layer0.opacity": 1,
+        "layer0.opacity": 0,
         "layer0.inner_margin": 0
     },
     {
@@ -703,13 +703,28 @@
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
+    // Hides Folder Chevron
+    // {
+    //     "class": "disclosure_button_control",
+    //     "content_margin": [0, 0],
+    //     "layer0.opacity": 0
+    // },
     // Sidebar file icons
     {
         "class": "icon_file_type",
         // layer0.texture is filled in by code with the relevant icon name
-        "layer0.opacity": 1.0,
-        "layer0.tint": [89, 103, 115],
+        "layer0.opacity": 0.8,
         "content_margin": [8, 8]
+    },
+    {
+        "class": "icon_file_type",
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "icon_file_type",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.opacity": 1.0
     },
 
 //

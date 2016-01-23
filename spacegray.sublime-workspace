@@ -1,0 +1,410 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sour",
+				"sourceDir"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 60,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "todo",
+		"selected_items":
+		[
+			[
+				"todo",
+				"TodoReview: Project Files"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"todore",
+				"TodoReview: Project Files"
+			],
+			[
+				"javas",
+				"Javascript Beautify"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 424.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Marco/Desktop/spacegray"
+	],
+	"file_history":
+	[
+		"/C/Users/Marco/AppData/Roaming/Sublime Text 3/Packages/Theme - Spacegray/icons/prefs/icon_angular.tmPreferences",
+		"/C/Users/Marco/AppData/Roaming/Sublime Text 3/Packages/Theme - Spacegray/icons/prefs/icon_npm.tmPreferences",
+		"/C/Users/Marco/Desktop/icons/cobalt2-master/prefs/icon_php.tmPreferences",
+		"/C/Users/Marco/AppData/Roaming/Sublime Text 3/Packages/Theme - Spacegray/prefs/icon_php.tmPreferences",
+		"/C/Users/Marco/Desktop/icons/cobalt2-master/prefs/icon_html.tmPreferences",
+		"/C/Users/Marco/AppData/Roaming/Sublime Text 3/Packages/Theme - Spacegray/prefs/icon_symlink.tmPreferences",
+		"/C/Users/Marco/AppData/Roaming/Sublime Text 3/Packages/Theme - Spacegray/prefs/icon_slim.tmPreferences",
+		"/C/Users/Marco/Desktop/spacegray/.gitignore",
+		"/C/Users/Marco/Desktop/gulp-frontend-boilerplate/package.json",
+		"/C/Users/Marco/Desktop/gulp-frontend-boilerplate/tasks/styles.js",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/gulpfile.js",
+		"/C/Users/Marco/Desktop/gulp-frontend-boilerplate/src/scss/helpers/_helper-classes.scss",
+		"/C/Users/Marco/Desktop/gulp-frontend-boilerplate/src/scss/helpers/_center.scss",
+		"/C/Users/Marco/Desktop/gulp-frontend-boilerplate/src/scss/helpers/_font-face.scss",
+		"/C/Users/Marco/Desktop/gulp-frontend-boilerplate/src/scss/helpers/_easing.scss",
+		"/C/Users/Marco/Desktop/gulp-frontend-boilerplate/src/scss/layout/_nav.scss",
+		"/C/Users/Marco/Desktop/gulp-frontend-boilerplate/src/scss/layout/_header.scss",
+		"/C/Users/Marco/Desktop/gulp-frontend-boilerplate/src/scss/layout/_footer.scss",
+		"/C/Users/Marco/Desktop/gulp-frontend-boilerplate/src/scss/layout/_main.scss",
+		"/C/Users/Marco/Desktop/gulp-frontend-boilerplate/src/scss/layout/_constrained.scss",
+		"/C/Users/Marco/Desktop/gulp-frontend-boilerplate/src/scss/_vars.scss",
+		"/C/Users/Marco/Desktop/gulp-frontend-boilerplate/src/scss/_typography.scss",
+		"/C/Users/Marco/Desktop/gulp-frontend-boilerplate/src/scss/_base.scss",
+		"/C/Users/Marco/Desktop/gulp-frontend-boilerplate/gulpfile.js",
+		"/C/Users/Marco/Desktop/gulp-frontend-boilerplate/tasks/browserify.js",
+		"/C/Users/Marco/Desktop/gulp-frontend-boilerplate/tasks/browser-sync.js",
+		"/C/Users/Marco/Desktop/gulp-frontend-boilerplate/tasks/build.js",
+		"/C/Users/Marco/Desktop/gulp-frontend-boilerplate/tasks/dev.js",
+		"/C/Users/Marco/Desktop/gulp-frontend-boilerplate/src/scss/style.scss",
+		"/C/Users/Marco/Desktop/Tasker/profiles/Smart_GPS.prf.xml",
+		"/C/Users/Marco/Desktop/gulp-frontend-boilerplate/.gitignore",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/package.json",
+		"/C/Users/Marco/Desktop/gulp-starter/gulp/tasks/browserify.js",
+		"/C/Users/Marco/Desktop/gulp-starter/gulp/config.js",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/tasks/styles.js",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/tasks/browser-sync.js",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/tasks/browserify.js",
+		"/C/Users/Marco/AppData/Local/Temp/WPDNSE/SID-{10001,,13874577408}/config.json",
+		"/C/Users/Marco/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Marco/Desktop/mazzmedia-boilerplate/gulpfile.js",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Web Design Projects/MarcoFugaro.it/gulpfile.js",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/src/index.php",
+		"/C/Users/Marco/Desktop/angularjs-gulp-browserify-boilerplate/gulp/tasks/browserify.js",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/tasks/build.js",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/tasks/deploy.js",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/tasks/lint.js",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/tasks/test.js",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/tasks/watch.js",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/tasks/dev.js",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/tasks/development.js",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/tasks/images.js",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/tasks/production.js",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/tasks/clean.js",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/tasks/fonts.js",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/tasks/gzip.js",
+		"/C/Users/Marco/Desktop/angularjs-gulp-browserify-boilerplate/gulp/tasks/images.js",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/Node.js & Dev Tools/gulp.js",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/Javascript/index.html",
+		"/C/Users/Marco/Desktop/angularjs-gulp-browserify-boilerplate/gulp/tasks/fonts.js",
+		"/C/Users/Marco/Desktop/angularjs-gulp-browserify-boilerplate/gulp/tasks/styles.js",
+		"/C/Users/Marco/Desktop/angularjs-gulp-browserify-boilerplate/gulp/tasks/browserSync.js",
+		"/C/Users/Marco/Desktop/angularjs-gulp-browserify-boilerplate/gulp/config.js",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/.gitignore",
+		"/C/Users/Marco/Desktop/fireshell-1.1.0/package.json",
+		"/C/Users/Marco/Desktop/fireshell-1.1.0/grunt-build.command",
+		"/C/Users/Marco/Desktop/fireshell-1.1.0/grunt-build.bat",
+		"/C/Users/Marco/Desktop/Dropbox/Lavoro/Sublime Settings/User/console_table.sublime-snippet",
+		"/C/Users/Marco/Desktop/Franklin Gothic Book_Regular.js",
+		"/C/Users/Marco/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Marco/Desktop/index.html",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/tasks/protractor.js",
+		"/C/Users/Marco/AppData/Roaming/Sublime Text 3/Packages/User/TodoReview.sublime-settings",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/src/scss/helpers/breakpoint/_respond-to.scss",
+		"/C/Users/Marco/AppData/Roaming/Sublime Text 3/Packages/TodoReview/TodoReview.sublime-settings",
+		"/C/Users/Marco/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/node_modules/gulp/node_modules/liftoff/node_modules/flagged-respawn/test/index.js",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/node_modules/gulp/node_modules/vinyl-fs/node_modules/vinyl/index.js",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/node_modules/gulp/node_modules/liftoff/node_modules/findup-sync/node_modules/glob/node_modules/minimatch/browser.js",
+		"/C/Users/Marco/Desktop/angularjs-gulp-browserify-boilerplate-master/gulp/util/handleErrors.js",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/.gitattributes",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/README.md",
+		"/C/Users/Marco/Desktop/angularjs-gulp-browserify-boilerplate-master/.jshintrc",
+		"/C/Users/Marco/Desktop/angularjs-gulp-browserify-boilerplate-master/.gitignore",
+		"/C/Users/Marco/Desktop/Dropbox/Lavoro/Sublime Settings/User/Default (Windows).sublime-keymap",
+		"/C/Users/Marco/Desktop/Dropbox/Lavoro/windows-shortcuts.md",
+		"/C/Users/Marco/Desktop/mazzmedia-boilerplate/.gitignore",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/tasks/unit.js",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/tasks/views.js",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/tasks/browserSync.js",
+		"/C/Users/Marco/Desktop/angularjs-gulp-browserify-boilerplate-master/gulp/index.js",
+		"/C/Users/Marco/Desktop/clean.js",
+		"/C/Users/Marco/Desktop/browserify.js",
+		"/C/Users/Marco/Desktop/angularjs-gulp-browserify-boilerplate-master/gulp/tasks/browserify.js",
+		"/C/Users/Marco/Desktop/angularjs-gulp-browserify-boilerplate-master/package.json",
+		"/C/Users/Marco/Desktop/angularjs-gulp-browserify-boilerplate-master/gulp/config.js",
+		"/C/Users/Marco/Desktop/angularjs-gulp-browserify-boilerplate-master/gulpfile.babel.js",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Web Design Projects/MarcoFugaro.it/src/js/main.js",
+		"/C/Users/Marco/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Marco/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Marco/Desktop/_lemonde-courier.scss",
+		"/C/Users/Marco/Desktop/download.zip",
+		"/C/Users/Marco/Desktop/download",
+		"/C/Users/Marco/Desktop/Dropbox/Projects/Learning Projects/HTML5 Pro/src/index.html",
+		"/C/Users/Marco/Desktop/Dropbox/Lavoro/Sublime Settings/User/Preferences.sublime-settings",
+		"/C/Users/Marco/AppData/Roaming/Sublime Text 3/Packages/Theme - Spacegray/Spacegray.sublime-theme",
+		"/C/Users/Marco/AppData/Roaming/Sublime Text 3/Packages/Theme - Spacegray/Spacegray Oceanic.sublime-theme"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 126.0,
+		"where_history":
+		[
+			"C:\\Users\\Marco\\Desktop\\Dropbox\\Projects\\Learning Projects\\HTML5 Pro\\tasks"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"helpers",
+			" = {",
+			"};",
+			"handleErrors",
+			"watch",
+			"bundler",
+			"const",
+			"isProd",
+			"createSourcemap",
+			"let",
+			"gulpif",
+			"['browserSync']",
+			"defaul",
+			"global.isProd",
+			"changed",
+			" --save-dev",
+			"if(",
+			"if",
+			"'build/",
+			"'src/",
+			"},",
+			": {",
+			"buildDir",
+			"sourceDir",
+			"'build",
+			"'src",
+			"},",
+			": {",
+			" '",
+			"autoreload",
+			"browsers",
+			"assetExtensions",
+			"br",
+			"halfHeight",
+			"halfWidth",
+			"createSourcemap",
+			"handleErrors",
+			"from ",
+			"import",
+			"from",
+			"         ",
+			"import",
+			"var",
+			"import",
+			"'use strict';\n\nimport config",
+			"gulp",
+			"ctrl+r",
+			"font-weigh",
+			"font-sty",
+			"font-fa",
+			"enable_tab_scrolling"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"['browser-sync']",
+			"global.isProduction",
+			"= require(",
+			"var",
+			"module.exports = function(config) { \n",
+			"module.exports = function(config) { \nmodule.exports = function(config) { \nmodule.exports = function(config) { "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": ".gitignore",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 60,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60,
+								60
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Material Theme/langs/Git.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "spacegray.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Marco\\Desktop\\Dropbox\\Projects\\Web Design Projects\\MarcoFugaro.it\\marcofugaro.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 168.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
