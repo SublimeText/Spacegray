@@ -650,6 +650,107 @@
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
         "layer0.texture": "Theme - Spacegray/Spacegray/folder-open.png"
     },
+    // Sidebar folder closed
+    {
+        "class": "icon_folder",
+        "layer0.texture": "Theme - Spacegray/icons/folder_closed.png",
+        "layer0.opacity": 1.0,
+        "layer0.tint": [89, 103, 115],
+        "content_margin": [8, 8]
+    }, 
+    {
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row","attributes": ["hover"]}],
+        "layer0.tint": [167, 173, 186] // 04
+    },
+    {
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row","attributes": ["selected"]}]
+    },
+    // Sidebar folder open
+    {
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row","attributes": ["expanded"]}],
+        "layer0.texture": "Theme - Spacegray/icons/folder_open.png"
+    }, 
+    {
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row","attributes": ["expanded", "hover"]}]
+    }, 
+    {
+        "class": "icon_folder",
+        "parents": [{"class": "tree_row","attributes": ["expanded", "selected"]}],
+        "layer0.texture": "Theme - Spacegray/icons/folder_open.png"
+    },
+    // Sidebar folder loading
+    {
+        "class": "icon_folder_loading",
+        "layer0.texture": 
+        {
+            "keyframes":
+            [
+                "Theme - Spacegray/icons/spinner7.png",
+                "Theme - Spacegray/icons/spinner6.png",
+                "Theme - Spacegray/icons/spinner5.png",
+                "Theme - Spacegray/icons/spinner4.png",
+                "Theme - Spacegray/icons/spinner3.png",
+                "Theme - Spacegray/icons/spinner2.png",
+                "Theme - Spacegray/icons/spinner1.png",
+                "Theme - Spacegray/icons/spinner.png"
+            ],
+            "loop": true,
+            "frame_time": 0.075,
+        },
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
+    },
+    // Sidebar file icons
+    {
+        "class": "icon_file_type",
+        // layer0.texture is filled in by code with the relevant icon name
+        "layer0.opacity": 0.6,
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "icon_file_type",
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "icon_file_type",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.opacity": 1.0
+    },
+    //spacegray_fileicons setting
+    {
+        "class": "sidebar_tree",
+        "settings": ["spacegray_fileicons"],
+        "indent_offset": 0
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["spacegray_fileicons"],
+        "layer0.opacity": 0
+    },
+    {
+        "class": "icon_file_type",
+        "settings": ["!spacegray_fileicons"],
+        "layer0.opacity": 0,
+        "content_margin": [0, 0]
+    },
+    {
+        "class": "icon_folder",
+        "settings": ["!spacegray_fileicons"],
+        "layer0.texture": "",
+        "layer0.opacity": 0,
+        "content_margin": [0, 0]
+    },
+    {
+        "class": "icon_folder_loading",
+        "settings": ["!spacegray_fileicons"],
+        "layer0.opacity": 0.0,
+        "content_margin": [0,0]
+    },
 
 //
 // STANDARD TEXT BUTTONS
@@ -1061,27 +1162,6 @@
         "class": "tabset_control",
         "settings": ["spacegray_tabs_xlarge"],
         "tab_height": 40
-    },
-
-//
-// FIX ICON BUG BY REMOVING THEM
-//
-
-    {
-        "class": "icon_file_type",
-        "content_margin": [0,0],
-        "layer0.opacity": 0.0
-    },
-    {
-        "class": "icon_folder",
-        "layer0.texture": "",
-        "layer0.opacity": 0.0,
-        "content_margin": [0,0]
-    },
-    {
-        "class": "icon_folder_loading",
-        "content_margin": [0,0],
-        "layer0.opacity": 0.0
     }
 
 ]

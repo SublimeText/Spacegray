@@ -684,7 +684,6 @@
     // Sidebar folder loading
     {
         "class": "icon_folder_loading",
-        "settings": ["spacegray_fileicons"],
         "layer0.texture": 
         {
             "keyframes":
@@ -741,8 +740,15 @@
     {
         "class": "icon_folder",
         "settings": ["!spacegray_fileicons"],
+        "layer0.texture": "",
         "layer0.opacity": 0,
         "content_margin": [0, 0]
+    },
+    {
+        "class": "icon_folder_loading",
+        "settings": ["!spacegray_fileicons"],
+        "layer0.opacity": 0.0,
+        "content_margin": [0,0]
     },
     
 //
