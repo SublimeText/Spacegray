@@ -453,8 +453,8 @@
     {
         "class": "sidebar_tree",
         "row_padding": [8,4],
-        "indent": 14,
-        "indent_offset": 0,
+        "indent": 12,
+        "indent_offset": 14,
         "indent_top_level": false,
         "dark_content": true
     },
@@ -619,7 +619,7 @@
         "content_margin": [8,8],
         "layer0.texture": "Theme - Spacegray/Spacegray/folder-closed.png",
         "layer0.tint": [79, 91, 102], // 02
-        "layer0.opacity": 0,
+        "layer0.opacity": 1,
         "layer0.inner_margin": 0
     },
     {
