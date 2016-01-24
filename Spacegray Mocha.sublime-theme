@@ -559,7 +559,7 @@
     },
 
 //
-// SIDEBAR - OPEN FILE ICONS
+// SIDEBAR - OPEN FILE TABS
 //
 
     // Sidebar file close
@@ -610,10 +610,10 @@
     },
 
 //
-// SIDEBAR - GENERAL FILE ICONS
+// SIDEBAR - FILE ICONS
 //
 
-    // Sidebar group closed
+    // Sidebar group closed (chevron right)
     {
         "class": "disclosure_button_control",
         "content_margin": [8,8],
@@ -631,7 +631,7 @@
         "class": "disclosure_button_control",
         "parents": [{"class": "tree_row","attributes": ["selected"]}]
     },
-    // Sidebar group open
+    // Sidebar group open (chevron down)
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],

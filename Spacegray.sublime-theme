@@ -559,7 +559,7 @@
     },
 
 //
-// SIDEBAR - OPEN FILE ICONS
+// SIDEBAR - OPEN FILE TABS
 //
 
     // Sidebar file close
@@ -610,7 +610,7 @@
     },
 
 //
-// SIDEBAR - GENERAL FILE ICONS
+// SIDEBAR - FILE ICONS
 //
 
     // Sidebar group closed (chevron right)
