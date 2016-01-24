@@ -160,6 +160,12 @@ Tabs width:
   "spacegray_sidebar_tree_xlarge": true
 ```
 
+#### Enable sidebar fileicons
+
+```json
+    "spacegray_fileicons": true,
+```
+
 #### Hide navigation icons in Sublime Text 3
 
 ```json
