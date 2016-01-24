@@ -653,14 +653,14 @@
     {
         "class": "icon_folder",
         "layer0.texture": "Theme - Spacegray/icons/folder_closed.png",
-        "layer0.opacity": 1.0,
-        "layer0.tint": [89, 103, 115],
+        "layer0.opacity": 0.5,
+        "layer0.tint": [167, 173, 186],  // 04
         "content_margin": [8, 8]
     }, 
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.tint": [167, 173, 186] // 04
+        "layer0.opacity": 1.0,
     },
     {
         "class": "icon_folder",
