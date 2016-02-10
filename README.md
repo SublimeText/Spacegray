@@ -2,6 +2,11 @@
 
 A set of custom UI themes for Sublime Text 2/3. It's all about hype and minimal. Comes in different flavors with accompanying [Base16](https://github.com/chriskempson/base16) color schemes.
 
+
+### Looking for a maintainer
+
+I'm not actively maintaining this repo for quite a while since I've switched to [Atom](https://atom.io/). If you have an intention to maintain the repo and keep the theme up to date, let me know.
+
 ***
 
 ### Themes
