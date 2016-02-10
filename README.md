@@ -5,7 +5,7 @@ A set of custom UI themes for Sublime Text 2/3. It's all about hype and minimal.
 
 ### Looking for a maintainer
 
-I'm not actively maintaining this repo for quite a while since I've switched to [Atom](https://atom.io/). If you have an intention to maintain the repo and keep the theme up to date, let me know.
+I'm not actively maintaining this repo for quite a while since I've switched to [Atom](https://atom.io/). If you have an intention to maintain the repo and keep the themes up to date, let me know.
 
 ***
 
