@@ -3,11 +3,11 @@
 <plist version="1.0">
     <dict>
         <key>scope</key>
-        <string>source.groovy</string>
+        <string>source.pug, text.pug</string>
         <key>settings</key>
         <dict>
             <key>icon</key>
-            <string>file_type_groovy</string>
+            <string>file_type_pug</string>
         </dict>
     </dict>
 </plist>

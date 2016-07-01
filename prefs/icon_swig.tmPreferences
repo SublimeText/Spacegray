@@ -3,11 +3,11 @@
 <plist version="1.0">
     <dict>
         <key>scope</key>
-        <string>source.groovy</string>
+        <string>text.html.swig</string>
         <key>settings</key>
         <dict>
             <key>icon</key>
-            <string>file_type_groovy</string>
+            <string>file_type_swig</string>
         </dict>
     </dict>
 </plist>
