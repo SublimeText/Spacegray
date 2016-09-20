@@ -655,7 +655,7 @@
         "layer0.opacity": 0.5,
         "layer0.tint": [167, 173, 186],  // 04
         "content_margin": [8, 8]
-    }, 
+    },
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
@@ -670,11 +670,11 @@
         "class": "icon_folder",
         "parents": [{"class": "tree_row","attributes": ["expanded"]}],
         "layer0.texture": "Theme - Spacegray/icons/folder_open.png"
-    }, 
+    },
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row","attributes": ["expanded", "hover"]}]
-    }, 
+    },
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row","attributes": ["expanded", "selected"]}],
@@ -683,23 +683,23 @@
     // Sidebar folder loading
     {
         "class": "icon_folder_loading",
-        "layer0.texture": 
+        "layer0.texture":
         {
             "keyframes":
             [
-                "Theme - Spacegray/icons/spinner7.png",
-                "Theme - Spacegray/icons/spinner6.png",
-                "Theme - Spacegray/icons/spinner5.png",
-                "Theme - Spacegray/icons/spinner4.png",
-                "Theme - Spacegray/icons/spinner3.png",
-                "Theme - Spacegray/icons/spinner2.png",
+                "Theme - Spacegray/icons/spinner.png",
                 "Theme - Spacegray/icons/spinner1.png",
-                "Theme - Spacegray/icons/spinner.png"
+                "Theme - Spacegray/icons/spinner2.png",
+                "Theme - Spacegray/icons/spinner3.png",
+                "Theme - Spacegray/icons/spinner4.png",
+                "Theme - Spacegray/icons/spinner5.png",
+                "Theme - Spacegray/icons/spinner6.png",
+                "Theme - Spacegray/icons/spinner7.png"
             ],
             "loop": true,
             "frame_time": 0.075,
         },
-        "layer0.opacity": 1.0,
+        "layer0.opacity": 0.6,
         "content_margin": [8, 8]
     },
     // Sidebar file icons
@@ -748,7 +748,7 @@
         "settings": ["!spacegray_fileicons"],
         "layer0.opacity": 0.0,
         "content_margin": [0,0]
-    },    
+    },
 
 //
 // STANDARD TEXT BUTTONS
