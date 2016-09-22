@@ -7,7 +7,7 @@
         <key>settings</key>
         <dict>
             <key>icon</key>
-            <string>file_type_coffee</string>
+            <string>file_type_coffescript</string>
         </dict>
     </dict>
 </plist>
