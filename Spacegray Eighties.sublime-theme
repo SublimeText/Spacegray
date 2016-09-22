@@ -199,7 +199,7 @@
 
     {
         "class": "fold_button_control",
-        "layer0.texture": "Theme - Spacegray/assets/folder-closed.png",
+        "layer0.texture": "Theme - Spacegray/assets/fold-right.png",
         "layer0.tint": [160, 159, 147], // 04
         "layer0.opacity": 0.5,
         "layer0.inner_margin": 0,
@@ -213,7 +213,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Spacegray/assets/folder-open.png"
+        "layer0.texture": "Theme - Spacegray/assets/fold-down.png"
     },
     {
         "class": "fold_button_control",
@@ -617,7 +617,7 @@
     {
         "class": "disclosure_button_control",
         "content_margin": [8,8],
-        "layer0.texture": "Theme - Spacegray/assets/folder-closed.png",
+        "layer0.texture": "Theme - Spacegray/assets/fold-right.png",
         "layer0.tint": [81, 81, 81], // 02
         "layer0.opacity": 1,
         "layer0.inner_margin": 0
@@ -635,7 +635,7 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Spacegray/assets/folder-open.png"
+        "layer0.texture": "Theme - Spacegray/assets/fold-down.png"
     },
     {
         "class": "disclosure_button_control",
@@ -646,12 +646,12 @@
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "layer0.texture": "Theme - Spacegray/assets/folder-open.png"
+        "layer0.texture": "Theme - Spacegray/assets/fold-down.png"
     },
     // Sidebar folder closed
     {
         "class": "icon_folder",
-        "layer0.texture": "Theme - Spacegray/assets/folder-closed-fileicons.png",
+        "layer0.texture": "Theme - Spacegray/assets/folder-closed.png",
         "layer0.opacity": 0.5,
         "layer0.tint": [167, 173, 186],  // 04
         "content_margin": [8, 8]
@@ -669,7 +669,7 @@
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row","attributes": ["expanded"]}],
-        "layer0.texture": "Theme - Spacegray/assets/folder-open-fileicons.png"
+        "layer0.texture": "Theme - Spacegray/assets/folder-open.png"
     },
     {
         "class": "icon_folder",
@@ -678,7 +678,7 @@
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row","attributes": ["expanded", "selected"]}],
-        "layer0.texture": "Theme - Spacegray/assets/folder-open-fileicons.png"
+        "layer0.texture": "Theme - Spacegray/assets/folder-open.png"
     },
     // Sidebar folder loading
     {
