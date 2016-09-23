@@ -10,19 +10,19 @@ A set of custom UI themes for Sublime Text 2/3. It's all about hype and minimal.
 
 Default flavor based on Base16 Ocean Dark color scheme.
 
-![image](Screenshots/spacegray.png)
+![image](screenshots/spacegray.png)
 
 #### Spacegray Light
 
 Light variation based on Base16 Ocean Light color scheme.
 
-![image](Screenshots/spacegray-light.png)
+![image](screenshots/spacegray-light.png)
 
 #### Spacegray Eighties
 
 A variation based on Base16 Eighties Dark color scheme.
 
-![image](Screenshots/spacegray-eighties.png)
+![image](screenshots/spacegray-eighties.png)
 
 *The font used in the screenshots is [__Source Code Pro__](https://github.com/adobe-fonts/source-code-pro).*
 
@@ -166,13 +166,15 @@ Tabs width:
     "enable_tab_scrolling": false,
 ```
 
-#### Enable sidebar fileicons
+#### Enable sidebar fileicons 
 
 ```json
     "spacegray_fileicons": true,
 ```
 
-![image](Screenshots/spacegray-fileicons.png)
+TIP: use the plugin [File Icons Extended](https://packagecontrol.io/packages/File%20Icons%20Extended) to let your sublime recognize also not currently supported file extensions.
+
+![image](screenshots/spacegray-fileicons.png)
 
 ***
 
