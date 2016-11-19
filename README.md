@@ -172,8 +172,6 @@ Tabs width:
     "spacegray_fileicons": true,
 ```
 
-TIP: use the plugin [File Icons Extended](https://packagecontrol.io/packages/File%20Icons%20Extended) to let your sublime recognize also not currently supported file extensions.
-
 ![image](screenshots/spacegray-fileicons.png)
 
 ***
