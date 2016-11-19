@@ -15,19 +15,19 @@ I'm not actively maintaining this repo for quite a while since I've switched to 
 
 Default flavor based on Base16 Ocean Dark color scheme.
 
-![image](Screenshots/spacegray.png)
+![image](screenshots/spacegray.png)
 
 #### Spacegray Light
 
 Light variation based on Base16 Ocean Light color scheme.
 
-![image](Screenshots/spacegray-light.png)
+![image](screenshots/spacegray-light.png)
 
 #### Spacegray Eighties
 
 A variation based on Base16 Eighties Dark color scheme.
 
-![image](Screenshots/spacegray-eighties.png)
+![image](screenshots/spacegray-eighties.png)
 
 *The font used in the screenshots is [__Source Code Pro__](https://github.com/adobe-fonts/source-code-pro).*
 
@@ -170,6 +170,14 @@ Tabs width:
 ```json
     "enable_tab_scrolling": false,
 ```
+
+#### Enable sidebar fileicons 
+
+```json
+    "spacegray_fileicons": true,
+```
+
+![image](screenshots/spacegray-fileicons.png)
 
 ***
 
