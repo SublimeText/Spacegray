@@ -2,11 +2,6 @@
 
 A set of custom UI themes for Sublime Text 2/3. It's all about hype and minimal. Comes in different flavors with accompanying [Base16](https://github.com/chriskempson/base16) color schemes.
 
-
-### Looking for a maintainer
-
-I'm not actively maintaining this repo for quite a while since I've switched to [Atom](https://atom.io/). If you have an intention to maintain the repo and keep the themes up to date, let me know.
-
 ***
 
 ### Themes
@@ -15,19 +10,19 @@ I'm not actively maintaining this repo for quite a while since I've switched to 
 
 Default flavor based on Base16 Ocean Dark color scheme.
 
-![image](Screenshots/spacegray.png)
+![image](screenshots/spacegray.png)
 
 #### Spacegray Light
 
 Light variation based on Base16 Ocean Light color scheme.
 
-![image](Screenshots/spacegray-light.png)
+![image](screenshots/spacegray-light.png)
 
 #### Spacegray Eighties
 
 A variation based on Base16 Eighties Dark color scheme.
 
-![image](Screenshots/spacegray-eighties.png)
+![image](screenshots/spacegray-eighties.png)
 
 *The font used in the screenshots is [__Source Code Pro__](https://github.com/adobe-fonts/source-code-pro).*
 
@@ -170,6 +165,14 @@ Tabs width:
 ```json
     "enable_tab_scrolling": false,
 ```
+
+#### Enable sidebar fileicons 
+
+```json
+    "spacegray_fileicons": true,
+```
+
+![image](screenshots/spacegray-fileicons.png)
 
 ***
 
