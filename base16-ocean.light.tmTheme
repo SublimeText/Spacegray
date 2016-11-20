@@ -114,7 +114,7 @@
 			<key>name</key>
 			<string>Variables</string>
 			<key>scope</key>
-			<string>variable</string>
+			<string>variable, variable.other.dollar.only.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
