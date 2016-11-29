@@ -659,7 +659,7 @@
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.opacity": 1.0,
+        "layer0.opacity": 1.0
     },
     {
         "class": "icon_folder",
@@ -697,7 +697,7 @@
                 "Theme - Spacegray/assets/spinner7.png"
             ],
             "loop": true,
-            "frame_time": 0.075,
+            "frame_time": 0.075
         },
         "layer0.opacity": 0.6,
         "content_margin": [8, 8]
@@ -714,7 +714,7 @@
       "class": "icon_folder_dup",
       "parents":
       [{ "class": "tree_row", "attributes": ["hover"] }],
-      "layer0.opacity": 1,
+      "layer0.opacity": 1
     },
     // Sidebar file icons
     {
