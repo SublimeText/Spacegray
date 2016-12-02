@@ -166,7 +166,7 @@ Tabs width:
     "enable_tab_scrolling": false,
 ```
 
-#### Enable sidebar fileicons 
+#### Enable sidebar fileicons (only works in Sublime Text 3)
 
 ```json
     "spacegray_fileicons": true,
