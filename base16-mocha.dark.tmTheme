@@ -380,6 +380,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Image Url</string>
+			<key>scope</key>
+			<string>meta.image</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d28b71</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Lists</string>
 			<key>scope</key>
 			<string>markup.list</string>
