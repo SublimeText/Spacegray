@@ -1,0 +1,6 @@
+Fixes in Spacegray 1.3.2:
+
+  - Fixed red-heavy syntax in JS
+  - Fixed text input field alignment
+  - Fixed image link color highlighting in Markdown
+  - Fixed Oceanic Theme input field backgorund color
