@@ -6,6 +6,8 @@ A set of custom UI themes for Sublime Text 2/3. It's all about hype and minimal.
 
 ### Themes
 
+
+
 #### Spacegray
 
 Default flavor based on Base16 Ocean Dark color scheme.
@@ -175,6 +177,8 @@ Tabs width:
 ![image](screenshots/spacegray-fileicons.png)
 
 ***
+
+
 
 ### Thanks
 
