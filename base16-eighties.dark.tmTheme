@@ -13,6 +13,8 @@
 	<key>gutterSettings</key>
 	<dict>
 		<key>background</key>
+
+
 		<string>#393939</string>
 		<key>divider</key>
 		<string>#393939</string>
@@ -94,7 +96,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#d3d0c8</string>
+				<string>#cc99cc</string>
 			</dict>
 		</dict>
 		<dict>
@@ -178,7 +180,7 @@
 			<key>name</key>
 			<string>Support</string>
 			<key>scope</key>
-			<string>support.function</string>
+			<string>support.function, support.type</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
