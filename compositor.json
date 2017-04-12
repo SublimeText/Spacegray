@@ -1,0 +1,94 @@
+{
+  "name": "kkga/spacegray",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Brutalist",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BasicHeader",
+      "article": "article/MarkdownArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace",
+    "heading": {},
+    "typeScale": [
+      48,
+      32,
+      20,
+      18,
+      16,
+      14,
+      12
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "fluid": true
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "http://kkga.github.io/spacegray",
+          "text": "Home"
+        },
+        {
+          "href": "https://github.com/kkga/spacegray",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "spacegray",
+      "subhead": "A Hyperminimal UI Theme for Sublime Text",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "spacegray: A Hyperminimal UI Theme for Sublime Text",
+          "url": "http://kkga.github.io/spacegray"
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "kkga",
+          "repo": "spacegray"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "\n<p>A set of custom UI themes for Sublime Text 2/3. It&apos;s all about hype and minimal. Comes in different flavors with accompanying <a href=\"https://github.com/chriskempson/base16\">Base16</a> color schemes.</p>\n<hr>\n<h3>Themes</h3>\n<h4>Spacegray</h4>\n<p>Default flavor based on Base16 Ocean Dark color scheme.</p>\n<p><img src=\"screenshots/spacegray.png\"></p>\n<h4>Spacegray Light</h4>\n<p>Light variation based on Base16 Ocean Light color scheme.</p>\n<p><img src=\"screenshots/spacegray-light.png\"></p>\n<h4>Spacegray Eighties</h4>\n<p>A variation based on Base16 Eighties Dark color scheme.</p>\n<p><img src=\"screenshots/spacegray-eighties.png\"></p>\n<p><em>The font used in the screenshots is <a href=\"https://github.com/adobe-fonts/source-code-pro\"><strong>Source Code Pro</strong></a>.</em></p>\n<hr>\n<h3>How to Install</h3>\n<h4>Via Package Control</h4>\n<p>The easiest way to install is using <a href=\"https://sublime.wbond.net\">Sublime Package Control</a>, where Spacegray is listed as <code>Theme - Spacegray</code>.</p>\n<ol>\n<li>Open Command Palette using menu item <code>Tools -&gt; Command Palette...</code> (&#x21E7;&#x2318;P on Mac)</li>\n<li>Choose <code>Package Control: Install Package</code></li>\n<li>Find <code>Theme - Spacegray</code> and hit Enter</li>\n</ol>\n<h4>Manual</h4>\n<p>You can also install the theme manually:</p>\n<ol>\n<li><a href=\"https://github.com/kkga/spacegray/archive/master.zip\">Download the .zip</a></li>\n<li>Unzip and rename the folder to <code>Theme - Spacegray</code></li>\n<li>Copy the folder into <code>Packages</code> directory, which you can find using the menu item <code>Sublime Text -&gt; Preferences -&gt; Browse Packages...</code></li>\n</ol>\n<hr>\n<h3>How to Activate</h3>\n<p>Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item <code>Sublime Text -&gt; Preferences -&gt; Settings - User</code> (&#x2318;, on Mac).</p>\n<p>You can choose whichever flavor you like, but don&apos;t forget to change <em>both</em> color scheme and UI theme so they match.</p>\n<p><strong><em>Note: Don&apos;t forget to restart Sublime Text after activating the theme.</em></strong></p>\n<h4>Settings for Spacegray</h4>\n<pre>{\n  <span class=\"hljs-attr\">&quot;theme&quot;</span>: <span class=\"hljs-string\">&quot;Spacegray.sublime-theme&quot;</span>,\n  <span class=\"hljs-attr\">&quot;color_scheme&quot;</span>: <span class=\"hljs-string\">&quot;Packages/Theme - Spacegray/base16-ocean.dark.tmTheme&quot;</span>\n}</pre><h4>Settings for Spacegray Light</h4>\n<pre>{\n  <span class=\"hljs-attr\">&quot;theme&quot;</span>: <span class=\"hljs-string\">&quot;Spacegray Light.sublime-theme&quot;</span>,\n  <span class=\"hljs-attr\">&quot;color_scheme&quot;</span>: <span class=\"hljs-string\">&quot;Packages/Theme - Spacegray/base16-ocean.light.tmTheme&quot;</span>\n}</pre><h4>Settings for Spacegray Eighties</h4>\n<pre>{\n  <span class=\"hljs-attr\">&quot;theme&quot;</span>: <span class=\"hljs-string\">&quot;Spacegray Eighties.sublime-theme&quot;</span>,\n  <span class=\"hljs-attr\">&quot;color_scheme&quot;</span>: <span class=\"hljs-string\">&quot;Packages/Theme - Spacegray/base16-eighties.dark.tmTheme&quot;</span>\n}</pre><hr>\n<h3>Settings</h3>\n<h4>Tab labels font size</h4>\n<p>Copy and paste one of four options in your user preferences file:</p>\n<pre>  &quot;spacegray_tabs_font_small&quot;: true</pre><pre>  &quot;spacegray_tabs_font_normal&quot;: true</pre><pre>  &quot;spacegray_tabs_font_large&quot;: true</pre><pre>  &quot;spacegray_tabs_font_xlarge&quot;: true</pre><h4>Tabs size</h4>\n<p>Tabs height:</p>\n<pre>  &quot;spacegray_tabs_small&quot;: true</pre><pre>  &quot;spacegray_tabs_normal&quot;: true</pre><pre>  &quot;spacegray_tabs_large&quot;: true</pre><pre>  &quot;spacegray_tabs_xlarge&quot;: true</pre><p>Tabs width: </p>\n<pre>  &quot;spacegray_tabs_auto_width&quot;: true</pre><h4>Sidebar labels font size</h4>\n<pre>  &quot;spacegray_sidebar_font_small&quot;: true</pre><pre>  &quot;spacegray_sidebar_font_normal&quot;: true</pre><pre>  &quot;spacegray_sidebar_font_large&quot;: true</pre><pre>  &quot;spacegray_sidebar_font_xlarge&quot;: true</pre><h4>Sidebar tree rows height</h4>\n<pre>  &quot;spacegray_sidebar_tree_xsmall&quot;: true</pre><pre>  &quot;spacegray_sidebar_tree_small&quot;: true</pre><pre>  &quot;spacegray_sidebar_tree_normal&quot;: true</pre><pre>  &quot;spacegray_sidebar_tree_large&quot;: true</pre><pre>  &quot;spacegray_sidebar_tree_xlarge&quot;: true</pre><h4>Hide navigation icons in Sublime Text 3</h4>\n<pre>    &quot;enable_tab_scrolling&quot;: false,</pre><h4>Enable sidebar fileicons (only works in Sublime Text 3)</h4>\n<pre>    &quot;spacegray_fileicons&quot;: true,</pre><p><img src=\"screenshots/spacegray-fileicons.png\"></p>\n<hr>\n<h3>Thanks</h3>\n<p>The Spacegray Eighties variation is contributed by <a href=\"https://github.com/yoshuawuyts\">Yoshua Wuyts</a>.</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/kkga/spacegray",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/kkga",
+          "text": "kkga"
+        }
+      ]
+    }
+  ]
+}
