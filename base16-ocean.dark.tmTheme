@@ -66,6 +66,8 @@
 			<string>comment, punctuation.definition.comment</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#65737e</string>
 			</dict>
