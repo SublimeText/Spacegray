@@ -738,7 +738,7 @@
     {
         "class": "sidebar_tree",
         "settings": ["spacegray_fileicons"],
-        "indent_offset": 1
+        "indent_offset": 10
     },
     {
         "class": "disclosure_button_control",
