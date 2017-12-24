@@ -1,0 +1,7 @@
+New in Spacegray 1.3.3:
+
+  - Add support for custom Title Bar in OSX
+
+Fixes
+
+  - Fix margin problem in tabs with setting "show_tab_close_buttons" set to false
