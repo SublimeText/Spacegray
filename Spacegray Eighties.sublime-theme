@@ -1175,5 +1175,16 @@
         "class": "tabset_control",
         "settings": ["spacegray_tabs_xlarge"],
         "tab_height": 40
+    },
+
+//
+// TITLE BAR
+//
+
+    {
+        "class": "title_bar",
+        "fg": [160, 159, 147], // 04
+        "bg": [30, 30, 30] // -00
     }
+
 ]
