@@ -1176,6 +1176,7 @@
 
     {
         "class": "title_bar",
+        "settings": ["!disable_custom_title_bar"],
         "fg": [160, 159, 147], // 04
         "bg": [30, 30, 30] // -00
     }

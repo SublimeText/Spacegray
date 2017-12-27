@@ -121,7 +121,7 @@ Tabs height:
   "spacegray_tabs_xlarge": true
 ```
 
-Tabs width: 
+Tabs width:
 
 ```json
   "spacegray_tabs_auto_width": true
@@ -173,6 +173,14 @@ Tabs width:
 ```
 
 ![image](screenshots/spacegray-fileicons.png)
+
+#### Disable custom OSX Title Bar in Sublime Text 3
+
+Useful if you're using native OSX tabs since the custom Title Bar breaks the native tabs
+
+```json
+    "disable_custom_title_bar": true,
+```
 
 ***
 
