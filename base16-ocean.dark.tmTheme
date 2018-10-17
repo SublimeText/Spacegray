@@ -107,7 +107,7 @@
 			<key>name</key>
 			<string>Keywords</string>
 			<key>scope</key>
-			<string>keyword</string>
+			<string>keyword, keyword.operator.logical.python</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
