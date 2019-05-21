@@ -1,3 +1,24 @@
+{
+    "variables":
+    {
+        "00": "#2b303b",
+        "01": "#343d46",
+        "02": "#4f5b66",
+        "03": "#65737e",
+        "04": "#a7adba",
+        "05": "#c0c5ce",
+        "06": "#dfe1e8",
+        "07": "#eff1f5",
+        "08": "#bf616a",
+        "09": "#d08770",
+        "0A": "#ebcb8b",
+        "0B": "#a3be8c",
+        "0C": "#96b5b4",
+        "0D": "#8fa1b3",
+        "0E": "#b48ead",
+        "0F": "#ab7967"
+    },
+    "rules":
 [
 
 //
@@ -551,6 +572,92 @@
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
         "color": [255, 255, 255] // white
+    },
+
+//
+// SIDEBAR - VCS
+//
+
+    {
+        // Decolor default VCS badges
+        "class": "vcs_status_badge",
+        "settings": ["vcs_color"],
+        "layer0.tint": "var(02)"
+    },
+    {
+        // File not tracked by VCS
+        "class": "sidebar_label",
+        "parents": [
+            { "class": "tree_row", "attributes": ["!expanded"] },
+            { "class": "file_system_entry", "attributes": ["untracked"] }
+        ],
+        "settings": ["vcs_color"],
+        "color": "var(0B)"
+    },
+    {
+        // File not tracked by VCS (with parent folder)
+        "class": "sidebar_label",
+        "parents": [{ "class": "file_system_entry", "attributes": ["untracked"] }],
+        "settings": ["vcs_color", "vcs_color_expanded"],
+        "color": "var(0B)"
+    },
+    {
+        // File modified in VCS
+        "class": "sidebar_label",
+        "parents": [
+            { "class": "tree_row", "attributes": ["!expanded"] },
+            { "class": "file_system_entry", "attributes": ["modified"] }
+        ],
+        "settings": ["vcs_color"],
+        "color": "var(0E)"
+    },
+    {
+        // File modified in VCS (with parent folder)
+        "class": "sidebar_label",
+        "parents": [{ "class": "file_system_entry", "attributes": ["modified"] }],
+        "settings": ["vcs_color", "vcs_color_expanded"],
+        "color": "var(0E)"
+    },
+    {
+        // File added to VCS (when a new file is staged)
+        "class": "sidebar_label",
+        "parents": [
+            { "class": "tree_row", "attributes": ["!expanded"] },
+            { "class": "file_system_entry", "attributes": ["added"] }
+        ],
+        "settings": ["vcs_color"],
+        "color": "var(0B)"
+    },
+    {
+        // File added to VCS (when a new file is staged) (with parent folder)
+        "class": "sidebar_label",
+        "parents": [{ "class": "file_system_entry", "attributes": ["added"] }],
+        "settings": ["vcs_color", "vcs_color_expanded"],
+        "color": "var(0B)"
+    },
+    {
+        // File staged to VCS (without further modifications)
+        "class": "sidebar_label",
+        "parents": [
+            { "class": "tree_row", "attributes": ["!expanded"] },
+            { "class": "file_system_entry", "attributes": ["staged", "!modified"] }
+        ],
+        "settings": ["vcs_color"],
+        "color": "var(0E)"
+    },
+    {
+        // File staged to VCS (without further modifications) (with parent folder)
+        "class": "sidebar_label",
+        "parents": [{ "class": "file_system_entry", "attributes": ["staged", "!modified"] }],
+        "settings": ["vcs_color", "vcs_color_expanded"],
+        "color": "var(0E)"
+    },
+    {
+        // File ignored by VCS
+        "class": "sidebar_label",
+        "parents": [{ "class": "file_system_entry", "attributes": ["ignored", "!staged"] }],
+        "settings": ["vcs_color"],
+        "font.italic": true
     },
 
 //
@@ -1184,3 +1291,4 @@
     }
 
 ]
+}
