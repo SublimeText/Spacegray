@@ -172,6 +172,24 @@ Tabs width:
   "spacegray_fileicons": true,
 ```
 
+![image](screenshots/spacegray-fileicons.png)
+
+#### Enable VS Code style sidebar VCS coloring
+
+```json
+  "vcs_color": true,
+```
+
+![image](screenshots/spacegray-vcs.png)
+
+To also color expanded folders:
+
+```json
+  "vcs_color_expanded": true,
+```
+
+Originally implemented in [Toxin](https://github.com/p3lim/sublime-toxin) by [@p3lim](https://github.com/p3lim).
+
 #### Disable custom OSX Title Bar in Sublime Text 3
 
 Useful if you're using native OSX tabs since the custom Title Bar breaks the native tabs
