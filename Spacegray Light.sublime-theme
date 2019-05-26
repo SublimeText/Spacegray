@@ -567,12 +567,6 @@
         "settings": ["bold_folder_labels"],
         "font.bold": true
     },
-    // Sidebar entry selected
-    {
-        "class": "sidebar_label",
-        "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "color": [255, 255, 255] // white
-    },
 
 //
 // SIDEBAR - VCS
@@ -583,7 +577,7 @@
     {
         "class": "vcs_status_badge",
         "settings": ["vcs_color"],
-        "layer0.tint": "var(base02)"
+        "layer0.tint": "var(base04)"
     },
 
     // File not tracked by VCS
@@ -595,7 +589,7 @@
             { "class": "file_system_entry", "attributes": ["untracked"] }
         ],
         "settings": ["vcs_color"],
-        "color": "color(var(base0B) a(0.75))"
+        "color": "var(base0B)"
     },
     {
         "class": "sidebar_label",
@@ -604,16 +598,7 @@
             { "class": "file_system_entry", "attributes": ["untracked"] }
         ],
         "settings": ["vcs_color"],
-        "color": "color(var(base0B) l(80%) s(80%))"
-    },
-    {
-        "class": "sidebar_label",
-        "parents": [
-            { "class": "tree_row", "attributes": ["!expanded", "selected"] },
-            { "class": "file_system_entry", "attributes": ["untracked"] }
-        ],
-        "settings": ["vcs_color"],
-        "color": "color(var(base0B) l(80%) s(100%))"
+        "color": "color(var(base0B) l(40%) s(75%))"
     },
     {
         "class": "sidebar_label",
@@ -621,7 +606,7 @@
             { "class": "file_system_entry", "attributes": ["untracked"] }
         ],
         "settings": ["vcs_color", "vcs_color_expanded"],
-        "color": "color(var(base0B) a(0.75))"
+        "color": "var(base0B)"
     },
     {
         "class": "sidebar_label",
@@ -630,16 +615,7 @@
             { "class": "file_system_entry", "attributes": ["untracked"] }
         ],
         "settings": ["vcs_color", "vcs_color_expanded"],
-        "color": "color(var(base0B) l(80%) s(80%))"
-    },
-    {
-        "class": "sidebar_label",
-        "parents": [
-            { "class": "tree_row", "attributes": ["selected"] },
-            { "class": "file_system_entry", "attributes": ["untracked"] }
-        ],
-        "settings": ["vcs_color", "vcs_color_expanded"],
-        "color": "color(var(base0B) l(80%) s(100%))"
+        "color": "color(var(base0B) l(40%) s(75%))"
     },
 
     // File added to VCS (when a new file is staged)
@@ -651,7 +627,7 @@
             { "class": "file_system_entry", "attributes": ["added"] }
         ],
         "settings": ["vcs_color"],
-        "color": "color(var(base0B) a(0.75))"
+        "color": "var(base0B)"
     },
     {
         "class": "sidebar_label",
@@ -660,16 +636,7 @@
             { "class": "file_system_entry", "attributes": ["added"] }
         ],
         "settings": ["vcs_color"],
-        "color": "color(var(base0B) l(80%) s(80%))"
-    },
-    {
-        "class": "sidebar_label",
-        "parents": [
-            { "class": "tree_row", "attributes": ["!expanded", "selected"] },
-            { "class": "file_system_entry", "attributes": ["added"] }
-        ],
-        "settings": ["vcs_color"],
-        "color": "color(var(base0B) l(80%) s(100%))"
+        "color": "color(var(base0B) l(40%) s(75%))"
     },
     {
         "class": "sidebar_label",
@@ -677,7 +644,7 @@
             { "class": "file_system_entry", "attributes": ["added"] }
         ],
         "settings": ["vcs_color", "vcs_color_expanded"],
-        "color": "color(var(base0B) a(0.75))"
+        "color": "var(base0B)"
     },
     {
         "class": "sidebar_label",
@@ -686,16 +653,7 @@
             { "class": "file_system_entry", "attributes": ["added"] }
         ],
         "settings": ["vcs_color", "vcs_color_expanded"],
-        "color": "color(var(base0B) l(80%) s(80%))"
-    },
-    {
-        "class": "sidebar_label",
-        "parents": [
-            { "class": "tree_row", "attributes": ["selected"] },
-            { "class": "file_system_entry", "attributes": ["added"] }
-        ],
-        "settings": ["vcs_color", "vcs_color_expanded"],
-        "color": "color(var(base0B) l(80%) s(100%))"
+        "color": "color(var(base0B) l(40%) s(75%))"
     },
 
     // File modified in VCS
@@ -707,7 +665,7 @@
             { "class": "file_system_entry", "attributes": ["modified"] }
         ],
         "settings": ["vcs_color"],
-        "color": "color(var(base0E) a(0.75))"
+        "color": "var(base0E)"
     },
     {
         "class": "sidebar_label",
@@ -716,16 +674,7 @@
             { "class": "file_system_entry", "attributes": ["modified"] }
         ],
         "settings": ["vcs_color"],
-        "color": "color(var(base0E) l(80%) s(80%))"
-    },
-    {
-        "class": "sidebar_label",
-        "parents": [
-            { "class": "tree_row", "attributes": ["!expanded", "selected"] },
-            { "class": "file_system_entry", "attributes": ["modified"] }
-        ],
-        "settings": ["vcs_color"],
-        "color": "color(var(base0E) l(80%) s(100%))"
+        "color": "color(var(base0E) l(40%) s(75%))"
     },
     {
         "class": "sidebar_label",
@@ -733,7 +682,7 @@
             { "class": "file_system_entry", "attributes": ["modified"] }
         ],
         "settings": ["vcs_color", "vcs_color_expanded"],
-        "color": "color(var(base0E) a(0.75))"
+        "color": "var(base0E)"
     },
     {
         "class": "sidebar_label",
@@ -742,16 +691,7 @@
             { "class": "file_system_entry", "attributes": ["modified"] }
         ],
         "settings": ["vcs_color", "vcs_color_expanded"],
-        "color": "color(var(base0E) l(80%) s(80%))"
-    },
-    {
-        "class": "sidebar_label",
-        "parents": [
-            { "class": "tree_row", "attributes": ["selected"] },
-            { "class": "file_system_entry", "attributes": ["modified"] }
-        ],
-        "settings": ["vcs_color", "vcs_color_expanded"],
-        "color": "color(var(base0E) l(80%) s(100%))"
+        "color": "color(var(base0E) l(40%) s(75%))"
     },
 
     // File staged to VCS (without further modifications)
@@ -763,7 +703,7 @@
             { "class": "file_system_entry", "attributes": ["staged", "!modified"] }
         ],
         "settings": ["vcs_color"],
-        "color": "color(var(base0E) a(0.75))"
+        "color": "var(base0E)"
     },
     {
         "class": "sidebar_label",
@@ -772,16 +712,7 @@
             { "class": "file_system_entry", "attributes": ["staged", "!modified"] }
         ],
         "settings": ["vcs_color"],
-        "color": "color(var(base0E) l(80%) s(80%))"
-    },
-    {
-        "class": "sidebar_label",
-        "parents": [
-            { "class": "tree_row", "attributes": ["!expanded", "selected"] },
-            { "class": "file_system_entry", "attributes": ["staged", "!modified"] }
-        ],
-        "settings": ["vcs_color"],
-        "color": "color(var(base0E) l(80%) s(100%))"
+        "color": "color(var(base0E) l(40%) s(75%))"
     },
     {
         "class": "sidebar_label",
@@ -789,7 +720,7 @@
             { "class": "file_system_entry", "attributes": ["staged", "!modified"] }
         ],
         "settings": ["vcs_color", "vcs_color_expanded"],
-        "color": "color(var(base0E) a(0.75))"
+        "color": "var(base0E)"
     },
     {
         "class": "sidebar_label",
@@ -798,16 +729,7 @@
             { "class": "file_system_entry", "attributes": ["staged", "!modified"] }
         ],
         "settings": ["vcs_color", "vcs_color_expanded"],
-        "color": "color(var(base0E) l(80%) s(80%))"
-    },
-    {
-        "class": "sidebar_label",
-        "parents": [
-            { "class": "tree_row", "attributes": ["selected"] },
-            { "class": "file_system_entry", "attributes": ["staged", "!modified"] }
-        ],
-        "settings": ["vcs_color", "vcs_color_expanded"],
-        "color": "color(var(base0E) l(80%) s(100%))"
+        "color": "color(var(base0E) l(40%) s(75%))"
     },
 
     // File ignored by VCS
@@ -819,6 +741,16 @@
         }],
         "settings": ["vcs_color"],
         "font.italic": true
+    },
+
+    // Sidebar entry selected (must come after VSC rules)
+
+    {
+        "class": "sidebar_label",
+        "parents": [
+            { "class": "tree_row", "attributes": ["selected"] }
+        ],
+        "color": "#fff"
     },
 
 //
