@@ -163,13 +163,13 @@ Tabs width:
 #### Hide navigation icons in Sublime Text 3
 
 ```json
-    "enable_tab_scrolling": false,
+  "enable_tab_scrolling": false,
 ```
 
 #### Enable sidebar fileicons (only works in Sublime Text 3)
 
 ```json
-    "spacegray_fileicons": true,
+  "spacegray_fileicons": true,
 ```
 
 #### Disable custom OSX Title Bar in Sublime Text 3
@@ -177,7 +177,7 @@ Tabs width:
 Useful if you're using native OSX tabs since the custom Title Bar breaks the native tabs
 
 ```json
-    "disable_custom_title_bar": true,
+  "disable_custom_title_bar": true,
 ```
 
 ***
