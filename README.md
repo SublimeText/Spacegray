@@ -172,8 +172,6 @@ Tabs width:
     "spacegray_fileicons": true,
 ```
 
-![image](screenshots/spacegray-fileicons.png)
-
 #### Disable custom OSX Title Bar in Sublime Text 3
 
 Useful if you're using native OSX tabs since the custom Title Bar breaks the native tabs
