@@ -3,10 +3,10 @@ New in Spacegray 1.4.0:
   - VS Code style sidebar VCS coloring
 
     Enable by adding this to your settings:
-    "vcs_color": true,
+    "spacegray_sidebar_vcs_label": true,
 
     And if you also want to color expanded folders:
-    "vcs_color_expanded": true,
+    "spacegray_sidebar_vcs_expanded": true,
 
 Fixes
 

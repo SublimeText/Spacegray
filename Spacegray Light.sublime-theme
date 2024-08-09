@@ -576,7 +576,7 @@
 
     {
         "class": "vcs_status_badge",
-        "settings": ["vcs_color"],
+        "settings": ["spacegray_sidebar_vcs_label"],
         "layer0.tint": "var(base04)"
     },
 
@@ -588,7 +588,7 @@
             { "class": "tree_row", "attributes": ["!expanded"] },
             { "class": "file_system_entry", "attributes": ["untracked"] }
         ],
-        "settings": ["vcs_color"],
+        "settings": ["spacegray_sidebar_vcs_label"],
         "color": "var(base0B)"
     },
     {
@@ -597,7 +597,7 @@
             { "class": "tree_row", "attributes": ["!expanded", "hover"] },
             { "class": "file_system_entry", "attributes": ["untracked"] }
         ],
-        "settings": ["vcs_color"],
+        "settings": ["spacegray_sidebar_vcs_label"],
         "color": "color(var(base0B) l(40%) s(75%))"
     },
     {
@@ -605,7 +605,7 @@
         "parents": [
             { "class": "file_system_entry", "attributes": ["untracked"] }
         ],
-        "settings": ["vcs_color", "vcs_color_expanded"],
+        "settings": ["spacegray_sidebar_vcs_label", "spacegray_sidebar_vcs_expanded"],
         "color": "var(base0B)"
     },
     {
@@ -614,7 +614,7 @@
             { "class": "tree_row", "attributes": ["hover"] },
             { "class": "file_system_entry", "attributes": ["untracked"] }
         ],
-        "settings": ["vcs_color", "vcs_color_expanded"],
+        "settings": ["spacegray_sidebar_vcs_label", "spacegray_sidebar_vcs_expanded"],
         "color": "color(var(base0B) l(40%) s(75%))"
     },
 
@@ -626,7 +626,7 @@
             { "class": "tree_row", "attributes": ["!expanded"] },
             { "class": "file_system_entry", "attributes": ["added"] }
         ],
-        "settings": ["vcs_color"],
+        "settings": ["spacegray_sidebar_vcs_label"],
         "color": "var(base0B)"
     },
     {
@@ -635,7 +635,7 @@
             { "class": "tree_row", "attributes": ["!expanded", "hover"] },
             { "class": "file_system_entry", "attributes": ["added"] }
         ],
-        "settings": ["vcs_color"],
+        "settings": ["spacegray_sidebar_vcs_label"],
         "color": "color(var(base0B) l(40%) s(75%))"
     },
     {
@@ -643,7 +643,7 @@
         "parents": [
             { "class": "file_system_entry", "attributes": ["added"] }
         ],
-        "settings": ["vcs_color", "vcs_color_expanded"],
+        "settings": ["spacegray_sidebar_vcs_label", "spacegray_sidebar_vcs_expanded"],
         "color": "var(base0B)"
     },
     {
@@ -652,7 +652,7 @@
             { "class": "tree_row", "attributes": ["hover"] },
             { "class": "file_system_entry", "attributes": ["added"] }
         ],
-        "settings": ["vcs_color", "vcs_color_expanded"],
+        "settings": ["spacegray_sidebar_vcs_label", "spacegray_sidebar_vcs_expanded"],
         "color": "color(var(base0B) l(40%) s(75%))"
     },
 
@@ -664,7 +664,7 @@
             { "class": "tree_row", "attributes": ["!expanded"] },
             { "class": "file_system_entry", "attributes": ["modified"] }
         ],
-        "settings": ["vcs_color"],
+        "settings": ["spacegray_sidebar_vcs_label"],
         "color": "var(base0E)"
     },
     {
@@ -673,7 +673,7 @@
             { "class": "tree_row", "attributes": ["!expanded", "hover"] },
             { "class": "file_system_entry", "attributes": ["modified"] }
         ],
-        "settings": ["vcs_color"],
+        "settings": ["spacegray_sidebar_vcs_label"],
         "color": "color(var(base0E) l(40%) s(75%))"
     },
     {
@@ -681,7 +681,7 @@
         "parents": [
             { "class": "file_system_entry", "attributes": ["modified"] }
         ],
-        "settings": ["vcs_color", "vcs_color_expanded"],
+        "settings": ["spacegray_sidebar_vcs_label", "spacegray_sidebar_vcs_expanded"],
         "color": "var(base0E)"
     },
     {
@@ -690,7 +690,7 @@
             { "class": "tree_row", "attributes": ["hover"] },
             { "class": "file_system_entry", "attributes": ["modified"] }
         ],
-        "settings": ["vcs_color", "vcs_color_expanded"],
+        "settings": ["spacegray_sidebar_vcs_label", "spacegray_sidebar_vcs_expanded"],
         "color": "color(var(base0E) l(40%) s(75%))"
     },
 
@@ -702,7 +702,7 @@
             { "class": "tree_row", "attributes": ["!expanded"] },
             { "class": "file_system_entry", "attributes": ["staged", "!modified"] }
         ],
-        "settings": ["vcs_color"],
+        "settings": ["spacegray_sidebar_vcs_label"],
         "color": "var(base0E)"
     },
     {
@@ -711,7 +711,7 @@
             { "class": "tree_row", "attributes": ["!expanded", "hover"] },
             { "class": "file_system_entry", "attributes": ["staged", "!modified"] }
         ],
-        "settings": ["vcs_color"],
+        "settings": ["spacegray_sidebar_vcs_label"],
         "color": "color(var(base0E) l(40%) s(75%))"
     },
     {
@@ -719,7 +719,7 @@
         "parents": [
             { "class": "file_system_entry", "attributes": ["staged", "!modified"] }
         ],
-        "settings": ["vcs_color", "vcs_color_expanded"],
+        "settings": ["spacegray_sidebar_vcs_label", "spacegray_sidebar_vcs_expanded"],
         "color": "var(base0E)"
     },
     {
@@ -728,7 +728,7 @@
             { "class": "tree_row", "attributes": ["hover"] },
             { "class": "file_system_entry", "attributes": ["staged", "!modified"] }
         ],
-        "settings": ["vcs_color", "vcs_color_expanded"],
+        "settings": ["spacegray_sidebar_vcs_label", "spacegray_sidebar_vcs_expanded"],
         "color": "color(var(base0E) l(40%) s(75%))"
     },
 
@@ -739,7 +739,7 @@
         "parents": [
             { "class": "file_system_entry", "attributes": ["ignored", "!staged"]
         }],
-        "settings": ["vcs_color"],
+        "settings": ["spacegray_sidebar_vcs_label"],
         "font.italic": true
     },
 

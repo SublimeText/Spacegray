@@ -177,7 +177,7 @@ Tabs width:
 #### Enable VS Code style sidebar VCS coloring
 
 ```json
-  "vcs_color": true,
+  "spacegray_sidebar_vcs_label": true,
 ```
 
 ![image](screenshots/spacegray-vcs.png)
@@ -185,7 +185,7 @@ Tabs width:
 To also color expanded folders:
 
 ```json
-  "vcs_color_expanded": true,
+  "spacegray_sidebar_vcs_expanded": true,
 ```
 
 Originally implemented in [Toxin](https://github.com/p3lim/sublime-toxin) by [@p3lim](https://github.com/p3lim).
