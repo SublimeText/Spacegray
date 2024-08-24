@@ -1,3 +1,24 @@
+{
+    "variables":
+    {
+        "base00": "#2d2d2d",
+        "base01": "#393939",
+        "base02": "#515151",
+        "base03": "#747369",
+        "base04": "#a09f93",
+        "base05": "#d3d0c8",
+        "base06": "#e8e6df",
+        "base07": "#f2f0ec",
+        "base08": "#f2777a",
+        "base09": "#f99157",
+        "base0A": "#ffcc66",
+        "base0B": "#99cc99",
+        "base0C": "#66cccc",
+        "base0D": "#6699cc",
+        "base0E": "#cc99cc",
+        "base0F": "#d27b53"
+    },
+    "rules":
 [
 
 //
@@ -544,11 +565,190 @@
         "settings": ["bold_folder_labels"],
         "font.bold": true
     },
-    // Sidebar entry selected
+
+//
+// SIDEBAR - VCS
+//
+
+    // Decolor default VCS badges
+
+    {
+        "class": "vcs_status_badge",
+        "settings": ["spacegray_sidebar_vcs_label"],
+        "layer0.tint": "var(base02)"
+    },
+
+    // File not tracked by VCS
+
     {
         "class": "sidebar_label",
-        "parents": [{"class": "tree_row","attributes": ["selected"]}],
-        "color": [232, 230, 223] // 06
+        "parents": [
+            { "class": "tree_row", "attributes": ["!expanded"] },
+            { "class": "file_system_entry", "attributes": ["untracked"] }
+        ],
+        "settings": ["spacegray_sidebar_vcs_label"],
+        "color": "color(var(base0B) a(0.75))"
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [
+            { "class": "tree_row", "attributes": ["!expanded", "hover"] },
+            { "class": "file_system_entry", "attributes": ["untracked"] }
+        ],
+        "settings": ["spacegray_sidebar_vcs_label"],
+        "color": "color(var(base0B) l(80%))"
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [
+            { "class": "file_system_entry", "attributes": ["untracked"] }
+        ],
+        "settings": ["spacegray_sidebar_vcs_label", "spacegray_sidebar_vcs_expanded"],
+        "color": "color(var(base0B) a(0.75))"
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [
+            { "class": "tree_row", "attributes": ["hover"] },
+            { "class": "file_system_entry", "attributes": ["untracked"] }
+        ],
+        "settings": ["spacegray_sidebar_vcs_label", "spacegray_sidebar_vcs_expanded"],
+        "color": "color(var(base0B) l(80%))"
+    },
+
+    // File added to VCS (when a new file is staged)
+    
+    {
+        "class": "sidebar_label",
+        "parents": [
+            { "class": "tree_row", "attributes": ["!expanded"] },
+            { "class": "file_system_entry", "attributes": ["added"] }
+        ],
+        "settings": ["spacegray_sidebar_vcs_label"],
+        "color": "color(var(base0B) a(0.75))"
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [
+            { "class": "tree_row", "attributes": ["!expanded", "hover"] },
+            { "class": "file_system_entry", "attributes": ["added"] }
+        ],
+        "settings": ["spacegray_sidebar_vcs_label"],
+        "color": "color(var(base0B) l(80%))"
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [
+            { "class": "file_system_entry", "attributes": ["added"] }
+        ],
+        "settings": ["spacegray_sidebar_vcs_label", "spacegray_sidebar_vcs_expanded"],
+        "color": "color(var(base0B) a(0.75))"
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [
+            { "class": "tree_row", "attributes": ["hover"] },
+            { "class": "file_system_entry", "attributes": ["added"] }
+        ],
+        "settings": ["spacegray_sidebar_vcs_label", "spacegray_sidebar_vcs_expanded"],
+        "color": "color(var(base0B) l(80%))"
+    },
+
+    // File modified in VCS
+
+    {
+        "class": "sidebar_label",
+        "parents": [
+            { "class": "tree_row", "attributes": ["!expanded"] },
+            { "class": "file_system_entry", "attributes": ["modified"] }
+        ],
+        "settings": ["spacegray_sidebar_vcs_label"],
+        "color": "color(var(base0E) a(0.75))"
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [
+            { "class": "tree_row", "attributes": ["!expanded", "hover"] },
+            { "class": "file_system_entry", "attributes": ["modified"] }
+        ],
+        "settings": ["spacegray_sidebar_vcs_label"],
+        "color": "color(var(base0E) l(80%))"
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [
+            { "class": "file_system_entry", "attributes": ["modified"] }
+        ],
+        "settings": ["spacegray_sidebar_vcs_label", "spacegray_sidebar_vcs_expanded"],
+        "color": "color(var(base0E) a(0.75))"
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [
+            { "class": "tree_row", "attributes": ["hover"] },
+            { "class": "file_system_entry", "attributes": ["modified"] }
+        ],
+        "settings": ["spacegray_sidebar_vcs_label", "spacegray_sidebar_vcs_expanded"],
+        "color": "color(var(base0E) l(80%))"
+    },
+
+    // File staged to VCS (without further modifications)
+
+    {
+        "class": "sidebar_label",
+        "parents": [
+            { "class": "tree_row", "attributes": ["!expanded"] },
+            { "class": "file_system_entry", "attributes": ["staged", "!modified"] }
+        ],
+        "settings": ["spacegray_sidebar_vcs_label"],
+        "color": "color(var(base0E) a(0.75))"
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [
+            { "class": "tree_row", "attributes": ["!expanded", "hover"] },
+            { "class": "file_system_entry", "attributes": ["staged", "!modified"] }
+        ],
+        "settings": ["spacegray_sidebar_vcs_label"],
+        "color": "color(var(base0E) l(80%))"
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [
+            { "class": "file_system_entry", "attributes": ["staged", "!modified"] }
+        ],
+        "settings": ["spacegray_sidebar_vcs_label", "spacegray_sidebar_vcs_expanded"],
+        "color": "color(var(base0E) a(0.75))"
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [
+            { "class": "tree_row", "attributes": ["hover"] },
+            { "class": "file_system_entry", "attributes": ["staged", "!modified"] }
+        ],
+        "settings": ["spacegray_sidebar_vcs_label", "spacegray_sidebar_vcs_expanded"],
+        "color": "color(var(base0E) l(80%))"
+    },
+
+    // File ignored by VCS
+
+    {
+        "class": "sidebar_label",
+        "parents": [
+            { "class": "file_system_entry", "attributes": ["ignored", "!staged"]
+        }],
+        "settings": ["spacegray_sidebar_vcs_label"],
+        "font.italic": true
+    },
+
+    // Sidebar entry selected (must come after VSC rules)
+
+    {
+        "class": "sidebar_label",
+        "parents": [
+            { "class": "tree_row", "attributes": ["selected"] }
+        ],
+        "color": "var(base06)"
     },
 
 //
@@ -727,11 +927,6 @@
         "layer0.opacity": 1.0
     },
     //spacegray_fileicons setting
-    {
-        "class": "sidebar_tree",
-        "settings": ["spacegray_fileicons"],
-        "indent_offset": 1
-    },
     {
         "class": "disclosure_button_control",
         "settings": ["spacegray_fileicons"],
@@ -1182,3 +1377,4 @@
     }
 
 ]
+}

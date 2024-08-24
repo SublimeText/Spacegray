@@ -1,0 +1,13 @@
+New in Spacegray 1.4.0:
+
+  - VS Code style sidebar VCS coloring
+
+    Enable by adding this to your settings:
+    "spacegray_sidebar_vcs_label": true,
+
+    And if you also want to color expanded folders:
+    "spacegray_sidebar_vcs_expanded": true,
+
+Fixes
+
+  - Fix indentation issue in "spacegray_fileicons"
