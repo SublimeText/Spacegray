@@ -20,6 +20,16 @@
     },
     "rules":
 [
+//
+// TITLE BAR
+//
+
+    {
+        "class": "title_bar",
+        "settings": ["themed_title_bar"],
+        "fg": [101, 115, 127], // 03
+        "bg": [223, 225, 232] // 06
+    },
 
 //
 // TABS (REGULAR)
@@ -1365,18 +1375,6 @@
         "class": "tabset_control",
         "settings": ["spacegray_tabs_xlarge"],
         "tab_height": 40
-    },
-
-//
-// TITLE BAR
-//
-
-    {
-        "class": "title_bar",
-        "settings": ["!disable_custom_title_bar"],
-        "fg": [101, 115, 127], // 03
-        "bg": [223, 225, 232] // 06
     }
-
 ]
 }
