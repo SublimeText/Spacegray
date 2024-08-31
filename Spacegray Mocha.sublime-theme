@@ -521,6 +521,11 @@
 			"layer0.opacity": 1,
 			"content_margin": 4
 		},
+		// Sidebar button
+		{
+			"class": "sidebar_button_control",
+			"layer0.tint": [100, 82, 64]   // 02
+		},
 		// Status bar button
 		{
 			"class": "status_button",
