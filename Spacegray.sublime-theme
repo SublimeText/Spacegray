@@ -141,11 +141,16 @@
 			"layer0.inner_margin": [5,5],
 			"layer0.opacity": 1
 		},
-		// Tab close state
 		{
 			"class": "tab_control",
 			"settings": ["show_tab_close_buttons"],
-			"content_margin": [8,0]
+			"content_margin": [8, 0, 6, 0],
+		},
+		{
+			"class": "tab_control",
+			"settings": ["show_tab_close_buttons", "show_tab_close_buttons_on_left"],
+			"content_margin": [6, 0, 8, 0],
+			"close_button_side": "left",
 		},
 		// Tab hover state
 		{
@@ -175,7 +180,7 @@
 		{
 			"class": "tab_close_button",
 			"settings": ["show_tab_close_buttons"],
-			"content_margin": [8,8]
+			"content_margin": 8
 		},
 		{
 			"class": "tab_close_button",
@@ -297,7 +302,7 @@
 			"layer0.tint": [167, 173, 186], // 04
 			"layer0.opacity": 0.5,
 			"layer0.inner_margin": 0,
-			"content_margin": [8,8]
+			"content_margin": 8
 		},
 		{
 			"class": "fold_button_control",
@@ -841,7 +846,7 @@
 			"layer0.opacity": 0,
 			"layer0.inner_margin": 0,
 			"layer0.tint": [101, 115, 126], // 03
-			"content_margin": [8,8]
+			"content_margin": 8
 		},
 		{
 			"class": "close_button",
@@ -888,7 +893,7 @@
 		// Sidebar group closed (chevron right)
 		{
 			"class": "disclosure_button_control",
-			"content_margin": [8,8],
+			"content_margin": 8,
 			"layer0.texture": "Theme - Spacegray/assets/fold-right.png",
 			"layer0.tint": [79, 91, 102], // 02
 			"layer0.opacity": 1,
