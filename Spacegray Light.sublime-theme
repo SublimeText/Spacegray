@@ -545,7 +545,7 @@
 			"layer0.opacity": 1,
 			"layer0.tint": [230, 233, 240], // 06
 			"layer0.inner_margin": [1,5,2,1],
-			"content_margin": [0,4,0,0]
+			"content_margin": [0,1,1,0]
 		},
 		// Sidebar tree
 		{
