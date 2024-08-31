@@ -33,7 +33,7 @@
     },
 
 //
-// TABS (REGULAR)
+// TABSET
 //
 
     // Tab set
@@ -54,17 +54,6 @@
         "class": "tabset_control",
         "settings": ["mouse_wheel_switches_tabs"],
         "mouse_wheel_switch": true
-    },
-    // Tab element
-    {
-        "class": "tab_control",
-        "content_margin": [8,0],
-        "max_margin_trim": 0,
-        "hit_test_level": 0,
-        "layer0.texture": "",
-        "layer0.tint": [44, 33, 20],   // -00
-        "layer0.inner_margin": [5,5],
-        "layer0.opacity": 1
     },
     // Tab set sizing
     {
@@ -91,6 +80,65 @@
         "class": "tabset_control",
         "settings": ["spacegray_tabs_xlarge"],
         "tab_height": 40
+    },
+
+//
+// TABSET BUTTONS
+// 
+
+    // Tab scroll buttons
+    {
+        "class": "scroll_tabs_left_button",
+        "content_margin": [12, 14],
+        "layer0.texture": "Theme - Spacegray/assets/arrow-left.png",
+        "layer0.tint": [184, 175, 173],  // 04
+        "layer0.opacity": 0.6
+    },
+    {
+        "class": "scroll_tabs_left_button",
+        "attributes": ["hover"],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "scroll_tabs_right_button",
+        "content_margin": [12, 14],
+        "layer0.texture": "Theme - Spacegray/assets/arrow-right.png",
+        "layer0.tint": [184, 175, 173],  // 04
+        "layer0.opacity": 0.6
+    },
+    {
+        "class": "scroll_tabs_right_button",
+        "attributes": ["hover"],
+        "layer0.opacity": 1
+    },
+    // Tab dropdown button
+    {
+        "class": "show_tabs_dropdown_button",
+        "content_margin": [12, 12],
+        "layer0.texture": "Theme - Spacegray/assets/arrow-down.png",
+        "layer0.tint": [184, 175, 173],  // 04
+        "layer0.opacity": 0.6
+    },
+    {
+        "class": "show_tabs_dropdown_button",
+        "attributes": ["hover"],
+        "layer0.opacity": 1
+    },
+
+//
+// TABS (REGULAR)
+//
+
+    // Tab element
+    {
+        "class": "tab_control",
+        "content_margin": [8,0],
+        "max_margin_trim": 0,
+        "hit_test_level": 0,
+        "layer0.texture": "",
+        "layer0.tint": [44, 33, 20],   // -00
+        "layer0.inner_margin": [5,5],
+        "layer0.opacity": 1
     },
     // Tab close state
     {

@@ -34,7 +34,7 @@
 
 
 //
-// TABS (REGULAR)
+// TABSET
 //
 
     // Tab set
@@ -82,6 +82,54 @@
         "settings": ["spacegray_tabs_xlarge"],
         "tab_height": 40
     },
+
+//
+// TABSET BUTTONS
+// 
+
+    // Tab scroll buttons
+    {
+        "class": "scroll_tabs_left_button",
+        "content_margin": [12, 14],
+        "layer0.texture": "Theme - Spacegray/assets/arrow-left.png",
+        "layer0.tint": [167, 173, 186], // 04
+        "layer0.opacity": 0.6
+    },
+    {
+        "class": "scroll_tabs_left_button",
+        "attributes": ["hover"],
+        "layer0.opacity": 1
+    },
+    {
+        "class": "scroll_tabs_right_button",
+        "content_margin": [12, 14],
+        "layer0.texture": "Theme - Spacegray/assets/arrow-right.png",
+        "layer0.tint": [167, 173, 186], // 04
+        "layer0.opacity": 0.6
+    },
+    {
+        "class": "scroll_tabs_right_button",
+        "attributes": ["hover"],
+        "layer0.opacity": 1
+    },
+    // Tab dropdown button
+    {
+        "class": "show_tabs_dropdown_button",
+        "content_margin": [12, 12],
+        "layer0.texture": "Theme - Spacegray/assets/arrow-down.png",
+        "layer0.tint": [167, 173, 186], // 04
+        "layer0.opacity": 0.6
+    },
+    {
+        "class": "show_tabs_dropdown_button",
+        "attributes": ["hover"],
+        "layer0.opacity": 1
+    },
+
+//
+// TABS (REGULAR)
+//
+
     // Tab element
     {
         "class": "tab_control",
