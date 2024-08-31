@@ -1375,6 +1375,26 @@
         "settings": ["spacegray_color_expanded_folder"],
         "attributes": ["expanded"],
         "layer0.tint": [254, 204, 102] // 0A
+    },
+
+//
+// DIALOGS
+//
+    {
+        "class": "dialog",
+        "content_margin": 12,
+        "layer0.tint": [35, 40, 48], // -01
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "progress_bar_control",
+        "layer0.tint": [28, 31, 38], // -00
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "progress_gauge_control",
+        "layer0.tint": [52, 61, 70], // 01
+        "layer0.opacity": 1.0
     }
 ]
 }
