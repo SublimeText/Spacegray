@@ -190,12 +190,12 @@ To also color expanded folders:
 
 Originally implemented in [Toxin](https://github.com/p3lim/sublime-toxin) by [@p3lim](https://github.com/p3lim).
 
-#### Disable custom OSX Title Bar in Sublime Text 3
+#### Disable Themed Title Bar in Sublime Text
 
-Useful if you're using native OSX tabs since the custom Title Bar breaks the native tabs
+Useful if you're using native OSX tabs since custom title bar breaks the native tabs.
 
 ```json
-  "disable_custom_title_bar": true,
+  "themed_title_bar": false,
 ```
 
 ***

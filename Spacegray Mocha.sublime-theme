@@ -1371,7 +1371,7 @@
 
     {
         "class": "title_bar",
-        "settings": ["!disable_custom_title_bar"],
+        "settings": ["themed_title_bar"],
         "fg": [184, 175, 173],  // 04
         "bg": [44, 33, 20] // -00
     }
