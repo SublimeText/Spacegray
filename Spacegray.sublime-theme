@@ -1100,6 +1100,10 @@
         "fg": [101, 115, 126, 255], // 03
         "selected_fg": [101, 115, 126, 255] // 03
     },
+    {
+        "class": "quick_panel_detail_label",
+        "link_color": [167, 173, 186, 255] // 04
+    },
 
 //
 // MINI QUICK PANEL
