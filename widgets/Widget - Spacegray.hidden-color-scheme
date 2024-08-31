@@ -1,0 +1,36 @@
+{
+	"name": "Spacegray",
+	"variables":
+	{
+		// additional variations
+		"base-00": "rgb(28, 31, 38)",
+		"base-01": "rgb(35, 40, 48)",
+
+		// base16 color palette
+		"base00": "rgb(43, 48, 59)",
+		"base01": "rgb(52, 61, 70)",
+		"base02": "rgb(79, 91, 102)",
+		"base03": "rgb(101, 115, 126)",
+		"base04": "rgb(167, 173, 186)",
+		"base05": "rgb(192, 197, 206)",
+		"base06": "rgb(223, 225, 232)",
+		"base07": "rgb(239, 241, 245)",
+		"base08": "rgb(191, 97, 106)",
+		"base09": "rgb(208, 135, 112)",
+		"base0A": "rgb(235, 203, 139)",
+		"base0B": "rgb(163, 190, 140)",
+		"base0C": "rgb(150, 181, 180)",
+		"base0D": "rgb(143, 161, 179)",
+		"base0E": "rgb(180, 142, 173)",
+		"base0F": "rgb(171, 121, 103)"
+	},
+	"globals":
+	{
+		"foreground": "var(base05)",
+		"background": "var(base-00)",
+		"caret": "var(base05)",
+		"invisibles": "var(base03)",
+		"selection": "var(base02)"
+	},
+	"rules": []
+}

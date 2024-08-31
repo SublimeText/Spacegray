@@ -1,0 +1,36 @@
+{
+	"name": "Spacegray Mocha",
+	"variables":
+	{
+		// additional variations
+		"base-00": "rgb(44, 33, 20)",
+		"base-01": "rgb(66, 49, 32)",
+
+		// base16 color palette
+		"base00": "rgb(59, 50, 40)",
+		"base01": "rgb(83, 70, 54)",
+		"base02": "rgb(100, 82, 64)",
+		"base03": "rgb(126, 112, 90)",
+		"base04": "rgb(184, 175, 173)",
+		"base05": "rgb(208, 200, 198)",
+		"base06": "rgb(233, 225, 221)",
+		"base07": "rgb(245, 238, 235)",
+		"base08": "rgb(203, 96, 119)",
+		"base09": "rgb(210, 139, 113)",
+		"base0A": "rgb(244, 188, 135)",
+		"base0B": "rgb(190, 181, 91)",
+		"base0C": "rgb(123, 189, 164)",
+		"base0D": "rgb(138, 179, 181)",
+		"base0E": "rgb(168, 155, 185)",
+		"base0F": "rgb(187, 149, 132)"
+	},
+	"globals":
+	{
+		"foreground": "var(base05)",
+		"background": "var(base-00)",
+		"caret": "var(base05)",
+		"invisibles": "var(base03)",
+		"selection": "var(base02)"
+	},
+	"rules": []
+}
