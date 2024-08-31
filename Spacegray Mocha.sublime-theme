@@ -66,6 +66,32 @@
         "layer0.inner_margin": [5,5],
         "layer0.opacity": 1
     },
+    // Tab set sizing
+    {
+        "class": "tabset_control",
+        "settings": ["spacegray_tabs_auto_width"],
+        "tab_width": 0
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["spacegray_tabs_small"],
+        "tab_height": 22
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["spacegray_tabs_normal"],
+        "tab_height": 28
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["spacegray_tabs_large"],
+        "tab_height": 34
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["spacegray_tabs_xlarge"],
+        "tab_height": 40
+    },
     // Tab close state
     {
         "class": "tab_control",
@@ -1343,37 +1369,6 @@
         "settings": ["spacegray_color_expanded_folder"],
         "attributes": ["expanded"],
         "layer0.tint": [244, 188, 82]    // -0A
-    },
-
-//
-// TABS SIZING
-//
-
-    // Tab set
-    {
-        "class": "tabset_control",
-        "settings": ["spacegray_tabs_auto_width"],
-        "tab_width": 0
-    },
-    {
-        "class": "tabset_control",
-        "settings": ["spacegray_tabs_small"],
-        "tab_height": 22
-    },
-    {
-        "class": "tabset_control",
-        "settings": ["spacegray_tabs_normal"],
-        "tab_height": 28
-    },
-    {
-        "class": "tabset_control",
-        "settings": ["spacegray_tabs_large"],
-        "tab_height": 34
-    },
-    {
-        "class": "tabset_control",
-        "settings": ["spacegray_tabs_xlarge"],
-        "tab_height": 40
     }
 ]
 }
