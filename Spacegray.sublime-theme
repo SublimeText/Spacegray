@@ -936,17 +936,16 @@
     },
     // Sidebar symlink folder icon
     {
-      "class": "icon_folder_dup",
-      "layer0.texture": "Theme - Spacegray/assets/folder-dup.png",
-      "layer0.opacity": 0.5,
-      "layer0.tint": [167, 173, 186],  // 04
-      "content_margin": [8, 8]
+        "class": "icon_folder_dup",
+        "layer0.texture": "Theme - Spacegray/assets/folder-dup.png",
+        "layer0.opacity": 0.5,
+        "layer0.tint": [167, 173, 186],  // 04
+        "content_margin": [8, 8]
     },
     {
-      "class": "icon_folder_dup",
-      "parents":
-      [{ "class": "tree_row", "attributes": ["hover"] }],
-      "layer0.opacity": 1
+        "class": "icon_folder_dup",
+        "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
+        "layer0.opacity": 1
     },
     // Sidebar file icons
     {
@@ -982,9 +981,9 @@
         "content_margin": [0, 0]
     },
     {
-      "class": "icon_folder_dup",
-      "settings": ["!spacegray_fileicons"],
-      "content_margin": [0, 0]
+        "class": "icon_folder_dup",
+        "settings": ["!spacegray_fileicons"],
+        "content_margin": [0, 0]
     },
     {
         "class": "icon_folder_loading",
