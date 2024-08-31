@@ -22,6 +22,18 @@
 [
 
 //
+// TITLE BAR
+//
+
+    {
+        "class": "title_bar",
+        "settings": ["themed_title_bar"],
+        "fg": [167, 173, 186], // 04
+        "bg": [15, 30, 40] // -00
+    },
+
+
+//
 // TABS (REGULAR)
 //
 
@@ -1363,18 +1375,6 @@
         "class": "tabset_control",
         "settings": ["spacegray_tabs_xlarge"],
         "tab_height": 40
-    },
-
-//
-// TITLE BAR
-//
-
-    {
-        "class": "title_bar",
-        "settings": ["themed_title_bar"],
-        "fg": [167, 173, 186], // 04
-        "bg": [15, 30, 40] // -00
     }
-
 ]
 }
