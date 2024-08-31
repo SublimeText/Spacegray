@@ -1113,6 +1113,26 @@
         "dark_content": true
     },
     {
+        "class": "quick_panel",
+        "parents": [{"class": "overlay_control kind_info"}],
+        "row_padding": 0
+    },
+    {
+        "class": "kind_container",
+        "content_margin": [8, 0, 8, 0],
+        "layer0.opacity": 0
+    },
+    {
+        "class": "kind_label",
+        "font.bold": false,
+        "font.italic": false
+    },
+    {
+        "class": "symbol_container",
+        "content_margin": 8
+    },
+    // Quick panel rows
+    {
         "class": "quick_panel_row",
         "layer0.texture": "",
         "layer0.tint": [57, 57, 57], // 01
@@ -1178,7 +1198,7 @@
     },
     {
         "class": "auto_complete",
-        "row_padding": [4,4]
+        "row_padding": 0
     },
     {
         "class": "auto_complete_label",
@@ -1198,6 +1218,15 @@
         "class": "table_row",
         "attributes": ["selected"],
         "layer0.opacity": 1
+    },
+    {
+        "class": "trigger_container",
+        "content_margin": [2, 4, 4, 4]
+    },
+    {
+        "class": "kind_label",
+        "parents": [{"class": "auto_complete"}],
+        "font.size": "0.8rem",
     },
 
 //
