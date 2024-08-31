@@ -166,6 +166,7 @@
 		// Tab close button
 		{
 			"class": "tab_close_button",
+			"content_margin": 0,
 			"layer0.texture": "Theme - Spacegray/assets/close.png",
 			"layer0.opacity": 0,
 			"layer0.tint": [116, 115, 105] // 03
@@ -199,13 +200,6 @@
 			"parents": [{"class": "tab_control","attributes": ["dirty"]}],
 			"layer0.texture": "Theme - Spacegray/assets/circle.png",
 			"layer0.tint": [254, 204, 102], // 0A
-			"layer0.opacity": 1
-		},
-		{
-			"class": "tab_close_button",
-			"settings": ["!show_tab_close_buttons"],
-			"parents": [{"class": "tab_control","attributes": ["dirty"]}],
-			"content_margin": [8,8],
 			"layer0.opacity": 1
 		},
 		{
