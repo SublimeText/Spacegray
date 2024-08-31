@@ -117,16 +117,16 @@ To customize it,
 Tabs height:
 
 ```json
-  "spacegray_tabs_small": true
+  "spacegray_tabs_size": "small"
 ```
 ```json
-  "spacegray_tabs_normal": true
+  "spacegray_tabs_size": "normal"
 ```
 ```json
-  "spacegray_tabs_large": true
+  "spacegray_tabs_size": "large"
 ```
 ```json
-  "spacegray_tabs_xlarge": true
+  "spacegray_tabs_size": "xlarge"
 ```
 
 Tabs width:
@@ -135,31 +135,31 @@ Tabs width:
   "spacegray_tabs_auto_width": true
 ```
 
-#### Sidebar tree rows height
-
-```json
-  "spacegray_sidebar_tree_xsmall": true
-```
-```json
-  "spacegray_sidebar_tree_small": true
-```
-```json
-  "spacegray_sidebar_tree_normal": true
-```
-```json
-  "spacegray_sidebar_tree_large": true
-```
-```json
-  "spacegray_sidebar_tree_xlarge": true
-```
-
-#### Hide navigation icons in Sublime Text 3
+#### Hide navigation icons in Sublime Text
 
 ```json
   "enable_tab_scrolling": false,
 ```
 
-#### Enable sidebar fileicons (only works in Sublime Text 3)
+#### Sidebar tree rows height
+
+```json
+  "spacegray_sidebar_tree_size": "xsmall"
+```
+```json
+  "spacegray_sidebar_tree_size": "small"
+```
+```json
+  "spacegray_sidebar_tree_size": "normal"
+```
+```json
+  "spacegray_sidebar_tree_size": "large"
+```
+```json
+  "spacegray_sidebar_tree_size": "xlarge"
+```
+
+#### Enable sidebar file icons
 
 ```json
   "spacegray_fileicons": true,
@@ -167,7 +167,7 @@ Tabs width:
 
 ![image](screenshots/spacegray-fileicons.png)
 
-#### Enable VS Code style sidebar VCS coloring
+#### Enable sidebar item label vcs coloring
 
 ```json
   "spacegray_sidebar_vcs_label": true,

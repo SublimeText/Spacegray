@@ -72,22 +72,17 @@
 		},
 		{
 			"class": "tabset_control",
-			"settings": ["spacegray_tabs_small"],
+			"settings": {"spacegray_tabs_height": "small"},
 			"tab_height": 22
 		},
 		{
 			"class": "tabset_control",
-			"settings": ["spacegray_tabs_normal"],
-			"tab_height": 28
-		},
-		{
-			"class": "tabset_control",
-			"settings": ["spacegray_tabs_large"],
+			"settings": {"spacegray_tabs_height": "large"},
 			"tab_height": 34
 		},
 		{
 			"class": "tabset_control",
-			"settings": ["spacegray_tabs_xlarge"],
+			"settings": {"spacegray_tabs_height": "xlarge"},
 			"tab_height": 40
 		},
 
@@ -572,27 +567,22 @@
 		},
 		{
 			"class": "sidebar_tree",
-			"settings": ["spacegray_sidebar_tree_xsmall"],
+			"settings": {"spacegray_sidebar_tree_size": "xsmall"},
 			"row_padding": [8, 0]
 		},
 		{
 			"class": "sidebar_tree",
-			"settings": ["spacegray_sidebar_tree_small"],
+			"settings": {"spacegray_sidebar_tree_size": "small"},
 			"row_padding": [8, 2]
 		},
 		{
 			"class": "sidebar_tree",
-			"settings": ["spacegray_sidebar_tree_normal"],
-			"row_padding": [8, 4]
-		},
-		{
-			"class": "sidebar_tree",
-			"settings": ["spacegray_sidebar_tree_large"],
+			"settings": {"spacegray_sidebar_tree_size": "large"},
 			"row_padding": [8, 6]
 		},
 		{
 			"class": "sidebar_tree",
-			"settings": ["spacegray_sidebar_tree_xlarge"],
+			"settings": {"spacegray_sidebar_tree_size": "xlarge"},
 			"row_padding": [8, 8]
 		},
 		// Sidebar heading selected

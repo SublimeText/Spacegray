@@ -1,0 +1,17 @@
+{
+	// Tabs Size
+	// valid values are: "small", "normal", "large", "xlarge"
+	"spacegray_tabs_height": "normal",
+	"spacegray_tabs_auto_width": false,
+
+	// Sidebar Tree Size
+	// valid values are: "xsmall", "small", "normal", "large", "xlarge"
+	"spacegray_sidebar_tree_size": "normal",
+
+	// File Icons
+	"spacegray_fileicons": true,
+
+	// Sdebar Label VCS Highlighting
+	"spacegray_sidebar_vcs_label": true,
+	"spacegray_sidebar_vcs_expanded": true,	
+}
