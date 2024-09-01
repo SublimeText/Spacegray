@@ -757,7 +757,7 @@
 				{ "class": "file_system_entry", "attributes": ["modified"] }
 			],
 			"settings": ["spacegray_sidebar_vcs_label"],
-			"color": "color(var(base0E) a(0.75))"
+			"color": "color(var(base0A) a(0.75))"
 		},
 		{
 			"class": "sidebar_label",
@@ -766,7 +766,7 @@
 				{ "class": "file_system_entry", "attributes": ["modified"] }
 			],
 			"settings": ["spacegray_sidebar_vcs_label"],
-			"color": "color(var(base0E) l(80%) s(75%))"
+			"color": "color(var(base0A) l(80%) s(75%))"
 		},
 		{
 			"class": "sidebar_label",
@@ -774,7 +774,7 @@
 				{ "class": "file_system_entry", "attributes": ["modified"] }
 			],
 			"settings": ["spacegray_sidebar_vcs_label", "spacegray_sidebar_vcs_expanded"],
-			"color": "color(var(base0E) a(0.75))"
+			"color": "color(var(base0A) a(0.75))"
 		},
 		{
 			"class": "sidebar_label",
@@ -783,7 +783,7 @@
 				{ "class": "file_system_entry", "attributes": ["modified"] }
 			],
 			"settings": ["spacegray_sidebar_vcs_label", "spacegray_sidebar_vcs_expanded"],
-			"color": "color(var(base0E) l(80%) s(75%))"
+			"color": "color(var(base0A) l(80%) s(75%))"
 		},
 
 		// File staged to VCS (without further modifications)
