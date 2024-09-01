@@ -35,10 +35,31 @@
 	{
 		"foreground": "var(base05)",
 		"background": "var(base00)",
-		"caret": "var(base05)",
 		"invisibles": "var(base03)",
+		"fold_marker": "var(base04)",
+		"shadow": "color(black alpha(10%))",
+		"shadow_width": "4",
+		
+		// caret
+		"caret": "var(base05)",
+
+		// indent guides
+		"active_guide": "var(base08)",
+		"stack_guide": "var(base03)",
+		"guide": "var(base02)",
+		
+		// gutter
+		"gutter_foreground": "var(base03)",
+		"gutter_foreground_highlight": "var(base05)",
+		"line_diff_width": "2",
+		
+		// active line	
 		"line_highlight": "color(var(base03) alpha(10%)",
-		"selection": "var(base02)"
+		
+		// selections
+		"selection": "var(base02)",
+		"selection_border": "var(base01)",
+		"selection_corner_style": "square",
 	},
 	"rules":
 	[
