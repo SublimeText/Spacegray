@@ -1,22 +1,27 @@
 {
 	"variables":
 	{
-		"base00": "#2b303b",
-		"base01": "#343d46",
-		"base02": "#4f5b66",
-		"base03": "#65737e",
-		"base04": "#a7adba",
-		"base05": "#c0c5ce",
-		"base06": "#dfe1e8",
-		"base07": "#eff1f5",
-		"base08": "#bf616a",
-		"base09": "#d08770",
-		"base0A": "#ebcb8b",
-		"base0B": "#a3be8c",
-		"base0C": "#96b5b4",
-		"base0D": "#8fa1b3",
-		"base0E": "#b48ead",
-		"base0F": "#ab7967"
+		// additional variations
+		"base-00": "rgb(28, 31, 38)",
+		"base-01": "rgb(35, 40, 48)",
+
+		// base16 color palette
+		"base00": "rgb(43, 48, 59)",
+		"base01": "rgb(52, 61, 70)",
+		"base02": "rgb(79,91,102)",
+		"base03": "rgb(101, 115, 126)",
+		"base04": "rgb(167, 173, 186)",
+		"base05": "rgb(192, 197, 206)",
+		"base06": "rgb(223, 225, 232)",
+		"base07": "rgb(239, 241, 245)",
+		"base08": "rgb(191, 97, 106)",
+		"base09": "rgb(208, 135, 112)",
+		"base0A": "rgb(235, 203, 139)",
+		"base0B": "rgb(163, 190, 140)",
+		"base0C": "rgb(150, 181, 180)",
+		"base0D": "rgb(143, 161, 179)",
+		"base0E": "rgb(180, 142, 173)",
+		"base0F": "rgb(171, 121, 103)"
 	},
 	"rules":
 	[
@@ -28,8 +33,8 @@
 		{
 			"class": "title_bar",
 			"settings": ["themed_title_bar"],
-			"fg": [167, 173, 186], // 04
-			"bg": [28, 31, 38] // -00
+			"fg": "var(base04)",
+			"bg": "var(base-00)"
 		},
 
 
@@ -41,7 +46,7 @@
 		{
 			"class": "tabset_control",
 			"layer0.texture": "",
-			"layer0.tint": [28, 31, 38], // -00
+			"layer0.tint": "var(base-00)",
 			"layer0.inner_margin": 0,
 			"layer0.opacity": 1,
 			"content_margin": 0,
@@ -85,14 +90,14 @@
 
 	//
 	// TABSET BUTTONS
-	// 
+	//
 
 		// Tab scroll buttons
 		{
 			"class": "scroll_tabs_left_button",
 			"content_margin": [12, 14],
 			"layer0.texture": "Theme - Spacegray/assets/arrow-left.png",
-			"layer0.tint": [167, 173, 186], // 04
+			"layer0.tint": "var(base04)",
 			"layer0.opacity": 0.6
 		},
 		{
@@ -104,7 +109,7 @@
 			"class": "scroll_tabs_right_button",
 			"content_margin": [12, 14],
 			"layer0.texture": "Theme - Spacegray/assets/arrow-right.png",
-			"layer0.tint": [167, 173, 186], // 04
+			"layer0.tint": "var(base04)",
 			"layer0.opacity": 0.6
 		},
 		{
@@ -117,7 +122,7 @@
 			"class": "show_tabs_dropdown_button",
 			"content_margin": [12, 12],
 			"layer0.texture": "Theme - Spacegray/assets/arrow-down.png",
-			"layer0.tint": [167, 173, 186], // 04
+			"layer0.tint": "var(base04)",
 			"layer0.opacity": 0.6
 		},
 		{
@@ -137,7 +142,7 @@
 			"max_margin_trim": 0,
 			"hit_test_level": 0,
 			"layer0.texture": "",
-			"layer0.tint": [28, 31, 38], // -00
+			"layer0.tint": "var(base-00)",
 			"layer0.inner_margin": [5,5],
 			"layer0.opacity": 1
 		},
@@ -162,7 +167,7 @@
 			"class": "tab_control",
 			"attributes": ["selected"],
 			"layer0.texture": "",
-			"layer0.tint": [43, 48, 59] // 00
+			"layer0.tint": "var(base00)"
 		},
 
 	//
@@ -175,7 +180,7 @@
 			"content_margin": 0,
 			"layer0.texture": "Theme - Spacegray/assets/close.png",
 			"layer0.opacity": 0,
-			"layer0.tint": [101, 115, 126] // 03
+			"layer0.tint": "var(base03)"
 		},
 		{
 			"class": "tab_close_button",
@@ -193,7 +198,7 @@
 			"parents": [{"class": "tab_control"}],
 			"attributes": ["hover"],
 			"layer0.opacity": 1,
-			"layer0.tint": [191, 97, 106] // 08
+			"layer0.tint": "var(base08)"
 		},
 		{
 			"class": "tab_close_button",
@@ -205,7 +210,7 @@
 			"class": "tab_close_button",
 			"parents": [{"class": "tab_control","attributes": ["dirty"]}],
 			"layer0.texture": "Theme - Spacegray/assets/circle.png",
-			"layer0.tint": [235, 203, 139], // 0A
+			"layer0.tint": "var(base0A)",
 			"layer0.opacity": 1
 		},
 		{
@@ -214,7 +219,7 @@
 			"layer0.texture": "Theme - Spacegray/assets/close.png",
 			"attributes": ["hover"],
 			"layer0.opacity": 1,
-			"layer0.tint": [191, 97, 106] // 08
+			"layer0.tint": "var(base08)"
 		},
 		{
 			"class": "tab_close_button",
@@ -252,17 +257,17 @@
 		{
 			"class": "tab_label",
 			"fade": true,
-			"fg": [101, 115, 127] // 03
+			"fg": "var(base03)"
 		},
 		{
 			"class": "tab_label",
 			"parents": [{"class": "tab_control","attributes": ["hover"]}],
-			"fg": [192, 197, 206] // 05
+			"fg": "var(base05)"
 		},
 		{
 			"class": "tab_label",
 			"parents": [{"class": "tab_control","attributes": ["selected"]}],
-			"fg": [223, 225, 232] // 06
+			"fg": "var(base06)"
 		},
 		{
 			"class": "tab_label",
@@ -299,7 +304,7 @@
 		{
 			"class": "fold_button_control",
 			"layer0.texture": "Theme - Spacegray/assets/fold-right.png",
-			"layer0.tint": [167, 173, 186], // 04
+			"layer0.tint": "var(base04)",
 			"layer0.opacity": 0.5,
 			"layer0.inner_margin": 0,
 			"content_margin": 8
@@ -327,7 +332,7 @@
 		{
 			"class": "scroll_bar_control",
 			"layer0.texture": "",
-			"layer0.tint": [35, 40, 48], // -01
+			"layer0.tint": "var(base-01)",
 			"layer0.opacity": 1,
 			"layer0.inner_margin": [0,0],
 			"blur": true
@@ -337,7 +342,7 @@
 			"class": "scroll_bar_control",
 			"attributes": ["horizontal"],
 			"layer0.texture": "",
-			"layer0.tint": [35, 40, 48], // -01
+			"layer0.tint": "var(base-01)",
 			"layer0.inner_margin": [0,0],
 			"blur": true
 		},
@@ -345,7 +350,7 @@
 		{
 			"class": "scroll_corner_control",
 			"layer0.texture": "",
-			"layer0.tint": [35, 40, 48], // -01
+			"layer0.tint": "var(base-01)",
 			"layer0.inner_margin": [0,0],
 			"layer0.opacity": 1
 		},
@@ -353,7 +358,7 @@
 		{
 			"class": "puck_control",
 			"layer0.texture": "",
-			"layer0.tint": [52, 61, 70], // 01
+			"layer0.tint": "var(base01)",
 			"layer0.opacity": 1,
 			"layer0.inner_margin": [0,0],
 			"content_margin": [6,0],
@@ -364,7 +369,7 @@
 			"class": "puck_control",
 			"attributes": ["horizontal"],
 			// "layer0.texture": "",
-			"layer0.tint": [52, 61, 70], // 01
+			"layer0.tint": "var(base01)",
 			"layer0.inner_margin": [0,0],
 			"content_margin": [12,6],
 			"blur": false
@@ -390,7 +395,7 @@
 			"class": "scroll_bar_control",
 			"settings": ["overlay_scroll_bars"],
 			// "layer0.texture": "",
-			"layer0.tint": [43, 48, 59], // 00
+			"layer0.tint": "var(base00)",
 			"layer0.inner_margin": [0,5],
 			"layer0.opacity": 0,
 			"blur": false
@@ -429,7 +434,7 @@
 			"settings": ["overlay_scroll_bars"],
 			"attributes": ["dark"],
 			// "layer0.texture": "",
-			"layer0.tint": [79, 91, 102] // 02
+			"layer0.tint": "var(base02)"
 
 		},
 		// Overlay light horizontal puck (for dark content)
@@ -438,7 +443,7 @@
 			"settings": ["overlay_scroll_bars"],
 			"attributes": ["horizontal","dark"],
 			// "layer0.texture": "",
-			"layer0.tint": [79, 91, 102] // 02
+			"layer0.tint": "var(base02)"
 		},
 
 	//
@@ -447,7 +452,7 @@
 
 		{
 			"class": "sheet_container_control",
-			"layer0.tint": [43, 48, 59],
+			"layer0.tint": "var(base00)",
 			"layer0.opacity": 1
 		},
 
@@ -458,7 +463,7 @@
 		{
 			"class": "grid_layout_control",
 			"border_size": 1,
-			"border_color": [28, 31, 38] // -00
+			"border_color": "var(base-00)"
 		},
 
 	//
@@ -467,7 +472,7 @@
 
 		{
 			"class": "minimap_control",
-			"viewport_color": [255,255,255,15]
+			"viewport_color": "color(var(base07) a(6%))"
 		},
 
 	//
@@ -477,7 +482,7 @@
 		// General labels
 		{
 			"class": "label_control",
-			"color": [101, 115, 126] // 03
+			"color": "var(base03)"
 		},
 		// Text field labels
 		{
@@ -499,7 +504,7 @@
 		{
 			"class": "tool_tip_control",
 			// "layer0.texture": "",
-			"layer0.tint": [79, 91, 102], // 02
+			"layer0.tint": "var(base02)",
 			"layer0.inner_margin": [1,1],
 			"layer0.opacity": 1,
 			"content_margin": [4,4]
@@ -507,7 +512,7 @@
 		// Tooltip content
 		{
 			"class": "tool_tip_label_control",
-			"color": [239,241,245] // 07
+			"color": "var(base07)"
 		},
 
 	//
@@ -518,14 +523,14 @@
 		{
 			"class": "status_bar",
 			"layer0.texture": "",
-			"layer0.tint": [28, 31, 38], // -00
+			"layer0.tint": "var(base-00)",
 			"layer0.opacity": 1,
 			"content_margin": 4
 		},
 		// Sidebar button
 		{
 			"class": "sidebar_button_control",
-			"layer0.tint": [79, 91, 102] // 02
+			"layer0.tint": "var(base02)"
 		},
 		// Status bar button
 		{
@@ -536,7 +541,7 @@
 		{
 			"class": "label_control",
 			"parents": [{"class": "status_bar"}],
-			"color": [79, 91, 102] // 02
+			"color": "var(base02)"
 		},
 
 	//
@@ -548,7 +553,7 @@
 			"class": "sidebar_container",
 			// "layer0.texture": "",
 			"layer0.opacity": 1,
-			"layer0.tint": [35, 40, 48], // -01
+			"layer0.tint": "var(base-01)",
 			"layer0.inner_margin": [1,5,2,1],
 			"content_margin": [0,1,1,0]
 		},
@@ -565,7 +570,7 @@
 		{
 			"class": "tree_row",
 			// "layer0.texture": "",
-			"layer0.tint": [52, 61, 70], // 01
+			"layer0.tint": "var(base01)",
 			"layer0.opacity": 0,
 			"layer0.inner_margin": [1,1]
 		},
@@ -578,7 +583,7 @@
 		// Sidebar heading
 		{
 			"class": "sidebar_heading",
-			"color": [79, 91, 102], // 02
+			"color": "var(base02)",
 			"font.bold": true
 		},
 		{
@@ -615,7 +620,7 @@
 		// Sidebar entry
 		{
 			"class": "sidebar_label",
-			"color": [101, 115, 127] // 03
+			"color": "var(base03)"
 		},
 		{
 			"class": "sidebar_label",
@@ -641,12 +646,12 @@
 		{
 			"class": "sidebar_label",
 			"parents": [{"class": "tree_row","attributes": ["expandable"]}],
-			"color": [101, 115, 127] // 03
+			"color": "var(base03)"
 		},
 		{
 			"class": "sidebar_label",
 			"parents": [{"class": "tree_row","attributes": ["hover"]}],
-			"color": [192,197,206] // 05
+			"color": "var(base05)"
 		},
 		{
 			"class": "sidebar_label",
@@ -706,7 +711,7 @@
 		},
 
 		// File added to VCS (when a new file is staged)
-		
+
 		{
 			"class": "sidebar_label",
 			"parents": [
@@ -850,7 +855,7 @@
 			"layer0.texture": "Theme - Spacegray/assets/close.png",
 			"layer0.opacity": 0,
 			"layer0.inner_margin": 0,
-			"layer0.tint": [101, 115, 126], // 03
+			"layer0.tint": "var(base03)",
 			"content_margin": 8
 		},
 		{
@@ -869,7 +874,7 @@
 			"attributes": ["dirty"],
 			"layer0.texture": "Theme - Spacegray/assets/circle.png",
 			"layer0.opacity": 1,
-			"layer0.tint": [235, 203, 139] // 0A
+			"layer0.tint": "var(base0A)"
 		},
 		{
 			"class": "close_button",
@@ -881,14 +886,14 @@
 		{
 			"class": "close_button",
 			"attributes": ["hover"],
-			"layer0.tint": [191, 97, 106] // 08
+			"layer0.tint": "var(base08)"
 		},
 		{
 			"class": "close_button",
 			"attributes": ["dirty", "hover"],
 			"parents": [{"class": "tree_row","attributes": ["hover"]}],
 			"layer0.texture": "Theme - Spacegray/assets/close.png",
-			"layer0.tint": [191, 97, 106] // 08
+			"layer0.tint": "var(base08)"
 		},
 
 	//
@@ -900,14 +905,14 @@
 			"class": "disclosure_button_control",
 			"content_margin": 8,
 			"layer0.texture": "Theme - Spacegray/assets/fold-right.png",
-			"layer0.tint": [79, 91, 102], // 02
+			"layer0.tint": "var(base02)",
 			"layer0.opacity": 1,
 			"layer0.inner_margin": 0
 		},
 		{
 			"class": "disclosure_button_control",
 			"parents": [{"class": "tree_row","attributes": ["hover"]}],
-			"layer0.tint": [167, 173, 186] // 04
+			"layer0.tint": "var(base04)"
 		},
 		{
 			"class": "disclosure_button_control",
@@ -936,7 +941,7 @@
 			"class": "icon_folder",
 			"layer0.texture": "Theme - Spacegray/assets/folder-closed.png",
 			"layer0.opacity": 0.5,
-			"layer0.tint": [167, 173, 186],  // 04
+			"layer0.tint": "var(base04)",
 			"content_margin": [8, 8]
 		},
 		{
@@ -990,7 +995,7 @@
 			"class": "icon_folder_dup",
 			"layer0.texture": "Theme - Spacegray/assets/folder-dup.png",
 			"layer0.opacity": 0.5,
-			"layer0.tint": [167, 173, 186],  // 04
+			"layer0.tint": "var(base04)",
 			"content_margin": [8, 8]
 		},
 		{
@@ -1053,7 +1058,7 @@
 			"min_size": [64,0],
 			// "layer0.texture": "",
 			"layer0.opacity": 1,
-			"layer0.tint": [28, 31, 38], // -00
+			"layer0.tint": "var(base-00)",
 			"layer0.inner_margin": [8,8]
 		},
 		// Hover button state
@@ -1061,14 +1066,14 @@
 			"class": "button_control",
 			"attributes": ["hover"],
 			// "layer0.texture": "",
-			"layer0.tint": [35, 40, 48] // -01
+			"layer0.tint": "var(base-01)"
 		},
 		// Pressed button state
 		{
 			"class": "button_control",
 			"attributes": ["pressed"],
 			// "layer0.texture": "",
-			"layer0.tint": [28, 31, 38] // -00
+			"layer0.tint": "var(base-00)"
 		},
 	//
 	// TEXT INPUT FIELD
@@ -1078,7 +1083,7 @@
 		{
 			"class": "text_line_control",
 			// "layer0.texture": "",
-			"layer0.tint": [28, 31, 38], // -01
+			"layer0.tint": "var(base-00)",
 			"layer0.opacity": 1,
 			"content_margin": 6
 		},
@@ -1093,7 +1098,7 @@
 			// "layer0.texture": "",
 			"layer0.inner_margin": [0,0],
 			"layer0.opacity": 1,
-			"layer0.tint": [28, 31, 38], // -00
+			"layer0.tint": "var(base-00)",
 			"content_margin": 0
 		},
 		// Quick panel background
@@ -1101,7 +1106,7 @@
 			"class": "overlay_control",
 			"layer0.opacity": 1,
 			// "layer1.texture": "",
-			"layer1.tint": [51, 61, 70], // 01
+			"layer1.tint": "var(base01)",
 			"layer1.inner_margin": [0,0,0,0],
 			"layer1.opacity": 1,
 			"content_margin": 0
@@ -1114,7 +1119,7 @@
 		{
 			"class": "quick_panel",
 			"row_padding": 8,
-			"layer0.tint": [51, 61, 70],
+			"layer0.tint": "var(base01)",
 			"layer0.opacity": 1,
 			"dark_content": true
 		},
@@ -1141,7 +1146,7 @@
 		{
 			"class": "quick_panel_row",
 			// "layer0.texture": "",
-			"layer0.tint": [51, 61, 70], // 01
+			"layer0.tint": "var(base01)",
 			"layer0.inner_margin": 8,
 			"layer0.opacity": 1
 		},
@@ -1149,30 +1154,30 @@
 			"class": "quick_panel_row",
 			"attributes": ["selected"],
 			// "layer0.texture": "",
-			"layer0.tint": [34, 40, 48] // -01
+			"layer0.tint": "var(base-01)"
 		},
 		{
 			"class": "quick_panel_label",
-			"fg": [167, 173, 186, 255], // 04
-			"match_fg": [192, 197, 206, 255], // 05
-			"selected_fg": [192, 197, 206, 255], // 05
-			"selected_match_fg": [239, 241, 245, 255] // 07
+			"fg": "var(base04)",
+			"match_fg": "var(base05)",
+			"selected_fg": "var(base05)",
+			"selected_match_fg": "var(base07)"
 		},
 		{
 			"class": "quick_panel_path_label",
-			"fg": [101, 115, 126, 255], // 03
-			"match_fg": [167, 173, 186, 255], // 04
-			"selected_fg": [101, 115, 126, 255], // 03
-			"selected_match_fg": [167, 173, 186, 255] // 04
+			"fg": "var(base03)",
+			"match_fg": "var(base04)",
+			"selected_fg": "var(base03)",
+			"selected_match_fg": "var(base04)"
 		},
 		{
 			"class": "quick_panel_score_label",
-			"fg": [101, 115, 126, 255], // 03
-			"selected_fg": [101, 115, 126, 255] // 03
+			"fg": "var(base03)",
+			"selected_fg": "var(base03)"
 		},
 		{
 			"class": "quick_panel_detail_label",
-			"link_color": [167, 173, 186, 255] // 04
+			"link_color": "var(base04)"
 		},
 
 	//
@@ -1182,14 +1187,14 @@
 		{
 			"class": "mini_quick_panel_row",
 			// "layer0.texture": "",
-			"layer0.tint": [51, 61, 70], // 01
+			"layer0.tint": "var(base01)",
 			"layer0.opacity": 1
 		},
 		{
 			"class": "mini_quick_panel_row",
 			"attributes": ["selected"],
 			// "layer0.texture": "",
-			"layer0.tint": [34, 40, 48] // -01
+			"layer0.tint": "var(base-01)"
 		},
 
 	//
@@ -1199,7 +1204,7 @@
 		{
 			"class": "popup_control",
 			"content_margin": [0,0],
-			"layer0.tint": [51, 61, 70], // 01
+			"layer0.tint": "var(base01)",
 			"layer0.opacity": 1
 		},
 		{
@@ -1208,15 +1213,15 @@
 		},
 		{
 			"class": "auto_complete_label",
-			"fg": [101, 115, 126, 255], // 03
-			"match_fg": [192, 197, 206, 255], // 05
-			"selected_fg": [167, 173, 186, 255], // 03
-			"selected_match_fg": [192, 197, 206, 255] // 05
+			"fg": "var(base03)",
+			"match_fg": "var(base05)",
+			"selected_fg": "var(base04)",
+			"selected_match_fg": "var(base05)"
 		},
 		{
 			"class": "table_row",
 			// "layer0.texture": "",
-			"layer0.tint": [79, 91, 103], // 02
+			"layer0.tint": "var(base02)",
 			"layer0.opacity": 0,
 			"layer0.inner_margin": [3,1]
 		},
@@ -1299,7 +1304,7 @@
 		{
 			"class": "icon_regex",
 			"layer0.texture": "Theme - Spacegray/assets/regex.png",
-			"layer0.tint": [79, 91, 102], // 02
+			"layer0.tint": "var(base02)",
 			"layer0.opacity": 1,
 			"content_margin": 8
 
@@ -1307,33 +1312,33 @@
 		{
 			"class": "icon_regex",
 			"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-			"layer0.tint": [239, 241, 245] // 07
+			"layer0.tint": "var(base07)"
 		},
 		// Case sensitive search button
 		{
 			"class": "icon_case",
 			"layer0.texture": "Theme - Spacegray/assets/casesens.png",
-			"layer0.tint": [79, 91, 102], // 02
+			"layer0.tint": "var(base02)",
 			"layer0.opacity": 1,
 			"content_margin": 8
 		},
 		{
 			"class": "icon_case",
 			"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-			"layer0.tint": [239, 241, 245] // 07
+			"layer0.tint": "var(base07)"
 		},
 		// Match whole word search button
 		{
 			"class": "icon_whole_word",
 			"layer0.texture": "Theme - Spacegray/assets/wholeword.png",
-			"layer0.tint": [79, 91, 102], // 02
+			"layer0.tint": "var(base02)",
 			"layer0.opacity": 1,
 			"content_margin": 8
 		},
 		{
 			"class": "icon_whole_word",
 			"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-			"layer0.tint": [239, 241, 245] // 07
+			"layer0.tint": "var(base07)"
 		},
 
 	//
@@ -1344,27 +1349,27 @@
 		{
 			"class": "icon_context",
 			"layer0.texture": "Theme - Spacegray/assets/context.png",
-			"layer0.tint": [79, 91, 102], // 02
+			"layer0.tint": "var(base02)",
 			"layer0.opacity": 1,
 			"content_margin": 8
 		},
 		{
 			"class": "icon_context",
 			"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-			"layer0.tint": [239, 241, 245] // 07
+			"layer0.tint": "var(base07)"
 		},
 		// Use search buffer
 		{
 			"class": "icon_use_buffer",
 			"layer0.texture": "Theme - Spacegray/assets/buffer.png",
-			"layer0.tint": [79, 91, 102], // 02
+			"layer0.tint": "var(base02)",
 			"layer0.opacity": 1,
 			"content_margin": 8
 		},
 		{
 			"class": "icon_use_buffer",
 			"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-			"layer0.tint": [239, 241, 245] // 07
+			"layer0.tint": "var(base07)"
 		},
 
 	//
@@ -1374,40 +1379,40 @@
 		{
 			"class": "icon_reverse",
 			"layer0.texture": "Theme - Spacegray/assets/reverse.png",
-			"layer0.tint": [79, 91, 102], // 02
+			"layer0.tint": "var(base02)",
 			"layer0.opacity": 1,
 			"content_margin": 8
 		},
 		{
 			"class": "icon_reverse",
 			"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-			"layer0.tint": [239, 241, 245] // 07
+			"layer0.tint": "var(base07)"
 		},
 		// Search wrap button
 		{
 			"class": "icon_wrap",
 			"layer0.texture": "Theme - Spacegray/assets/wrap.png",
-			"layer0.tint": [79, 91, 102], // 02
+			"layer0.tint": "var(base02)",
 			"layer0.opacity": 1,
 			"content_margin": 8
 		},
 		{
 			"class": "icon_wrap",
 			"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-			"layer0.tint": [239, 241, 245] // 07
+			"layer0.tint": "var(base07)"
 		},
 		// Search in selection button
 		{
 			"class": "icon_in_selection",
 			"layer0.texture": "Theme - Spacegray/assets/selection.png",
-			"layer0.tint": [79, 91, 102], // 02
+			"layer0.tint": "var(base02)",
 			"layer0.opacity": 1,
 			"content_margin": 8
 		},
 		{
 			"class": "icon_in_selection",
 			"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-			"layer0.tint": [239, 241, 245] // 07
+			"layer0.tint": "var(base07)"
 		},
 
 	//
@@ -1418,14 +1423,14 @@
 		{
 			"class": "icon_preserve_case",
 			"layer0.texture": "Theme - Spacegray/assets/lock.png",
-			"layer0.tint": [79, 91, 102], // 02
+			"layer0.tint": "var(base02)",
 			"layer0.opacity": 1,
 			"content_margin": 8
 		},
 		{
 			"class": "icon_preserve_case",
 			"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-			"layer0.tint": [239, 241, 245] // 07
+			"layer0.tint": "var(base07)"
 		},
 
 	//
@@ -1436,14 +1441,14 @@
 		{
 			"class": "icon_highlight",
 			"layer0.texture": "Theme - Spacegray/assets/highlight.png",
-			"layer0.tint": [79, 91, 102], // 02
+			"layer0.tint": "var(base02)",
 			"layer0.opacity": 1,
 			"content_margin": 8
 		},
 		{
 			"class": "icon_highlight",
 			"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
-			"layer0.tint": [239, 241, 245] // 07
+			"layer0.tint": "var(base07)"
 		},
 
 	//
@@ -1453,7 +1458,7 @@
 			"class": "disclosure_button_control",
 			"settings": ["spacegray_color_expanded_folder"],
 			"attributes": ["expanded"],
-			"layer0.tint": [254, 204, 102] // 0A
+			"layer0.tint": "var(base0A)"
 		},
 
 	//
@@ -1462,17 +1467,17 @@
 		{
 			"class": "dialog",
 			"content_margin": 12,
-			"layer0.tint": [35, 40, 48], // -01
+			"layer0.tint": "var(base-01)",
 			"layer0.opacity": 1.0
 		},
 		{
 			"class": "progress_bar_control",
-			"layer0.tint": [28, 31, 38], // -00
+			"layer0.tint": "var(base-00)",
 			"layer0.opacity": 1.0
 		},
 		{
 			"class": "progress_gauge_control",
-			"layer0.tint": [52, 61, 70], // 01
+			"layer0.tint": "var(base01)",
 			"layer0.opacity": 1.0
 		}
 	]
