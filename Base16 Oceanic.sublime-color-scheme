@@ -116,7 +116,7 @@
 		},
 		{
 			"name": "Mapping keys",
-			"scope": "meta.mapping.key, entity.name.key",
+			"scope": "meta.mapping.key, meta.mapping.key string, entity.name.key",
 			"foreground": "var(base0E)",
 		},
 		{
