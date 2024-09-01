@@ -1,0 +1,7 @@
+# git
+/.github/           export-ignore
+/.gitattributes     export-ignore
+/.gitignore         export-ignore
+
+# development
+/fileicons-test		export-ignore
