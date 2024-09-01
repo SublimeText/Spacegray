@@ -304,52 +304,38 @@
 	//
 	// STANDARD SCROLLBARS
 	//
-
+		// Overlay toggle scroll bar
+		{
+			"class": "scroll_area_control",
+			"overlay": false
+		},
 		// Standard vertical scroll bar
 		{
 			"class": "scroll_bar_control",
 			"layer0.texture": "",
 			"layer0.tint": "var(base-01)",
-			"layer0.opacity": 1,
-			"layer0.inner_margin": [0,0],
-			"blur": true
-		},
-		// Standard horizontal scroll bar
-		{
-			"class": "scroll_bar_control",
-			"attributes": ["horizontal"],
-			"layer0.texture": "",
-			"layer0.tint": "var(base-01)",
-			"layer0.inner_margin": [0,0],
-			"blur": true
+			"layer0.opacity": 1
 		},
 		// Standard scroll bar corner
 		{
 			"class": "scroll_corner_control",
 			"layer0.texture": "",
 			"layer0.tint": "var(base-01)",
-			"layer0.inner_margin": [0,0],
 			"layer0.opacity": 1
 		},
 		// Standard vertical scroll puck
 		{
 			"class": "puck_control",
+			"content_margin": [4,0],
 			"layer0.texture": "",
 			"layer0.tint": "var(base01)",
-			"layer0.opacity": 1,
-			"layer0.inner_margin": [0,0],
-			"content_margin": [6,0],
-			"blur": false
+			"layer0.opacity": 1
 		},
 		// Standard horizontal scroll puck
 		{
 			"class": "puck_control",
 			"attributes": ["horizontal"],
-			// "layer0.texture": "",
-			"layer0.tint": "var(base01)",
-			"layer0.inner_margin": [0,0],
-			"content_margin": [12,6],
-			"blur": false
+			"content_margin": [0,4]
 		},
 
 	//
@@ -362,65 +348,19 @@
 			"settings": ["overlay_scroll_bars"],
 			"overlay": true
 		},
-		{
-			"class": "scroll_area_control",
-			"settings": ["!overlay_scroll_bars"],
-			"overlay": false
-		},
 		// Overlay vertical scroll bar
 		{
 			"class": "scroll_bar_control",
 			"settings": ["overlay_scroll_bars"],
-			// "layer0.texture": "",
-			"layer0.tint": "var(base00)",
-			"layer0.inner_margin": [0,5],
-			"layer0.opacity": 0,
-			"blur": false
-		},
-		// Overlay horizontal scroll bar
-		{
-			"class": "scroll_bar_control",
-			"settings": ["overlay_scroll_bars"],
-			"attributes": ["horizontal"],
-			"layer0.inner_margin": [5,0],
-			"layer0.opacity": 0,
-			"blur": true
-		},
-		// Overlay vertical puck
-		{
-			"class": "puck_control",
-			"settings": ["overlay_scroll_bars"],
-			"layer0.texture": "",
-			"layer0.inner_margin": [0,5],
-			"content_margin": [2,32],
-			"blur": true
-		},
-		// Overlay horizontal puck
-		{
-			"class": "puck_control",
-			"settings": ["overlay_scroll_bars"],
-			"attributes": ["horizontal"],
-			"layer0.texture": "",
-			"layer0.inner_margin": [5,0],
-			"content_margin": [16,2],
-			"blur": true
+			"layer0.opacity": 0
 		},
 		// Overlay light puck (for dark content)
 		{
 			"class": "puck_control",
 			"settings": ["overlay_scroll_bars"],
 			"attributes": ["dark"],
-			// "layer0.texture": "",
 			"layer0.tint": "var(base02)"
 
-		},
-		// Overlay light horizontal puck (for dark content)
-		{
-			"class": "puck_control",
-			"settings": ["overlay_scroll_bars"],
-			"attributes": ["horizontal","dark"],
-			// "layer0.texture": "",
-			"layer0.tint": "var(base02)"
 		},
 
 	//
