@@ -1,8 +1,6 @@
 # Spacegray
 
-A set of custom UI themes for Sublime Text 2/3. It's all about hype and minimal. Comes in different flavors with accompanying [Base16](https://github.com/chriskempson/base16) color schemes.
-
-***
+A set of custom UI themes for Sublime Text. It's all about hype and minimal. Comes in different flavors with accompanying [Base16](https://github.com/chriskempson/base16) color schemes.
 
 ### Themes
 
@@ -50,11 +48,11 @@ You can also install the theme manually:
 
 ### How to Activate
 
-Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` (<kbd>⌘</kbd><kbd>,</kbd> on Mac).
+To select a theme call _UI: Select Theme_ from Command Palette.
 
-You can choose whichever flavor you like, but don't forget to change *both* color scheme and UI theme so they match.
+To select a color scheme call _UI: Select Color Scheme_ from Command Palette.
 
-***Note: Don't forget to restart Sublime Text after activating the theme.***
+Alternatively ajdust _Preferences.sublime-settings_ by calling _Preferences: Settings_ from Command Palette to one of the following pairs.
 
 #### Settings for Spacegray
 
