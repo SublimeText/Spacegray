@@ -1,6 +1,10 @@
 {
 	"variables":
 	{
+		// global font settings
+		"font_face": "system",
+		"font_size": "1.2rem",
+
 		// additional variations
 		"base-00": "rgb(28, 31, 38)",
 		"base-01": "rgb(35, 40, 48)",
@@ -36,7 +40,6 @@
 			"fg": "var(base04)",
 			"bg": "var(base-00)"
 		},
-
 
 	//
 	// TABSSET
@@ -256,8 +259,9 @@
 
 		{
 			"class": "tab_label",
-			"fade": true,
-			"fg": "var(base03)"
+			"fg": "var(base03)",
+			"font.face": "var(font_face)",
+			"font.size": "var(font_size)"
 		},
 		{
 			"class": "tab_label",
@@ -273,28 +277,6 @@
 			"class": "tab_label",
 			"attributes": ["transient"],
 			"font.italic": true
-		},
-
-		// Tab Labels font size
-		{
-			"class": "tab_label",
-			"settings": ["spacegray_tabs_font_small"],
-			"font.size": 10.0
-		},
-		{
-			"class": "tab_label",
-			"settings": ["spacegray_tabs_font_normal"],
-			"font.size": 11.0
-		},
-		{
-			"class": "tab_label",
-			"settings": ["spacegray_tabs_font_large"],
-			"font.size": 12.0
-		},
-		{
-			"class": "tab_label",
-			"settings": ["spacegray_tabs_font_xlarge"],
-			"font.size": 14.0
 		},
 
 	//
@@ -482,7 +464,9 @@
 		// General labels
 		{
 			"class": "label_control",
-			"color": "var(base03)"
+			"color": "var(base03)",
+			"font.face": "var(font_face)",
+			"font.size": "var(font_size)"
 		},
 		// Text field labels
 		{
@@ -620,27 +604,9 @@
 		// Sidebar entry
 		{
 			"class": "sidebar_label",
-			"color": "var(base03)"
-		},
-		{
-			"class": "sidebar_label",
-			"settings": ["spacegray_sidebar_font_small"],
-			"font.size": 10.0
-		},
-		{
-			"class": "sidebar_label",
-			"settings": ["spacegray_sidebar_font_normal"],
-			"font.size": 11.0
-		},
-		{
-			"class": "sidebar_label",
-			"settings": ["spacegray_sidebar_font_large"],
-			"font.size": 12.0
-		},
-		{
-			"class": "sidebar_label",
-			"settings": ["spacegray_sidebar_font_xlarge"],
-			"font.size": 14.0
+			"color": "var(base03)",
+			"font.face": "var(font_face)",
+			"font.size": "var(font_size)"			
 		},
 		// Sidebar folder entry
 		{
@@ -1161,23 +1127,31 @@
 			"fg": "var(base04)",
 			"match_fg": "var(base05)",
 			"selected_fg": "var(base05)",
-			"selected_match_fg": "var(base07)"
+			"selected_match_fg": "var(base07)",
+			"font.face": "var(font_face)",
+			"font.size": "var(font_size)"
 		},
 		{
 			"class": "quick_panel_path_label",
 			"fg": "var(base03)",
 			"match_fg": "var(base04)",
 			"selected_fg": "var(base03)",
-			"selected_match_fg": "var(base04)"
+			"selected_match_fg": "var(base04)",
+			"font.face": "var(font_face)",
+			"font.size": "var(font_size)"
 		},
 		{
 			"class": "quick_panel_score_label",
 			"fg": "var(base03)",
-			"selected_fg": "var(base03)"
+			"selected_fg": "var(base03)",
+			"font.face": "var(font_face)",
+			"font.size": "var(font_size)"
 		},
 		{
 			"class": "quick_panel_detail_label",
-			"link_color": "var(base04)"
+			"link_color": "var(base04)",
+			"font.face": "var(font_face)",
+			"font.size": "var(font_size)"
 		},
 
 	//
@@ -1216,7 +1190,9 @@
 			"fg": "var(base03)",
 			"match_fg": "var(base05)",
 			"selected_fg": "var(base04)",
-			"selected_match_fg": "var(base05)"
+			"selected_match_fg": "var(base05)",
+			"font.face": "var(font_face)",
+			"font.size": "1.0rem",
 		},
 		{
 			"class": "table_row",
@@ -1237,6 +1213,7 @@
 		{
 			"class": "kind_label",
 			"parents": [{"class": "auto_complete"}],
+			"font.face": "var(font_face)",
 			"font.size": "0.8rem",
 		},
 

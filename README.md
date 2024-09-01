@@ -87,22 +87,23 @@ You can choose whichever flavor you like, but don't forget to change *both* colo
 
 ### Settings
 
-#### Tab labels font size
+#### Font Face
 
-Copy and paste one of four options in your user preferences file:
+Global font face is set to `"system"`.
 
-```json
-  "spacegray_tabs_font_small": true
-```
-```json
-  "spacegray_tabs_font_normal": true
-```
-```json
-  "spacegray_tabs_font_large": true
-```
-```json
-  "spacegray_tabs_font_xlarge": true
-```
+To customize font face,
+
+1. select _UI: Customize Theme_
+2. modify `"font_face"` variable
+
+#### Font Size
+
+Global font size is derived from _Preferences.sublime-settings > "font_size"_ by default.
+
+To customize it, 
+
+1. select _UI: Customize Theme_
+2. modify `"font_size"` variable
 
 #### Tabs size
 
@@ -125,21 +126,6 @@ Tabs width:
 
 ```json
   "spacegray_tabs_auto_width": true
-```
-
-#### Sidebar labels font size
-
-```json
-  "spacegray_sidebar_font_small": true
-```
-```json
-  "spacegray_sidebar_font_normal": true
-```
-```json
-  "spacegray_sidebar_font_large": true
-```
-```json
-  "spacegray_sidebar_font_xlarge": true
 ```
 
 #### Sidebar tree rows height
