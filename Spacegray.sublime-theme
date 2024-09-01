@@ -1371,6 +1371,20 @@
 			"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
 			"layer0.tint": "var(base07)"
 		},
+		// Use .gitignore
+		{
+			"class": "icon_use_gitignore",
+			"layer0.texture": "Theme - Spacegray/assets/gitignore.png",
+			"layer0.tint": "var(base02)",
+			"layer0.opacity": 1,
+			"content_margin": 8
+		},
+		{
+			"class": "icon_use_gitignore",
+			"parents": [{"class": "icon_button_control","attributes": ["selected"]}],
+			"layer0.tint": "var(base07)"
+		},
+
 
 	//
 	// BOTTOM PANEL ICONS - GROUP 2
