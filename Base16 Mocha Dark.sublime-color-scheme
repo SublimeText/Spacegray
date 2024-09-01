@@ -18,7 +18,18 @@
 		"base0C": "rgb(123, 189, 164)",
 		"base0D": "rgb(138, 179, 181)",
 		"base0E": "rgb(168, 155, 185)",
-		"base0F": "rgb(187, 149, 132)"
+		"base0F": "rgb(187, 149, 132)",
+		
+		// ST ..ish color palette
+		"--accent": "var(base08)",
+		"--blueish": "var(base0D)",
+		"--cyanish": "var(base0C)",
+		"--greenish": "var(base0B)",
+		"--orangish": "var(base09)",
+		"--pinkish": "var(base0E)",
+		"--purplish": "var(base0E)",
+		"--redish": "var(base08)",
+		"--yellowish": "var(base0A)",
 	},
 	"globals":
 	{
