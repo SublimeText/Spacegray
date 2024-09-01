@@ -68,5 +68,15 @@
 			"attributes": ["selected"],
 			"layer0.tint": "var(base01)"
 		},
+
+	//
+	// POPUPS
+	//
+
+		{
+			"class": "popup_control",
+			"layer0.tint": "var(base-00)"
+		},
+
 	]
 }
