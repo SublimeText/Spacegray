@@ -132,7 +132,7 @@ Tabs height:
 Tabs width:
 
 ```json
-  "spacegray_tabs_auto_width": true
+  "theme.spacegray.tabs.auto_width": true
 ```
 
 #### Hide navigation icons in Sublime Text
@@ -144,25 +144,25 @@ Tabs width:
 #### Sidebar tree rows height
 
 ```json
-  "spacegray_sidebar_tree_size": "xsmall"
+  "theme.spacegray.sidebar.row_height": "xsmall"
 ```
 ```json
-  "spacegray_sidebar_tree_size": "small"
+  "theme.spacegray.sidebar.row_height": "small"
 ```
 ```json
-  "spacegray_sidebar_tree_size": "normal"
+  "theme.spacegray.sidebar.row_height": "normal"
 ```
 ```json
-  "spacegray_sidebar_tree_size": "large"
+  "theme.spacegray.sidebar.row_height": "large"
 ```
 ```json
-  "spacegray_sidebar_tree_size": "xlarge"
+  "theme.spacegray.sidebar.row_height": "xlarge"
 ```
 
 #### Enable sidebar file icons
 
 ```json
-  "spacegray_fileicons": true,
+  "theme.spacegray.sidebar.show_icons": true,
 ```
 
 ![image](screenshots/spacegray-fileicons.png)
@@ -170,7 +170,7 @@ Tabs width:
 #### Enable sidebar item label vcs coloring
 
 ```json
-  "spacegray_sidebar_vcs_label": true,
+  "theme.spacegray.sidebar.vcs_color_labels": true,
 ```
 
 ![image](screenshots/spacegray-vcs.png)
@@ -178,7 +178,7 @@ Tabs width:
 To also color expanded folders:
 
 ```json
-  "spacegray_sidebar_vcs_expanded": true,
+  "theme.spacegray.sidebar.vcs_color_expanded": true,
 ```
 
 Originally implemented in [Toxin](https://github.com/p3lim/sublime-toxin) by [@p3lim](https://github.com/p3lim).

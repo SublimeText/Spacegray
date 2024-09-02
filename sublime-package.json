@@ -1,0 +1,47 @@
+{
+	"contributions": {
+		"settings": [
+			{
+				"file_patterns": [
+					"/Preferences.sublime-settings"
+				],
+				"schema": {
+					"properties": {
+						"theme.spacegray.tabs.height": {
+							"type": "string",
+							"enum": ["xlarge", "large", "normal", "small"],
+							"default": "normal",
+							"markdownDescription": "Controls size of file tabs. Valid values are `\"normal\"`, `\"large\"`, `\"xlarge\"` and `\"small\"`."
+						},
+						"theme.spacegray.tabs.auto_width": {
+							"type": "boolean",
+							"default": false,
+							"markdownDescription": "Controls whether minimum file tab width."
+						},
+						"theme.spacegray.sidebar.row_height": {
+							"type": "string",
+							"enum": ["xlarge", "large", "normal", "small", "xsmall"],
+							"default": "normal",
+							"markdownDescription": "Controls size of file tabs. Valid values are `\"normal\"`, `\"large\"`, `\"xlarge\"` and `\"small\"`."
+						},
+						"theme.spacegray.sidebar.show_icons": {
+							"type": "boolean",
+							"default": false,
+							"markdownDescription": "Controls whether to show folder and file icons in sidebar."
+						},
+						"theme.spacegray.sidebar.vcs_color_labels": {
+							"type": "boolean",
+							"default": true,
+							"markdownDescription": "Controls whether to show vcs status of tracked files and folders by color of their labels in sidebar."
+						},
+						"theme.spacegray.sidebar.vcs_color_expanded": {
+							"type": "boolean",
+							"default": true,
+							"markdownDescription": "Controls whether to show vcs status of expanded folders by color of their labels in sidebar."
+						},
+					}
+				}
+			}
+		]
+	}
+}

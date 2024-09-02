@@ -1,17 +1,23 @@
 {
-	// Tabs Size
+	// Controls size of file tabs.
 	// valid values are: "small", "normal", "large", "xlarge"
-	"spacegray_tabs_height": "normal",
-	"spacegray_tabs_auto_width": false,
+	"theme.spacegray.tabs.height": "normal",
 
-	// Sidebar Tree Size
+	// Controls whether minimum file tab width.
+	"theme.spacegray.tabs.auto_width": false,
+
+	// Controls size of file tabs.
 	// valid values are: "xsmall", "small", "normal", "large", "xlarge"
-	"spacegray_sidebar_tree_size": "normal",
+	"theme.spacegray.sidebar.row_height": "normal",
 
-	// File Icons
-	"spacegray_fileicons": true,
+	// Controls whether to show folder and file icons in sidebar.
+	"theme.spacegray.sidebar.show_icons": false,
 
-	// Sdebar Label VCS Highlighting
-	"spacegray_sidebar_vcs_label": true,
-	"spacegray_sidebar_vcs_expanded": true,	
+	// Controls whether to show vcs status of tracked files and folders by
+	// color of their labels in sidebar.
+	"theme.spacegray.sidebar.vcs_color_labels": true,
+
+	// Controls whether to show vcs status of expanded folders by color of
+	// their labels in sidebar.
+	"theme.spacegray.sidebar.vcs_color_expanded": true,	
 }
