@@ -95,7 +95,8 @@
 		},
 		{
 			"name": "Built-in Constants",
-			"scope": "constant.language, support.constant",
+			"scope": "constant.language, constant.language punctuation.definition, support.constant, support.constant punctuation.definition",
+			"foreground": "var(base09)",
 			"font_style": "italic"
 		},
 		{
