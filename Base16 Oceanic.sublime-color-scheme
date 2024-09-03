@@ -168,7 +168,7 @@
 		},
 		{
 			"name": "Symbols",
-			"scope": "constant.other.symbol",
+			"scope": "constant.other.symbol, constant.other.symbol punctuation.definition.constant",
 			"foreground": "var(base0B)"
 		},
 		{
