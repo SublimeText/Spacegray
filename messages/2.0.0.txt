@@ -1,0 +1,30 @@
+New in Spacegray 2.0.0:
+
+  !!! No longer supports ST2 or ST3 !!!
+  Latest ST3 supporting version is 1.3.5.
+
+  - refactored color schemes
+
+    * converted to *.sublime-color-scheme format
+    * various customization and rule updates to adjust to recent scope changes
+    * enables overrides via `UI: Customize Color Scheme`
+    * easier maintenance
+
+  - refactored themes
+
+    * define base16 palette using variables
+    * support for most ST4+ UI elements
+    * save a lot of lines of code
+
+  - refactored theme customization and settings
+
+    * added `font_face` and `font_size` variables for sublime-themes
+    * use most default ST4 theme settings
+    * rename Spacegray related settings to `theme.spacegray. ...`
+    * replace various boolean settings by real value settings
+
+    Please refer to [README](https://github.com/SublimeText/Spacegray/blob/main/README.md) for details.
+
+Fixes
+
+  - all out-standing github issues are fixed
