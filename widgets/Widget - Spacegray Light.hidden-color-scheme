@@ -32,5 +32,97 @@
 		"invisibles": "var(base05)",
 		"selection": "var(base05)"
 	},
-	"rules": []
+	"rules": [
+		{
+			"name": "Comments",
+			"scope": "comment, punctuation.definition.comment",
+			"foreground": "var(base04)"
+		},
+		{
+			"name": "Delimiters",
+			"scope": "punctuation.accessor, punctuation.separator, punctuation.terminator",
+			"foreground": "var(base0C)"
+		},
+		{
+			"name": "Definition Punctuation",
+			"scope": "punctuation.",
+			"foreground": "var(base0C)"
+		},
+		{
+			"name": "Section Punctuation",
+			"scope": "punctuation.section",
+			"foreground": "var(base03)"
+		},
+
+		// Keywords
+
+		{
+			"name": "Keywords",
+			"scope": "keyword, keyword.operator.word",
+			"foreground": "var(base0E)"
+		},
+		{
+			"name": "Operators",
+			"scope": "keyword.operator",
+			"foreground": "var(base08)"
+		},
+
+		// Types, Variables, ...
+
+		{
+			"name": "Storage",
+			"scope": "keyword.declaration, storage",
+			"foreground": "var(base0E)"
+		},
+		{
+			"name": "Variables",
+			"scope": "entity.name.variable, support.variable, variable, punctuation.definition.variable",
+			"foreground": "var(base02)"
+		},
+		{
+			"name": "Built-in Variables",
+			"scope": "variable.language, variable.language punctuation.definition.variable",
+			"foreground": "var(base08)",
+			"font_style": "italic"
+		},
+
+		// Literals
+
+		{
+			"name": "Constants",
+			"scope": "constant, keyword.other.unit, constant punctuation.definition",
+			"foreground": "var(base09)"
+		},
+		{
+			"name": "Built-in Constants",
+			"scope": "constant.language, support.constant",
+			"font_style": "italic"
+		},
+		{
+			"name": "Escape Characters",
+			"scope": "constant.character.escape",
+			"foreground": "var(base0C)"
+		},
+		{
+			"name": "Placeholder Characters",
+			"scope": "constant.other.placeholder, constant.other.wildcard, constant.other.placeholder punctuation.definition",
+			"foreground": "var(base0C)"
+		},
+		{
+			"name": "Numbers",
+			"scope": "constant.numeric, punctuation.separator.decimal",
+			"foreground": "var(base09)"
+		},
+		{
+			"name": "Strings",
+			"scope": "string",
+			"foreground": "var(base0B)"
+		},
+		{
+			"name": "Invalid",
+			"scope": "invalid.illegal",
+			"foreground": "var(base07)",
+			"background": "var(base08)"
+		},
+	]
 }
