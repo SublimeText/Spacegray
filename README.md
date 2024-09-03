@@ -22,21 +22,33 @@ A variation based on Base16 Eighties Dark color scheme.
 
 ![image](screenshots/spacegray-eighties.png)
 
-*The font used in the screenshots is [__Source Code Pro__](https://github.com/adobe-fonts/source-code-pro).*
+#### Spacegray Mocha
+
+A variation based on Base16 Mocha Dark color scheme.
+
+![image](screenshots/spacegray-mocha.png)
+
+#### Spacegray Oceanic
+
+A variation based on Base16 Oceanic Dark color scheme.
+
+![image](screenshots/spacegray-oceanic.png)
+
+*The font used in the screenshots is [__Cascadia Code__](https://github.com/microsoft/cascadia-code).*
 
 ***
 
-### How to Install
+## Installation
 
-#### Via Package Control
+### Via Package Control
 
 The easiest way to install is using [Sublime Package Control](https://sublime.wbond.net), where Spacegray is listed as `Theme - Spacegray`.
 
-1. Open Command Palette using menu item `Tools -> Command Palette...` (<kbd>⇧</kbd><kbd>⌘</kbd><kbd>P</kbd> on Mac)
-2. Choose `Package Control: Install Package`
+1. Open Command Palette using menu item _Tools > Command Palette..._ (<kbd>⇧</kbd><kbd>⌘</kbd><kbd>P</kbd> on Mac)
+2. Choose _Package Control: Install Package_
 3. Find `Theme - Spacegray` and hit <kbd>Enter</kbd>
 
-#### Manual
+### Manual
 
 You can also install the theme manually:
 
@@ -46,7 +58,7 @@ You can also install the theme manually:
 
 ***
 
-### How to Activate
+## Activate Theme
 
 To select a theme call _UI: Select Theme_ from Command Palette.
 
@@ -81,6 +93,15 @@ Alternatively ajdust _Preferences.sublime-settings_ by calling _Preferences: Set
 }
 ```
 
+#### Settings for Spacegray Mocha
+
+```json
+{
+  "theme": "Spacegray Mocha.sublime-theme",
+  "color_scheme": "Base16 Mocha Dark.sublime-color-scheme"
+}
+```
+
 #### Settings for Spacegray Oceanic
 
 ```json
@@ -92,7 +113,17 @@ Alternatively ajdust _Preferences.sublime-settings_ by calling _Preferences: Set
 
 ***
 
-### Settings
+## Theme Customization
+
+Themes are customized either by adjusting predefined settings 
+or by modifying global theme variables or rules.
+
+Open Command Palette and call one of:
+
+1. _Preferences: Settings_
+2. _UI: Customize Theme_
+
+### Theme Variables
 
 #### Font Face
 
@@ -100,33 +131,80 @@ Global font face is set to `"system"`.
 
 To customize font face,
 
-1. select _UI: Customize Theme_
-2. modify `"font_face"` variable
+1. open Command Palette
+2. call _UI: Customize Theme_
+3. modify `"font_face"` variable
 
 #### Font Size
 
 Global font size is derived from _Preferences.sublime-settings > "font_size"_ by default.
 
-To customize it, 
+To customize font size, 
 
-1. select _UI: Customize Theme_
-2. modify `"font_size"` variable
+1. open Command Palette
+2. call _UI: Customize Theme_
+3. modify `"font_size"` variable
 
-#### Tabs size
+### Global Theme Settings
+
+To customize theme settings,
+
+1. open Command Palette
+2. call _Preferences: Settings_  
+
+#### Themed Title Bar
+
+Useful if you're using native OSX tabs since custom title bar breaks the native tabs.
+
+```json
+  "themed_title_bar": false,
+```
+
+#### Tabs Navigation Icons
+
+```json
+  "enable_tab_scrolling": false,
+```
+
+#### Tabs Close Buttons
+
+Hide tab close buttons:
+
+```json
+  "show_tab_close_buttons": false,
+```
+
+Display tab close buttons on the left:
+
+```json
+  "show_tab_close_buttons_on_left": true,
+```
+
+### Spacegray Theme Settings
+
+To customize theme settings,
+
+1. open Command Palette
+2. call _Preferences: Settings_  
+
+#### Tabs Size
 
 Tabs height:
 
 ```json
-  "spacegray_tabs_size": "small"
+  "theme.spacegray.tabs.height": "small"
 ```
+
 ```json
-  "spacegray_tabs_size": "normal"
+  "theme.spacegray.tabs.height": "normal"
 ```
+
 ```json
-  "spacegray_tabs_size": "large"
+  "theme.spacegray.tabs.height": "large"
 ```
+
 ```json
-  "spacegray_tabs_size": "xlarge"
+  "theme.spacegray.tabs.height": "xlarge"
 ```
 
 Tabs width:
@@ -135,13 +213,7 @@ Tabs width:
   "theme.spacegray.tabs.auto_width": true
 ```
 
-#### Hide navigation icons in Sublime Text
-
-```json
-  "enable_tab_scrolling": false,
-```
-
-#### Sidebar tree rows height
+#### Sidebar Tree Row Height
 
 ```json
   "theme.spacegray.sidebar.row_height": "xsmall"
@@ -159,7 +231,7 @@ Tabs width:
   "theme.spacegray.sidebar.row_height": "xlarge"
 ```
 
-#### Enable sidebar file icons
+#### Sidebar File Icons
 
 ```json
   "theme.spacegray.sidebar.show_icons": true,
@@ -167,13 +239,11 @@ Tabs width:
 
 ![image](screenshots/spacegray-fileicons.png)
 
-#### Enable sidebar item label vcs coloring
+#### Sidebar Item Label VCS Coloring
 
 ```json
   "theme.spacegray.sidebar.vcs_color_labels": true,
 ```
-
-![image](screenshots/spacegray-vcs.png)
 
 To also color expanded folders:
 
@@ -182,14 +252,6 @@ To also color expanded folders:
 ```
 
 Originally implemented in [Toxin](https://github.com/p3lim/sublime-toxin) by [@p3lim](https://github.com/p3lim).
-
-#### Disable Themed Title Bar in Sublime Text
-
-Useful if you're using native OSX tabs since custom title bar breaks the native tabs.
-
-```json
-  "themed_title_bar": false,
-```
 
 ***
 
