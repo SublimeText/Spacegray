@@ -296,6 +296,11 @@
 			"foreground": "var(base02)",
 			"background": "color(var(base05) alpha(12%))"
 		},
+		{
+			"name": "Table Cell Separators",
+			"scope": "punctuation.separator.table-cell, punctuation.section.table-header",
+			"foreground": "var(base04)",
+		},
 
 		// Markup Inlines
 
