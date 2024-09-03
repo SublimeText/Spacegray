@@ -106,7 +106,6 @@
 		},
 
 		// Classes, Functions, Types, Variables, ...
-
 		{
 			"name": "Entities",
 			"scope": "entity",
@@ -142,6 +141,11 @@
 			"scope": "variable.language, variable.language punctuation.definition.variable",
 			"foreground": "var(base08)",
 			"font_style": "italic"
+		},
+		{
+			"name": "Annotation Variables",
+			"scope": "variable.annotation, variable.annotation punctuation.definition",
+			"foreground": "var(base08)"
 		},
 
 		// Literals
