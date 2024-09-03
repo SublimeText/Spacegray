@@ -230,8 +230,60 @@
 		},
 		{
 			"name": "Block Quotes",
-			"scope": "markup.quote, punctuation.definition.blockquote",
-			"foreground": "var(base09)"
+			"scope": "markup.quote",
+			"background": "color(var(base05) alpha(12%))"
+		},
+		{
+			"name": "Block Quotes Marker",
+			"scope": "markup.quote punctuation.definition.blockquote",
+			"foreground": "var(base05)",
+			"background": "var(base05)"
+		},
+		{
+			"name": "Github Alert Note Marker",
+			"scope": "markup.quote.alert.note punctuation.definition.blockquote",
+			"foreground": "var(--greenish)",
+			"background": "var(--greenish)"
+		},
+		{
+			"name": "Github Alert Note Heading",
+			"scope": "markup.heading.alert.note, markup.heading.alert.note punctuation.definition.heading",
+			"foreground": "var(base04)",
+			"font_style": "bold"
+		},
+		{
+			"name": "Github Alert Warning Marker",
+			"scope": "markup.quote.alert.warning punctuation.definition.blockquote",
+			"foreground": "var(--yellowish)",
+			"background": "var(--yellowish)"
+		},
+		{
+			"name": "Github Alert Warning Heading",
+			"scope": "markup.heading.alert.warning, markup.heading.alert.warning punctuation.definition.heading",
+			"foreground": "var(base04)",
+			"font_style": "bold"
+		},
+		{
+			"name": "Github Alert Caution Marker",
+			"scope": "markup.quote.alert.caution punctuation.definition.blockquote",
+			"foreground": "var(--redish)",
+			"background": "var(--redish)"
+		},
+		{
+			"name": "Github Alert Caution Heading",
+			"scope": "markup.heading.alert.caution, markup.heading.alert.caution punctuation.definition.heading",
+			"foreground": "var(base04)",
+			"font_style": "bold"
+		},
+		{
+			"name": "Code Blocks",
+			"scope": "markup.raw, meta.code-fence",
+			"background": "color(var(base05) alpha(12%))"
+		},
+		{
+			"name": "Code Blocks",
+			"scope": "meta.code-fence punctuation.definition.raw",
+			"foreground": "var(base04)"
 		},
 		{
 			"name": "List Punctuation",
@@ -242,7 +294,7 @@
 			"name": "Separator",
 			"scope": "meta.separator",
 			"foreground": "var(base02)",
-			"background": "var(base06)"
+			"background": "color(var(base05) alpha(12%))"
 		},
 
 		// Markup Inlines
