@@ -320,6 +320,11 @@
 			"font_style": "underline"
 		},		
 		{
+			"name": "Strikethrough",
+			"scope": "markup.strikethrough, punctuation.definition.strikethrough",
+			"foreground": "var(base04)",
+		},
+		{
 			"name": "Inline Code",
 			"scope": "markup.raw.inline, punctuation.definition.raw",
 			"foreground": "var(base0B)"
