@@ -15,14 +15,14 @@
 		"base05": "rgb(192, 197, 206)",
 		"base06": "rgb(223, 225, 232)",
 		"base07": "rgb(239, 241, 245)",
-		"base08": "rgb(191, 97, 106)",
-		"base09": "rgb(208, 135, 112)",
+		"base08": "rgb(200, 88, 99)",
+		"base09": "rgb(209, 138, 116)",
 		"base0A": "rgb(235, 203, 139)",
-		"base0B": "rgb(112, 141, 86.9)",
-		"base0C": "rgb(105, 175, 173)",
-		"base0D": "rgb(113, 135, 158)",
-		"base0E": "rgb(160, 111, 151)",
-		"base0F": "rgb(144, 96.4, 79.3)",
+		"base0B": "rgb(111, 152, 76)",
+		"base0C": "rgb(91.7, 168, 165)",
+		"base0D": "rgb(89, 134, 182)",
+		"base0E": "rgb(139, 91, 130)",
+		"base0F": "rgb(144, 96, 79)",
 		
 		// ST ..ish color palette
 		"--blueish": "var(base0D)",
@@ -45,9 +45,9 @@
 		"shadow_width": "4",
 
 		// matching brackets
-		"brackets_foreground": "var(base06)",
+		"brackets_foreground": "var(base0D)",
 		"brackets_options": "bold foreground glow",
-		"bracket_contents_foreground": "var(base06)",
+		"bracket_contents_foreground": "var(base0D)",
 		"bracket_contents_options": "foreground",
 		"tags_foreground": "var(base08)",
 		"tags_options": "glow",
@@ -56,7 +56,7 @@
 		"caret": "var(base02)",
 		
 		// indent guides
-		"active_guide": "var(base08)",
+		"active_guide": "var(base0D)",
 		"stack_guide": "var(base03)",
 		"guide": "var(base05)",
 		
