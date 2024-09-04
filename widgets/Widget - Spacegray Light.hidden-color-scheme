@@ -70,6 +70,26 @@
 		// Types, Variables, ...
 
 		{
+			"name": "Entities",
+			"scope": "entity",
+			"foreground": "var(base09)"
+		},
+		{
+			"name": "Classes",
+			"scope": "entity.name.class, entity.name.type.class, entity.other.inherited-class, support.class",
+			"foreground": "var(base09)"
+		},
+		{
+			"name": "Mapping keys",
+			"scope": "meta.mapping.key, meta.mapping.key string, entity.name.key",
+			"foreground": "var(base0E)",
+		},
+		{
+			"name": "Functions",
+			"scope": "entity.name.function, support.function, variable.function, keyword.other.special-method",
+			"foreground": "var(base0D)"
+		},
+		{
 			"name": "Storage",
 			"scope": "keyword.declaration, storage",
 			"foreground": "var(base0E)"
