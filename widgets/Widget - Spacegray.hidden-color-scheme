@@ -97,7 +97,7 @@
 		{
 			"name": "Variables",
 			"scope": "entity.name.variable, support.variable, variable, punctuation.definition.variable",
-			"foreground": "var(base04)"
+			"foreground": "var(base06)"
 		},
 		{
 			"name": "Built-in Variables",
