@@ -120,18 +120,18 @@
 			"foreground": "var(base09)"
 		},
 		{
-			"name": "Mapping keys",
-			"scope": "meta.mapping.key, meta.mapping.key string, entity.name.key",
-			"foreground": "var(base0E)",
-		},
-		{
 			"name": "Functions",
 			"scope": "entity.name.function, support.function, variable.function, keyword.other.special-method",
 			"foreground": "var(base0D)"
 		},
 		{
-			"name": "Storage",
-			"scope": "keyword.declaration, storage",
+			"name": "Mapping keys",
+			"scope": "meta.mapping.key, meta.mapping.key string, entity.name.key",
+			"foreground": "var(base0E)",
+		},
+		{
+			"name": "Types",
+			"scope": "keyword.declaration, storage, support.type",
 			"foreground": "var(base0E)"
 		},
 		{

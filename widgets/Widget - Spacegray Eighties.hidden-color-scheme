@@ -91,7 +91,7 @@
 		},
 		{
 			"name": "Types",
-			"scope": "keyword.declaration, storage",
+			"scope": "keyword.declaration, storage, support.type",
 			"foreground": "var(base0E)"
 		},
 		{
