@@ -26,11 +26,40 @@
 	},
 	"globals":
 	{
+		"accent": "var(base0A)",
 		"foreground": "var(base03)",
 		"background": "var(base06)",
-		"caret": "var(base03)",
 		"invisibles": "var(base05)",
-		"selection": "var(base05)"
+		"fold_marker": "var(base04)",
+		"shadow": "color(black alpha(10%))",
+		"shadow_width": "4",
+
+		// matching brackets
+		"brackets_foreground": "var(base0D)",
+		"brackets_options": "foreground glow",
+		"bracket_contents_foreground": "var(base0D)",
+		"bracket_contents_options": "foreground",
+		"tags_foreground": "var(base08)",
+		"tags_options": "glow",
+
+		// caret
+		"caret": "var(base02)",
+
+		// indent guides
+		"active_guide": "var(base0D)",
+		"stack_guide": "var(base03)",
+		"guide": "var(base05)",
+
+		// gutter
+		"gutter_foreground": "var(base05)",
+		"gutter_foreground_highlight": "var(base02)",
+
+		"line_highlight": "color(var(base03) alpha(10%))",
+
+		// selections
+		"selection": "var(base06)",
+		"selection_border": "var(base05)",
+		"selection_corner_style": "square",
 	},
 	"rules": [
 		{
