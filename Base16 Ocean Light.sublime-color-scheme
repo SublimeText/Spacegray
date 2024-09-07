@@ -46,7 +46,7 @@
 
 		// matching brackets
 		"brackets_foreground": "var(base0D)",
-		"brackets_options": "bold foreground glow",
+		"brackets_options": "foreground glow",
 		"bracket_contents_foreground": "var(base0D)",
 		"bracket_contents_options": "foreground",
 		"tags_foreground": "var(base08)",
