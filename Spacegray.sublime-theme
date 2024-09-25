@@ -3,7 +3,7 @@
 	{
 		// global font settings
 		"font_face": "system",
-		"font_size": "12pt",
+		"font_size": 12,
 
 		// additional variations
 		"base-00": "rgb(28, 31, 38)",
