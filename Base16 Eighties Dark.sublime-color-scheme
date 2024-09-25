@@ -377,21 +377,21 @@
 			"foreground": "var(base02)"
 		},
 
-		// Linter Marker
+		// Build System messages & Linter Marker
 
 		{
 			"name": "Info",
-			"scope": "markup.info",
+			"scope": "markup.info, message.info",
 			"foreground": "var(--greenish)"
 		},
 		{
 			"name": "Error",
-			"scope": "markup.error",
+			"scope": "markup.error, message.error",
 			"foreground": "var(--redish)"
 		},
 		{
 			"name": "Warning",
-			"scope": "markup.warning",
+			"scope": "markup.warning, message.warning",
 			"foreground": "var(--orangish)"
 		},
 	]
