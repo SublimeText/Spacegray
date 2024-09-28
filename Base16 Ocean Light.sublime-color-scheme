@@ -36,7 +36,7 @@
 	},    
 	"globals":
 	{
-		"accent": "var(base0A)",
+		"accent": "var(base08)",
 		"foreground": "var(base02)",
 		"background": "var(base07)",
 		"invisibles": "var(base06)",
