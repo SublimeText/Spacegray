@@ -230,7 +230,7 @@
 
 		{
 			"name": "Headings",
-			"scope": "markup.heading punctuation.definition.heading, entity.name.section",
+			"scope": "markup.heading punctuation.definition.heading, markup.heading, entity.name.section",
 			"foreground": "var(base0C)"
 		},
 		{
@@ -395,5 +395,18 @@
 			"scope": "markup.warning, message.warning",
 			"foreground": "var(--orangish)"
 		},
+
+		// Sublime Text Syntax Test Results
+
+		{
+			"name": "Actual Separator",
+			"scope": "meta.path.syntax-tests",
+			"background": "color(var(base02) alpha(10%))"
+		},
+		{
+			"name": "Actual Separator",
+			"scope": "meta.separator.syntax-tests",
+			"background": "var(base00)"
+		}
 	]
 }
