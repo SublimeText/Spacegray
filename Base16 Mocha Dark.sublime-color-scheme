@@ -134,7 +134,7 @@
 		},
 		{
 			"name": "Variables",
-			"scope": "entity.name.variable, support.variable, variable, punctuation.definition.variable",
+			"scope": "entity.name.variable, entity.other.custom-property, support.variable, variable, punctuation.definition.variable",
 			"foreground": "var(base06)"
 		},
 		{
