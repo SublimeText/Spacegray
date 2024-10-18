@@ -74,13 +74,23 @@
 		},
 		{
 			"name": "Definition Punctuation",
-			"scope": "punctuation.",
+			"scope": "punctuation.definition",
 			"foreground": "var(base0C)"
 		},
 		{
 			"name": "Section Punctuation",
 			"scope": "punctuation.section",
 			"foreground": "var(base03)"
+		},
+		{
+			"name": "Embedded Punctuation",
+			"scope": "meta.embedded punctuation.section.embedded",
+			"foreground": "var(base0C)",
+		},
+		{
+			"name": "Interpolation Punctuation",
+			"scope": "meta.interpolation punctuation.section.interpolation, meta.interpolation punctuation.definition.variable - meta.interpolation variable",
+			"foreground": "var(base0C)",
 		},
 
 		// Keywords
