@@ -157,7 +157,7 @@
 		},
 		{
 			"name": "Annotation Variables",
-			"scope": "variable.annotation, variable.annotation punctuation.definition",
+			"scope": "variable.annotation, variable.annotation punctuation.definition.variable",
 			"foreground": "var(base08)"
 		},
 
