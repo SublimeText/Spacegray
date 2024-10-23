@@ -122,7 +122,7 @@
 		},
 		{
 			"name": "Functions",
-			"scope": "entity.name.function, support.function, variable.function, keyword.other.special-method",
+			"scope": "entity.name.function, support.function, variable.function, keyword.other.special-method, entity.name.function punctuation.definition.variable, support.function punctuation.definition.variable, variable.function punctuation.definition.variable",
 			"foreground": "var(base0D)"
 		},
 		{
